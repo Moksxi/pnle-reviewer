@@ -13,6 +13,16 @@ export default function Home() {
   return (
     <div className="screen">
       <section className="hero">
+        <div className="hero-avatar-row">
+          <img
+            src="/misty-photo.jpg"
+            alt=""
+            className="hero-avatar"
+            width="44"
+            height="44"
+          />
+          <span className="hero-avatar-caption">Built for Misty's PNLE review</span>
+        </div>
         <p className="eyebrow">Philippine Nurse Licensure Exam</p>
         <h1>Review with real, reviewed items.</h1>
         <p className="hero-sub">
