@@ -1,0 +1,22 @@
+{
+  "name": "pnle-reviewer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Premium PNLE (Philippine Nurse Licensure Exam) reviewer MVP — NP I Community Health.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data": "python scripts/parse_questions.py"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

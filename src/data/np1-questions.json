@@ -1,0 +1,2989 @@
+{
+  "subject": {
+    "id": "np1",
+    "code": "NP I",
+    "title": "Community Health Nursing",
+    "officialTitle": "Care of Individuals, Families, Population Groups and Community"
+  },
+  "source": {
+    "label": "Mistybaby Review — NP1 Community Health Nursing, Exam 1",
+    "attribution": "Bukidnon State University, College of Nursing, 2nd Semester SY 2025-2026",
+    "status": "reviewed"
+  },
+  "situations": [
+    {
+      "id": "sit-awareness-months",
+      "range": [
+        17,
+        20
+      ],
+      "text": "The DOH has planned a program for the entire year to celebrate as part of awareness of the people regarding different public health problems."
+    },
+    {
+      "id": "sit-tb-general",
+      "range": [
+        21,
+        22
+      ],
+      "text": "Tuberculosis is considered the world's deadliest disease and remains a major public health problem in the Philippines."
+    },
+    {
+      "id": "sit-andrew-ptb",
+      "range": [
+        23,
+        25
+      ],
+      "text": "Andrew is 36 kg and 40 years old, diagnosed with PTB and under treatment on FDC Regimen III."
+    },
+    {
+      "id": "sit-reuben-immunization",
+      "range": [
+        36,
+        40
+      ],
+      "text": "Reuben is 6 months old. No immunization was given."
+    },
+    {
+      "id": "sit-gilda-dengue",
+      "range": [
+        42,
+        45
+      ],
+      "text": "Gilda has had fever for 3 days, with no cough but with nausea, vomiting, and abdominal pain."
+    },
+    {
+      "id": "sit-sophia-malnutrition",
+      "range": [
+        46,
+        50
+      ],
+      "text": "Sophia is 3 years old, weighs 8 kg, and presents with wasting and severe pallor."
+    },
+    {
+      "id": "sit-dlr-prenatal",
+      "range": [
+        72,
+        73
+      ],
+      "text": "Mrs. DLR, a prenatal patient, was referred to you. Her husband has moderately advanced PTB. Their children (3 years old and 1 year old) are underweight and not immunized."
+    },
+    {
+      "id": "sit-municipality-sanitation",
+      "range": [
+        81,
+        85
+      ],
+      "text": "In the municipality assigned to you, people have poor hygiene, poor environmental sanitation, poor nutrition, and a low education level."
+    },
+    {
+      "id": "sit-aling-tasia-diarrhea",
+      "range": [
+        96,
+        100
+      ],
+      "text": "Aling Tasia's family lives in a squatter area. Her children (3 and 7 years old) frequently suffer from diarrhea. You made a home visit."
+    }
+  ],
+  "questions": [
+    {
+      "id": "np1-e1-q1",
+      "number": 1,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Income & social status"
+        },
+        {
+          "letter": "B",
+          "text": "Genetics"
+        },
+        {
+          "letter": "C",
+          "text": "Culture"
+        },
+        {
+          "letter": "D",
+          "text": "Professional skills & coping strategies"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The following are the determinants of health EXCEPT:",
+      "rationale": "Income, genetics, and culture are recognized determinants of health. Professional skills are not considered a general determinant of population health in public health frameworks."
+    },
+    {
+      "id": "np1-e1-q2",
+      "number": 2,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "DOH is the leader, advocate & model in promoting Health for all"
+        },
+        {
+          "letter": "B",
+          "text": "Health for all"
+        },
+        {
+          "letter": "C",
+          "text": "Health for all Filipino"
+        },
+        {
+          "letter": "D",
+          "text": "Health for all Filipino by year 2020"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The present Vision of DOH is:",
+      "rationale": "This is the official vision statement of the Department of Health (DOH), emphasizing leadership and advocacy in promoting health for all Filipinos."
+    },
+    {
+      "id": "np1-e1-q3",
+      "number": 3,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "PHC"
+        },
+        {
+          "letter": "B",
+          "text": "Sentrong Sigla Movement"
+        },
+        {
+          "letter": "C",
+          "text": "Formula One"
+        },
+        {
+          "letter": "D",
+          "text": "Community Organizing"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "It is the framework of health sectors that intends to implement critical interventions as a single package backed by effective management infrastructure and financing arrangement. This is called:",
+      "rationale": "Formula One for Health (F1) is the DOH reform framework that integrates health financing, regulation, service delivery, and governance into one coordinated system."
+    },
+    {
+      "id": "np1-e1-q4",
+      "number": 4,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "RA 7164"
+        },
+        {
+          "letter": "B",
+          "text": "RA 7160"
+        },
+        {
+          "letter": "C",
+          "text": "RA 6713"
+        },
+        {
+          "letter": "D",
+          "text": "RA 4703"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Under this law, all structures, personnel, and budgetary allocations from the provincial health level down to the barangays were devolved to Local Government Units to facilitate health service delivery:",
+      "rationale": "RA 7160, also known as the Local Government Code of 1991, devolved health services from the national government to local government units (LGUs)."
+    },
+    {
+      "id": "np1-e1-q5",
+      "number": 5,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "ILHZ"
+        },
+        {
+          "letter": "B",
+          "text": "IHLZ"
+        },
+        {
+          "letter": "C",
+          "text": "RHU"
+        },
+        {
+          "letter": "D",
+          "text": "BHS"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "It is considered as clustering of municipalities wherein it has a defined population within a defined geographical area. It is called:",
+      "rationale": "Inter-Local Health Zone (ILHZ) refers to a cluster of municipalities grouped together to coordinate and improve health service delivery."
+    },
+    {
+      "id": "np1-e1-q6",
+      "number": 6,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "1, 2, 3, 4, 5"
+        },
+        {
+          "letter": "B",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "letter": "C",
+          "text": "1, 3, 4, 5"
+        },
+        {
+          "letter": "D",
+          "text": "1, 2, 4, 5"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The following are the guiding principles of Inter-Local Health System: 1. Strong political support 2. Strategic synergy & partnerships 3. Affordability of health services 4. Decentralized Management 5. Improved Drug Management System",
+      "rationale": "All five listed principles support the effective implementation of an Inter-Local Health System, including political support, partnerships, affordability, decentralization, and drug management."
+    },
+    {
+      "id": "np1-e1-q7",
+      "number": 7,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "300,000 & 500,000"
+        },
+        {
+          "letter": "B",
+          "text": "250,000 & 500,000"
+        },
+        {
+          "letter": "C",
+          "text": "400,000 & 500,000"
+        },
+        {
+          "letter": "D",
+          "text": "100,000 & 500,000"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "What is the population size for Inter-Local Health Zone?",
+      "rationale": "An ILHZ usually covers a population ranging from 250,000 to 500,000 to ensure efficient and coordinated health service delivery."
+    },
+    {
+      "id": "np1-e1-q8",
+      "number": 8,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "ILHZ"
+        },
+        {
+          "letter": "B",
+          "text": "IHLZ"
+        },
+        {
+          "letter": "C",
+          "text": "PHC"
+        },
+        {
+          "letter": "D",
+          "text": "SSM"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "It is essential health care made universally accessible to individuals in the community by means acceptable to them through their full participation:",
+      "rationale": "Primary Health Care (PHC) is defined in the Alma-Ata Declaration as essential health care that is universally accessible and community-based."
+    },
+    {
+      "id": "np1-e1-q9",
+      "number": 9,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "USSR"
+        },
+        {
+          "letter": "B",
+          "text": "Russia"
+        },
+        {
+          "letter": "C",
+          "text": "Germany"
+        },
+        {
+          "letter": "D",
+          "text": "Alma Ata"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The First International Conference on Primary Health Care was held at:",
+      "rationale": "The conference was held in Alma-Ata (now Almaty, Kazakhstan) in 1978, where the Alma-Ata Declaration on Primary Health Care was adopted."
+    },
+    {
+      "id": "np1-e1-q10",
+      "number": 10,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Village Health Workers"
+        },
+        {
+          "letter": "B",
+          "text": "Intermediate level health workers"
+        },
+        {
+          "letter": "C",
+          "text": "Specialized health workers"
+        },
+        {
+          "letter": "D",
+          "text": "Volunteer health worker"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "This refers to trained CHW or health auxiliary volunteer or traditional birth attendant or healer:",
+      "rationale": "Village Health Workers are community-based health workers including trained volunteers, traditional birth attendants, and local healers."
+    },
+    {
+      "id": "np1-e1-q11",
+      "number": 11,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary level of care"
+        },
+        {
+          "letter": "B",
+          "text": "Secondary level of care"
+        },
+        {
+          "letter": "C",
+          "text": "Tertiary level of care"
+        },
+        {
+          "letter": "D",
+          "text": "Health Center"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "This serves as a referral center for the primary health facilities:",
+      "rationale": "Secondary level facilities (usually district or provincial hospitals) receive referrals from primary health centers."
+    },
+    {
+      "id": "np1-e1-q12",
+      "number": 12,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Management function"
+        },
+        {
+          "letter": "B",
+          "text": "Nursing care function"
+        },
+        {
+          "letter": "C",
+          "text": "Supervisory function"
+        },
+        {
+          "letter": "D",
+          "text": "Collaborating & coordinating function"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "A function of Public Health Nurse wherein she formulates a supervising plan and conducts supervisory visits to implement the plan is:",
+      "rationale": "Supervisory function involves planning, directing, and conducting supervisory visits to ensure proper implementation of health programs."
+    },
+    {
+      "id": "np1-e1-q13",
+      "number": 13,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Health promotion & education function"
+        },
+        {
+          "letter": "B",
+          "text": "Training function"
+        },
+        {
+          "letter": "C",
+          "text": "Research function"
+        },
+        {
+          "letter": "D",
+          "text": "Nursing care function"
+        }
+      ],
+      "answer": "A",
+      "part": "B",
+      "source": "reviewed",
+      "question": "The PHN uses her skills in advocacy for the creation of supportive environment through policies and reengineering of the physical environment for healthier actions is under which function:",
+      "rationale": "Advocacy, policy development, and creating supportive environments are key roles under health promotion. The PHN promotes healthier behaviors through education and policy influence."
+    },
+    {
+      "id": "np1-e1-q14",
+      "number": 14,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Implementation"
+        },
+        {
+          "letter": "B",
+          "text": "Community Analysis"
+        },
+        {
+          "letter": "C",
+          "text": "Program Maintenance–Consolidation"
+        },
+        {
+          "letter": "D",
+          "text": "Design & Initiation"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Stage of CO where identification, selection & recruitment of members for an organization is:",
+      "rationale": "In Community Organizing (CO), Design & Initiation is the stage where members are identified, selected, and recruited to form the organization."
+    },
+    {
+      "id": "np1-e1-q15",
+      "number": 15,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Health promotion"
+        },
+        {
+          "letter": "B",
+          "text": "Health protection"
+        },
+        {
+          "letter": "C",
+          "text": "Health balance"
+        },
+        {
+          "letter": "D",
+          "text": "Health education"
+        }
+      ],
+      "answer": "D",
+      "part": "B",
+      "source": "reviewed",
+      "question": "It is defined by Green as any combination of learning experiences designed to facilitate voluntary adoption of behaviors conducive to health:",
+      "rationale": "According to Lawrence Green, health education involves structured learning experiences aimed at voluntary behavior change for better health."
+    },
+    {
+      "id": "np1-e1-q16",
+      "number": 16,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Treatment Record"
+        },
+        {
+          "letter": "B",
+          "text": "Target Client List"
+        },
+        {
+          "letter": "C",
+          "text": "Reporting forms"
+        },
+        {
+          "letter": "D",
+          "text": "Output Reports"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "This is considered as the fundamental building block or foundation of the Field Health Service Information System:",
+      "rationale": "The Target Client List (TCL) is the basic recording tool of the Field Health Service Information System (FHSIS). It serves as the primary source of data for reports."
+    },
+    {
+      "id": "np1-e1-q17",
+      "number": 17,
+      "subjectId": "np1",
+      "situationId": "sit-awareness-months",
+      "options": [
+        {
+          "letter": "A",
+          "text": "February"
+        },
+        {
+          "letter": "B",
+          "text": "December"
+        },
+        {
+          "letter": "C",
+          "text": "March"
+        },
+        {
+          "letter": "D",
+          "text": "June"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Rabies Awareness Month:",
+      "rationale": "March is observed as Rabies Awareness Month in the Philippines."
+    },
+    {
+      "id": "np1-e1-q18",
+      "number": 18,
+      "subjectId": "np1",
+      "situationId": "sit-awareness-months",
+      "options": [
+        {
+          "letter": "A",
+          "text": "April"
+        },
+        {
+          "letter": "B",
+          "text": "May"
+        },
+        {
+          "letter": "C",
+          "text": "July"
+        },
+        {
+          "letter": "D",
+          "text": "June"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Dengue Awareness Month:",
+      "rationale": "June is declared Dengue Awareness Month to strengthen public awareness during the rainy season."
+    },
+    {
+      "id": "np1-e1-q19",
+      "number": 19,
+      "subjectId": "np1",
+      "situationId": "sit-awareness-months",
+      "options": [
+        {
+          "letter": "A",
+          "text": "February"
+        },
+        {
+          "letter": "B",
+          "text": "September"
+        },
+        {
+          "letter": "C",
+          "text": "October"
+        },
+        {
+          "letter": "D",
+          "text": "January"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Healthy Lifestyle Month:",
+      "rationale": "September is celebrated as Healthy Lifestyle Month to promote prevention of non-communicable diseases."
+    },
+    {
+      "id": "np1-e1-q20",
+      "number": 20,
+      "subjectId": "np1",
+      "situationId": "sit-awareness-months",
+      "options": [
+        {
+          "letter": "A",
+          "text": "February"
+        },
+        {
+          "letter": "B",
+          "text": "December"
+        },
+        {
+          "letter": "C",
+          "text": "March"
+        },
+        {
+          "letter": "D",
+          "text": "January"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "National Cancer Consciousness Week:",
+      "rationale": "February is National Cancer Awareness Month/Week in the Philippines."
+    },
+    {
+      "id": "np1-e1-q21",
+      "number": 21,
+      "subjectId": "np1",
+      "situationId": "sit-tb-general",
+      "options": [
+        {
+          "letter": "A",
+          "text": "To ensure that TB DOTS services are available, accessible & affordable"
+        },
+        {
+          "letter": "B",
+          "text": "A country where TB is no longer a public health problem"
+        },
+        {
+          "letter": "C",
+          "text": "Cure at least 85% of sputum smear (+) TB patients discovered"
+        },
+        {
+          "letter": "D",
+          "text": "To reduce prevalence & mortality from TB by half"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "What is the vision of NAT’L TB Control Program?",
+      "rationale": "The vision of the National TB Control Program is to eliminate TB as a public health problem in the country."
+    },
+    {
+      "id": "np1-e1-q22",
+      "number": 22,
+      "subjectId": "np1",
+      "situationId": "sit-tb-general",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PPD"
+        },
+        {
+          "letter": "B",
+          "text": "TBDC"
+        },
+        {
+          "letter": "C",
+          "text": "DSSM"
+        },
+        {
+          "letter": "D",
+          "text": "X-ray"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The primary diagnostic tool for TB is:",
+      "rationale": "Direct Sputum Smear Microscopy (DSSM) is the primary diagnostic tool for detecting pulmonary TB."
+    },
+    {
+      "id": "np1-e1-q23",
+      "number": 23,
+      "subjectId": "np1",
+      "situationId": "sit-andrew-ptb",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "3"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "If Andrew is 36 kg, how many tablets of FDC A will he receive every day?",
+      "rationale": "For patients weighing 30–37 kg, the recommended dose is 3 tablets daily during the intensive phase."
+    },
+    {
+      "id": "np1-e1-q24",
+      "number": 24,
+      "subjectId": "np1",
+      "situationId": "sit-andrew-ptb",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3 months intensive / 5 months maintenance"
+        },
+        {
+          "letter": "B",
+          "text": "2 months intensive / 4 months maintenance"
+        },
+        {
+          "letter": "C",
+          "text": "2 months intensive / 3 months maintenance"
+        },
+        {
+          "letter": "D",
+          "text": "2 months intensive / 2 months maintenance"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Andrew asked how many months he will undergo Regimen III treatment. The nurse will reply:",
+      "rationale": "Standard TB treatment consists of 2 months intensive phase followed by 4 months maintenance phase."
+    },
+    {
+      "id": "np1-e1-q25",
+      "number": 25,
+      "subjectId": "np1",
+      "situationId": "sit-andrew-ptb",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rifam, INH"
+        },
+        {
+          "letter": "B",
+          "text": "Rifam, Etham"
+        },
+        {
+          "letter": "C",
+          "text": "Rifam, INH, PZA, Etham"
+        },
+        {
+          "letter": "D",
+          "text": "Rifam, INH"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Andrew also asked about the components of FDC A. The nurse will reply:",
+      "rationale": "FDC A contains Rifampicin, Isoniazid (INH), Pyrazinamide (PZA), and Ethambutol during the intensive phase."
+    },
+    {
+      "id": "np1-e1-q26",
+      "number": 26,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "RA 421"
+        },
+        {
+          "letter": "B",
+          "text": "RA 241"
+        },
+        {
+          "letter": "C",
+          "text": "RA 124"
+        },
+        {
+          "letter": "D",
+          "text": "RA 142"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "A law that mandates that all schools are to provide school clinics for the treatment of minor ailments & attendance to ER cases:",
+      "rationale": "RA 421 mandates the establishment of school clinics to provide basic medical services to students."
+    },
+    {
+      "id": "np1-e1-q27",
+      "number": 27,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "PD 491"
+        },
+        {
+          "letter": "B",
+          "text": "RA 951"
+        },
+        {
+          "letter": "C",
+          "text": "RA 2620"
+        },
+        {
+          "letter": "D",
+          "text": "PD 603"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "A law that focuses on Child & Youth Welfare Code:",
+      "rationale": "Presidential Decree 603 is known as the Child and Youth Welfare Code of the Philippines. I’ll continue from Question 28 and rewrite everything clearly with the complete questions, correct answers, and short explanations."
+    },
+    {
+      "id": "np1-e1-q28",
+      "number": 28,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "To ensure the health of prospective employees"
+        },
+        {
+          "letter": "B",
+          "text": "Screening & monitoring of workers exposed to potential hazards"
+        },
+        {
+          "letter": "C",
+          "text": "Early detection & treatment of both work & non-work related health problems"
+        },
+        {
+          "letter": "D",
+          "text": "Evaluation of the current status, enhancement of employability & appropriate job placement"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Occupational Health Nursing – the primary prevention is:",
+      "rationale": "Primary prevention aims to prevent disease before it occurs. Pre-employment examination ensures workers are fit for the job and prevents work-related illness."
+    },
+    {
+      "id": "np1-e1-q29",
+      "number": 29,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Postpartum hemorrhage"
+        },
+        {
+          "letter": "B",
+          "text": "Hypertension"
+        },
+        {
+          "letter": "C",
+          "text": "Pregnancy with abortive outcome"
+        },
+        {
+          "letter": "D",
+          "text": "Sepsis"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "What is the common cause of maternal death as of year 2000?",
+      "rationale": "Postpartum hemorrhage has been one of the leading causes of maternal mortality in the Philippines and worldwide."
+    },
+    {
+      "id": "np1-e1-q30",
+      "number": 30,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "100,000 IU"
+        },
+        {
+          "letter": "B",
+          "text": "200,000 IU"
+        },
+        {
+          "letter": "C",
+          "text": "10,000 IU"
+        },
+        {
+          "letter": "D",
+          "text": "300,000 IU"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "How much Vitamin A will the nurse give to the mother during 2nd trimester?",
+      "rationale": "Pregnant women may receive low-dose Vitamin A (10,000 IU daily or equivalent weekly dosing). High doses are avoided due to teratogenic effects."
+    },
+    {
+      "id": "np1-e1-q31",
+      "number": 31,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "March 11"
+        },
+        {
+          "letter": "B",
+          "text": "March 12"
+        },
+        {
+          "letter": "C",
+          "text": "March 14"
+        },
+        {
+          "letter": "D",
+          "text": "March 13"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "A couple came to the health center to avail the DMPA injection. If the wife received the injection on Dec. 14, 2007, when will be the next dose?",
+      "rationale": "DMPA (Depo-Provera) is given every 3 months. From December 14, the next dose is March 14."
+    },
+    {
+      "id": "np1-e1-q32",
+      "number": 32,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "2, 3, 4"
+        },
+        {
+          "letter": "B",
+          "text": "1, 3, 4"
+        },
+        {
+          "letter": "C",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "letter": "D",
+          "text": "1, 2, 3"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Mr. Alopigan asked about the vasectomy procedure. The nurse should reply: 1. Very effective 3 months after the procedure 2. No apparent long-term health risks 3. A man who had vasectomy will not lose his sexual ability & ejaculation 4. The man can have better sex since he does not fear that his partner will get pregnant",
+      "rationale": "All statements are correct. Vasectomy is effective after about 3 months, does not affect sexual performance, and has no significant long-term health risks."
+    },
+    {
+      "id": "np1-e1-q33",
+      "number": 33,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Giving baby only breast milk, no other liquids or solids, not even water"
+        },
+        {
+          "letter": "B",
+          "text": "Giving of mixed feeding"
+        },
+        {
+          "letter": "C",
+          "text": "Exclusive for the first six months"
+        },
+        {
+          "letter": "D",
+          "text": "Exclusive BF up to 2 years & beyond"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "EO 51 is emphasizing on Exclusive BF which is:",
+      "rationale": "Exclusive breastfeeding means giving only breast milk for the first 6 months — no water, formula, or other food."
+    },
+    {
+      "id": "np1-e1-q34",
+      "number": 34,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "856"
+        },
+        {
+          "letter": "B",
+          "text": "875"
+        },
+        {
+          "letter": "C",
+          "text": "889"
+        },
+        {
+          "letter": "D",
+          "text": "870"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Barangay Masigla has a total population of 25,000. Compute the eligible pregnant mothers (3.5% of population).",
+      "rationale": "25,000 × 3.5% = 875 expected pregnant women."
+    },
+    {
+      "id": "np1-e1-q35",
+      "number": 35,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vitamin A @ 3 months"
+        },
+        {
+          "letter": "B",
+          "text": "Ferrous sulfate starting 5 months"
+        },
+        {
+          "letter": "C",
+          "text": "TT 0.5 cc by 5 doses"
+        },
+        {
+          "letter": "D",
+          "text": "Chloroquine 150 mg single dose"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The following drugs are given to pregnant mothers EXCEPT:",
+      "rationale": "Chloroquine single dose is not routinely given to all pregnant women. Iron, TT, and Vitamin A (proper dose) are part of maternal care."
+    },
+    {
+      "id": "np1-e1-q36",
+      "number": 36,
+      "subjectId": "np1",
+      "situationId": "sit-reuben-immunization",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BCG, DPT2, OPV2"
+        },
+        {
+          "letter": "B",
+          "text": "BCG, DPT3, OPV3, HepB3"
+        },
+        {
+          "letter": "C",
+          "text": "BCG, DPT, OPV, HepB1"
+        },
+        {
+          "letter": "D",
+          "text": "BCG, DPT3, OPV3, HepB3, AMV1"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "At this age, Reuben should receive:",
+      "rationale": "At 6 months, the child should have completed the primary series (BCG, 3 doses DPT, OPV, HepB)."
+    },
+    {
+      "id": "np1-e1-q37",
+      "number": 37,
+      "subjectId": "np1",
+      "situationId": "sit-reuben-immunization",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fever"
+        },
+        {
+          "letter": "B",
+          "text": "Wheal formation"
+        },
+        {
+          "letter": "C",
+          "text": "Koch’s phenomenon"
+        },
+        {
+          "letter": "D",
+          "text": "Deep ulceration"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Effect of BCG:",
+      "rationale": "A wheal (small raised bump) appears immediately after correct intradermal BCG injection."
+    },
+    {
+      "id": "np1-e1-q38",
+      "number": 38,
+      "subjectId": "np1",
+      "situationId": "sit-reuben-immunization",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Team leader"
+        },
+        {
+          "letter": "B",
+          "text": "Coordinator"
+        },
+        {
+          "letter": "C",
+          "text": "Facilitator"
+        },
+        {
+          "letter": "D",
+          "text": "Preparing target setting data"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "During assessment stage of EPI, the nurse’s role is:",
+      "rationale": "During assessment, the nurse gathers and prepares target population data for planning immunization activities."
+    },
+    {
+      "id": "np1-e1-q39",
+      "number": 39,
+      "subjectId": "np1",
+      "situationId": "sit-reuben-immunization",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Immunization is a basic health service"
+        },
+        {
+          "letter": "B",
+          "text": "Immunization is a mass approach"
+        },
+        {
+          "letter": "C",
+          "text": "Immunization reduced mortality among children"
+        },
+        {
+          "letter": "D",
+          "text": "Immunization is based on epidemiologic situation"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The following are principles of EPI EXCEPT:",
+      "rationale": "That is an outcome/benefit, not a principle. The others are actual guiding principles."
+    },
+    {
+      "id": "np1-e1-q40",
+      "number": 40,
+      "subjectId": "np1",
+      "situationId": "sit-reuben-immunization",
+      "options": [
+        {
+          "letter": "A",
+          "text": "200,000 IU"
+        },
+        {
+          "letter": "B",
+          "text": "100,000 IU"
+        },
+        {
+          "letter": "C",
+          "text": "10,000 IU"
+        },
+        {
+          "letter": "D",
+          "text": "350,000 IU"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "How much Vitamin A capsule is given to a 6-month-old infant?",
+      "rationale": "Infants aged 6–11 months receive 100,000 IU Vitamin A."
+    },
+    {
+      "id": "np1-e1-q41",
+      "number": 41,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reduce mortality of children aged 0–5"
+        },
+        {
+          "letter": "B",
+          "text": "Reduce mortality by 2/3 by 2020"
+        },
+        {
+          "letter": "C",
+          "text": "Reduce morbidity by 2/3 by 2020"
+        },
+        {
+          "letter": "D",
+          "text": "Reduce mortality by 1/3"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The goal of IMCI is:",
+      "rationale": "IMCI (Integrated Management of Childhood Illness) aims to reduce mortality, morbidity, and disability among children under five."
+    },
+    {
+      "id": "np1-e1-q42",
+      "number": 42,
+      "subjectId": "np1",
+      "situationId": "sit-gilda-dengue",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spectrum stage"
+        },
+        {
+          "letter": "B",
+          "text": "Dengue hemorrhagic fever"
+        },
+        {
+          "letter": "C",
+          "text": "Dengue shock"
+        },
+        {
+          "letter": "D",
+          "text": "Host stage"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Stage of Dengue Fever:",
+      "rationale": "Fever for 2–7 days without warning signs corresponds to the febrile/spectrum stage of dengue."
+    },
+    {
+      "id": "np1-e1-q43",
+      "number": 43,
+      "subjectId": "np1",
+      "situationId": "sit-gilda-dengue",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Slit skin smear"
+        },
+        {
+          "letter": "B",
+          "text": "CBS with platelet count"
+        },
+        {
+          "letter": "C",
+          "text": "Rumpel-Leede test"
+        },
+        {
+          "letter": "D",
+          "text": "Hemagglutination test"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Diagnostic test for Dengue:",
+      "rationale": "Complete Blood Count (CBC) with platelet count is the primary diagnostic test for dengue. It shows thrombocytopenia and hemoconcentration."
+    },
+    {
+      "id": "np1-e1-q44",
+      "number": 44,
+      "subjectId": "np1",
+      "situationId": "sit-gilda-dengue",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ORS"
+        },
+        {
+          "letter": "B",
+          "text": "Glucose water"
+        },
+        {
+          "letter": "C",
+          "text": "D5LR"
+        },
+        {
+          "letter": "D",
+          "text": "Juice"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "To prevent low blood sugar, give:",
+      "rationale": "Glucose water helps prevent hypoglycemia, especially in children who are not eating well."
+    },
+    {
+      "id": "np1-e1-q45",
+      "number": 45,
+      "subjectId": "np1",
+      "situationId": "sit-gilda-dengue",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Home treatment"
+        },
+        {
+          "letter": "B",
+          "text": "Urgent referral"
+        },
+        {
+          "letter": "C",
+          "text": "Outpatient facility"
+        },
+        {
+          "letter": "D",
+          "text": "Emergency room"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Classification of treatment:",
+      "rationale": "If no warning signs are present (early dengue stage), management is usually home treatment with hydration and monitoring."
+    },
+    {
+      "id": "np1-e1-q46",
+      "number": 46,
+      "subjectId": "np1",
+      "situationId": "sit-sophia-malnutrition",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anemia only"
+        },
+        {
+          "letter": "B",
+          "text": "No anemia & normal weight"
+        },
+        {
+          "letter": "C",
+          "text": "Very severe malnutrition/anemia"
+        },
+        {
+          "letter": "D",
+          "text": "Severe malnutrition/anemia"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Classification:",
+      "rationale": "A 3-year-old child normally weighs around 10–14 kg. At 8 kg with wasting and severe pallor, this indicates very severe malnutrition with anemia."
+    },
+    {
+      "id": "np1-e1-q47",
+      "number": 47,
+      "subjectId": "np1",
+      "situationId": "sit-sophia-malnutrition",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vitamin A"
+        },
+        {
+          "letter": "B",
+          "text": "Iron sulfate"
+        },
+        {
+          "letter": "C",
+          "text": "Multivitamins"
+        },
+        {
+          "letter": "D",
+          "text": "Iodized capsule"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Initial treatment:",
+      "rationale": "In severely malnourished children, Vitamin A is given first. Iron is delayed until infection and complications are managed."
+    },
+    {
+      "id": "np1-e1-q48",
+      "number": 48,
+      "subjectId": "np1",
+      "situationId": "sit-sophia-malnutrition",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4–6 kg"
+        },
+        {
+          "letter": "B",
+          "text": "6–<10 kg"
+        },
+        {
+          "letter": "C",
+          "text": "10–<14 kg"
+        },
+        {
+          "letter": "D",
+          "text": "14–19 kg"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Normal weight for Sophia (3 years old):",
+      "rationale": "Normal weight range for a 3-year-old child is approximately 10–14 kg."
+    },
+    {
+      "id": "np1-e1-q49",
+      "number": 49,
+      "subjectId": "np1",
+      "situationId": "sit-sophia-malnutrition",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Outpatient"
+        },
+        {
+          "letter": "B",
+          "text": "Urgent referral"
+        },
+        {
+          "letter": "C",
+          "text": "Home treatment"
+        },
+        {
+          "letter": "D",
+          "text": "No immediate attention"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Management:",
+      "rationale": "Very severe malnutrition with severe pallor requires urgent referral for hospital management."
+    },
+    {
+      "id": "np1-e1-q50",
+      "number": 50,
+      "subjectId": "np1",
+      "situationId": "sit-sophia-malnutrition",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Give ferrous sulfate"
+        },
+        {
+          "letter": "B",
+          "text": "Give Vit A 100,000 IU"
+        },
+        {
+          "letter": "C",
+          "text": "Counsel caregiver"
+        },
+        {
+          "letter": "D",
+          "text": "Weigh monthly"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Best intervention:",
+      "rationale": "Vitamin A supplementation is critical in severely malnourished children to reduce mortality risk."
+    },
+    {
+      "id": "np1-e1-q51",
+      "number": 51,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "A state of complete physical, mental and social well-being"
+        },
+        {
+          "letter": "B",
+          "text": "A state of equilibrium between humans and the environment"
+        },
+        {
+          "letter": "C",
+          "text": "Fitness as a result of individual adaptation to stress"
+        },
+        {
+          "letter": "D",
+          "text": "Soundness of mind, body and spirit"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The World Health Organization’s definition of health includes:",
+      "rationale": "WHO defines health as complete physical, mental, and social well-being, not merely absence of disease."
+    },
+    {
+      "id": "np1-e1-q52",
+      "number": 52,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "A plan to promote the health of ill people"
+        },
+        {
+          "letter": "B",
+          "text": "A visual model of one’s illness or illness potential"
+        },
+        {
+          "letter": "C",
+          "text": "The implementation of health promotion activities"
+        },
+        {
+          "letter": "D",
+          "text": "The continual health and safety practices taught by nurses"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The wellness–illness continuum is:",
+      "rationale": "The wellness-illness continuum shows health as a dynamic range from high-level wellness to severe illness."
+    },
+    {
+      "id": "np1-e1-q53",
+      "number": 53,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Physical therapy for a knee injury"
+        },
+        {
+          "letter": "B",
+          "text": "TB skin test for clinic employees"
+        },
+        {
+          "letter": "C",
+          "text": "Vision and hearing screening among school-age children"
+        },
+        {
+          "letter": "D",
+          "text": "Eating a well-balanced diet low in fat"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "An example of primary prevention is:",
+      "rationale": "Primary prevention prevents disease before it occurs. Healthy diet reduces risk of chronic disease."
+    },
+    {
+      "id": "np1-e1-q54",
+      "number": 54,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vision and hearing screening among school-age children"
+        },
+        {
+          "letter": "B",
+          "text": "TB skin test for clinic employees"
+        },
+        {
+          "letter": "C",
+          "text": "Eating a well-balanced diet low in fat"
+        },
+        {
+          "letter": "D",
+          "text": "Physical therapy for a knee injury"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "An example of secondary prevention is:",
+      "rationale": "Secondary prevention focuses on early detection and screening."
+    },
+    {
+      "id": "np1-e1-q55",
+      "number": 55,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Eating a well-balanced diet low in fat"
+        },
+        {
+          "letter": "B",
+          "text": "Physical therapy for a knee injury"
+        },
+        {
+          "letter": "C",
+          "text": "Vision and hearing screening among school-age children"
+        },
+        {
+          "letter": "D",
+          "text": "TB skin test for clinic employees"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "An example of tertiary prevention is:",
+      "rationale": "Tertiary prevention focuses on rehabilitation and preventing complications."
+    },
+    {
+      "id": "np1-e1-q56",
+      "number": 56,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Individuals"
+        },
+        {
+          "letter": "B",
+          "text": "Families"
+        },
+        {
+          "letter": "C",
+          "text": "Groups"
+        },
+        {
+          "letter": "D",
+          "text": "Populations"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The unit of service of community health nursing is:",
+      "rationale": "Community health nursing focuses on populations as the primary client."
+    },
+    {
+      "id": "np1-e1-q57",
+      "number": 57,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "To prevent illness and spread of diseases"
+        },
+        {
+          "letter": "B",
+          "text": "To control population growth"
+        },
+        {
+          "letter": "C",
+          "text": "To provide the basic needs of the families in the community"
+        },
+        {
+          "letter": "D",
+          "text": "To raise the level of health of the citizenry"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The ultimate goal of community health services is:",
+      "rationale": "The ultimate goal is to improve the overall health status of the population."
+    },
+    {
+      "id": "np1-e1-q58",
+      "number": 58,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Recommendations of assigned doctors in the community"
+        },
+        {
+          "letter": "B",
+          "text": "Health history of the community"
+        },
+        {
+          "letter": "C",
+          "text": "Availability of community resources"
+        },
+        {
+          "letter": "D",
+          "text": "Recognized needs of communities, families, groups and individuals"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Community health nursing is based on the:",
+      "rationale": "Community health nursing is needs-based. Services are planned according to identified health needs of the population."
+    },
+    {
+      "id": "np1-e1-q59",
+      "number": 59,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "CHN is a service rendered by a professional nurse in the community for promotion, prevention, care, and rehabilitation"
+        },
+        {
+          "letter": "B",
+          "text": "CHN is based on the worth and dignity of man"
+        },
+        {
+          "letter": "C",
+          "text": "CHN utilizes the nursing process at different levels of clientele"
+        },
+        {
+          "letter": "D",
+          "text": "CHN is a synthesis of nursing practice and public health practice"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The meaning definition of community health nursing includes the following concept:",
+      "rationale": "The core definition of CHN is that it combines nursing science with public health principles."
+    },
+    {
+      "id": "np1-e1-q60",
+      "number": 60,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Educator"
+        },
+        {
+          "letter": "B",
+          "text": "Clinician"
+        },
+        {
+          "letter": "C",
+          "text": "Leader"
+        },
+        {
+          "letter": "D",
+          "text": "Collaborator"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "One of the roles of CHN is providing holistic care with a wellness focus and expanding basic nursing and caregiving skills. The role described is:",
+      "rationale": "Providing direct holistic care is the role of the nurse as a clinician."
+    },
+    {
+      "id": "np1-e1-q61",
+      "number": 61,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disease prevention"
+        },
+        {
+          "letter": "B",
+          "text": "Rehabilitation"
+        },
+        {
+          "letter": "C",
+          "text": "Health promotion"
+        },
+        {
+          "letter": "D",
+          "text": "Provision of treatment"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The primary focus of community health nursing practice is on:",
+      "rationale": "The primary focus of CHN is promoting health and preventing disease."
+    },
+    {
+      "id": "np1-e1-q62",
+      "number": 62,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clinician"
+        },
+        {
+          "letter": "B",
+          "text": "Leader"
+        },
+        {
+          "letter": "C",
+          "text": "Educator"
+        },
+        {
+          "letter": "D",
+          "text": "Generalist"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "In terms of practice of community health nursing, the nurse is a:",
+      "rationale": "Community health nurses perform multiple roles and functions, making them generalists."
+    },
+    {
+      "id": "np1-e1-q63",
+      "number": 63,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Individuals"
+        },
+        {
+          "letter": "B",
+          "text": "Families"
+        },
+        {
+          "letter": "C",
+          "text": "Groups"
+        },
+        {
+          "letter": "D",
+          "text": "Populations"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Which of the following is considered the unit of service in community health nursing?",
+      "rationale": "The primary client in community health nursing is the population."
+    },
+    {
+      "id": "np1-e1-q64",
+      "number": 64,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "To provide prescribed treatment for tuberculosis"
+        },
+        {
+          "letter": "B",
+          "text": "To give scheduled immunization"
+        },
+        {
+          "letter": "C",
+          "text": "To prevent the spread of diseases"
+        },
+        {
+          "letter": "D",
+          "text": "To provide health teachings"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The primary responsibility of the community health nurse is:",
+      "rationale": "The main responsibility is disease prevention and control at the community level."
+    },
+    {
+      "id": "np1-e1-q65",
+      "number": 65,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Health deficit"
+        },
+        {
+          "letter": "B",
+          "text": "Health threat"
+        },
+        {
+          "letter": "C",
+          "text": "Foreseeable crisis"
+        },
+        {
+          "letter": "D",
+          "text": "Developmental crisis"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "It occurs when there is a gap between actual achievement and ideal health status:",
+      "rationale": "A health deficit refers to the presence of illness or failure to achieve optimal health."
+    },
+    {
+      "id": "np1-e1-q66",
+      "number": 66,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Health deficit"
+        },
+        {
+          "letter": "B",
+          "text": "Health threat"
+        },
+        {
+          "letter": "C",
+          "text": "Foreseeable crisis"
+        },
+        {
+          "letter": "D",
+          "text": "Developmental crisis"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "These are conditions that promote disease or injury and prevent people from realizing their health potential:",
+      "rationale": "Health threats are risk factors that may lead to illness if not addressed."
+    },
+    {
+      "id": "np1-e1-q67",
+      "number": 67,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Health deficit"
+        },
+        {
+          "letter": "B",
+          "text": "Health threat"
+        },
+        {
+          "letter": "C",
+          "text": "Foreseeable crisis"
+        },
+        {
+          "letter": "D",
+          "text": "Developmental crisis"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Stressful event that occur in the individual or family:",
+      "rationale": "Foreseeable crises are anticipated stressful events like pregnancy, retirement, etc."
+    },
+    {
+      "id": "np1-e1-q68",
+      "number": 68,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Death or illness of the head of the family"
+        },
+        {
+          "letter": "B",
+          "text": "Absence of regular check-up"
+        },
+        {
+          "letter": "C",
+          "text": "Inadequate immunization against preventable disease"
+        },
+        {
+          "letter": "D",
+          "text": "Non-compliance to prescribed diet"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Which of the following is considered a health threat?",
+      "rationale": "Lack of immunization increases risk of disease, making it a health threat."
+    },
+    {
+      "id": "np1-e1-q69",
+      "number": 69,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Improper personal hygiene"
+        },
+        {
+          "letter": "B",
+          "text": "Inhalation of contaminated air"
+        },
+        {
+          "letter": "C",
+          "text": "Intake of unsafe water or food"
+        },
+        {
+          "letter": "D",
+          "text": "Fomites"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "As a public health nurse, you know that typhoid fever is caused by:",
+      "rationale": "Typhoid fever is transmitted through contaminated food and water (fecal-oral route)."
+    },
+    {
+      "id": "np1-e1-q70",
+      "number": 70,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Identify groups at high risk"
+        },
+        {
+          "letter": "B",
+          "text": "Delineate the etiology of the disease"
+        },
+        {
+          "letter": "C",
+          "text": "Encourage cooperation and support"
+        },
+        {
+          "letter": "D",
+          "text": "Identify geographical locations where disease would likely occur"
+        }
+      ],
+      "answer": "B",
+      "part": "B",
+      "source": "reviewed",
+      "question": "The primary purpose of conducting this investigation is to:",
+      "rationale": "The main purpose of epidemiologic investigation is to determine the cause of the disease."
+    },
+    {
+      "id": "np1-e1-q71",
+      "number": 71,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Institute appropriate control measures in a confirmed outbreak"
+        },
+        {
+          "letter": "B",
+          "text": "Checking the presence of signs and symptoms according to the standard case definition"
+        },
+        {
+          "letter": "C",
+          "text": "Monitor selected number of diseases by weekly charting or graphing as they occur in the barangay"
+        },
+        {
+          "letter": "D",
+          "text": "Planning and securing necessary resources needed for disease control measures"
+        }
+      ],
+      "answer": "C",
+      "part": "B",
+      "source": "reviewed",
+      "question": "As a public health nurse in a rural health unit, you have a vital role in the conduct of epidemiological investigation and this is among others:",
+      "rationale": "A key role of the public health nurse in epidemiologic investigation is disease surveillance — regularly monitoring and graphing cases to detect outbreaks early."
+    },
+    {
+      "id": "np1-e1-q72",
+      "number": 72,
+      "subjectId": "np1",
+      "situationId": "sit-dlr-prenatal",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sodium"
+        },
+        {
+          "letter": "B",
+          "text": "Protein"
+        },
+        {
+          "letter": "C",
+          "text": "Calcium"
+        },
+        {
+          "letter": "D",
+          "text": "Potassium"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Mrs. DLR has edema on both feet. You advised her to restrict which of the following?",
+      "rationale": "Edema is commonly managed by restricting sodium intake to reduce fluid retention."
+    },
+    {
+      "id": "np1-e1-q73",
+      "number": 73,
+      "subjectId": "np1",
+      "situationId": "sit-dlr-prenatal",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3 months"
+        },
+        {
+          "letter": "B",
+          "text": "2 years"
+        },
+        {
+          "letter": "C",
+          "text": "6 months"
+        },
+        {
+          "letter": "D",
+          "text": "1 year"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "You should remind Ben (with PTB) to take drugs regularly for a period of:",
+      "rationale": "Standard TB treatment duration is 6 months (2 months intensive + 4 months maintenance)."
+    },
+    {
+      "id": "np1-e1-q74",
+      "number": 74,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Measurable outcome criteria"
+        },
+        {
+          "letter": "B",
+          "text": "Statement of nursing diagnosis"
+        },
+        {
+          "letter": "C",
+          "text": "Well-documented assessment"
+        },
+        {
+          "letter": "D",
+          "text": "Statement of specific nursing interventions"
+        }
+      ],
+      "answer": "A",
+      "part": "B",
+      "source": "reviewed",
+      "question": "To enable the nurse to assess her community health care plan and have a basis for modification, she should include:",
+      "rationale": "Measurable outcomes allow evaluation and necessary modification of the care plan."
+    },
+    {
+      "id": "np1-e1-q75",
+      "number": 75,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Find out people’s reactions"
+        },
+        {
+          "letter": "B",
+          "text": "Inform the public of available services"
+        },
+        {
+          "letter": "C",
+          "text": "Provide information on health promotion"
+        },
+        {
+          "letter": "D",
+          "text": "Facilitate a change in attitude and behavior towards health"
+        }
+      ],
+      "answer": "D",
+      "part": "B",
+      "source": "reviewed",
+      "question": "Health education is a major activity. The purpose of this is to:",
+      "rationale": "The ultimate goal of health education is behavior change."
+    },
+    {
+      "id": "np1-e1-q76",
+      "number": 76,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nursing diagnosis"
+        },
+        {
+          "letter": "B",
+          "text": "Assessment"
+        },
+        {
+          "letter": "C",
+          "text": "Nursing process"
+        },
+        {
+          "letter": "D",
+          "text": "Nursing problem"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The Public Health Nurse identifies the family’s needs, problems, and concerns that can be modified by nursing actions. This process is:",
+      "rationale": "Nursing diagnosis identifies problems that nurses can address independently."
+    },
+    {
+      "id": "np1-e1-q77",
+      "number": 77,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scientific method"
+        },
+        {
+          "letter": "B",
+          "text": "Primary Health Care approach"
+        },
+        {
+          "letter": "C",
+          "text": "Problem-solving approach"
+        },
+        {
+          "letter": "D",
+          "text": "Nursing process"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The series of steps the Public Health Nurse takes in planning and giving care to a patient/family is:",
+      "rationale": "The nursing process (Assessment, Diagnosis, Planning, Implementation, Evaluation) guides care delivery."
+    },
+    {
+      "id": "np1-e1-q78",
+      "number": 78,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "The contents of the home visit are always based on a pre-set plan made by the nurse"
+        },
+        {
+          "letter": "B",
+          "text": "The frequency of home visit depends on the willingness of the family"
+        },
+        {
+          "letter": "C",
+          "text": "The contents should include what the family wants and needs to know"
+        },
+        {
+          "letter": "D",
+          "text": "Planning continuing care should involve family members"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Which statement regarding home visit is FALSE?",
+      "rationale": "Home visits should be flexible and based on the family’s current needs, not strictly pre-set."
+    },
+    {
+      "id": "np1-e1-q79",
+      "number": 79,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Services are focused only on high-risk members"
+        },
+        {
+          "letter": "B",
+          "text": "Unit of care is the individual or family"
+        },
+        {
+          "letter": "C",
+          "text": "Services provided are ecologically oriented"
+        },
+        {
+          "letter": "D",
+          "text": "Services are directed to the health of all population groups"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Community health nursing is population-focused. This means that:",
+      "rationale": "Population-focused care targets the health of the entire community."
+    },
+    {
+      "id": "np1-e1-q80",
+      "number": 80,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Objective, statement of problems, intervention and evaluation"
+        },
+        {
+          "letter": "B",
+          "text": "Objectives, intervention, evaluation and statement of problems"
+        },
+        {
+          "letter": "C",
+          "text": "Evaluation, statement of problems, objectives and intervention"
+        },
+        {
+          "letter": "D",
+          "text": "Statement of problems, objectives, intervention and evaluation"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The family health care plan includes the following components in sequence:",
+      "rationale": "Correct sequence follows the nursing process: identify problems → set objectives → implement interventions → evaluate outcomes."
+    },
+    {
+      "id": "np1-e1-q81",
+      "number": 81,
+      "subjectId": "np1",
+      "situationId": "sit-municipality-sanitation",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rehabilitation services"
+        },
+        {
+          "letter": "B",
+          "text": "Health promotion and disease prevention"
+        },
+        {
+          "letter": "C",
+          "text": "Health promotion"
+        },
+        {
+          "letter": "D",
+          "text": "Curative services"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "In this municipality, the nursing health care plan should be focused on:",
+      "rationale": "Since the main issues are hygiene, sanitation, and nutrition, the focus should be preventive and promotive services."
+    },
+    {
+      "id": "np1-e1-q82",
+      "number": 82,
+      "subjectId": "np1",
+      "situationId": "sit-municipality-sanitation",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Interview of midwives"
+        },
+        {
+          "letter": "B",
+          "text": "Review records and reports"
+        },
+        {
+          "letter": "C",
+          "text": "Study of knowledge, attitudes and practices (KAP) of the people"
+        },
+        {
+          "letter": "D",
+          "text": "Review of health statistics"
+        }
+      ],
+      "answer": "C",
+      "part": "B",
+      "source": "reviewed",
+      "question": "To determine appropriate health teachings, which is the best method to use?",
+      "rationale": "A KAP survey identifies what people know, believe, and practice — essential for planning effective health education."
+    },
+    {
+      "id": "np1-e1-q83",
+      "number": 83,
+      "subjectId": "np1",
+      "situationId": "sit-municipality-sanitation",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Influenza"
+        },
+        {
+          "letter": "B",
+          "text": "Hepatitis B"
+        },
+        {
+          "letter": "C",
+          "text": "Parasitism"
+        },
+        {
+          "letter": "D",
+          "text": "Measles"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Poor hygiene and poor environmental condition contribute to which disease condition?",
+      "rationale": "Poor sanitation and hygiene commonly lead to parasitic infections (e.g., ascariasis)."
+    },
+    {
+      "id": "np1-e1-q84",
+      "number": 84,
+      "subjectId": "np1",
+      "situationId": "sit-municipality-sanitation",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proper selection and preparation of food"
+        },
+        {
+          "letter": "B",
+          "text": "Handwashing before preparing food"
+        },
+        {
+          "letter": "C",
+          "text": "Cutting children’s fingernails short"
+        },
+        {
+          "letter": "D",
+          "text": "Overcrowding and its effects"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "For Barangay C, which topic should be given least priority?",
+      "rationale": "Immediate hygiene and food practices are more urgent than overcrowding education in this context."
+    },
+    {
+      "id": "np1-e1-q85",
+      "number": 85,
+      "subjectId": "np1",
+      "situationId": "sit-municipality-sanitation",
+      "options": [
+        {
+          "letter": "A",
+          "text": "To reduce the number of children with ascariasis by the end of 2 years"
+        },
+        {
+          "letter": "B",
+          "text": "To protect water sources from pollution"
+        },
+        {
+          "letter": "C",
+          "text": "To conduct health teaching on proper nutrition"
+        },
+        {
+          "letter": "D",
+          "text": "To reduce the number of underweight children by 10%"
+        }
+      ],
+      "answer": "D",
+      "part": "B",
+      "source": "reviewed",
+      "question": "Which is a well-stated objective?",
+      "rationale": "A good objective is specific and measurable (10% reduction)."
+    },
+    {
+      "id": "np1-e1-q86",
+      "number": 86,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "RA 7305"
+        },
+        {
+          "letter": "B",
+          "text": "Executive Order No. 119"
+        },
+        {
+          "letter": "C",
+          "text": "RA 7160"
+        },
+        {
+          "letter": "D",
+          "text": "Executive Order No. 266"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The delivery of basic health services was devolved to LGUs. The legal basis is:",
+      "rationale": "RA 7160 (Local Government Code of 1991) devolved health services to LGUs."
+    },
+    {
+      "id": "np1-e1-q87",
+      "number": 87,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rural Health Physician"
+        },
+        {
+          "letter": "B",
+          "text": "Public Health Nurse"
+        },
+        {
+          "letter": "C",
+          "text": "Municipal Mayor"
+        },
+        {
+          "letter": "D",
+          "text": "Chairman of the Committee on Health"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "At the municipal level, the chairman of the Local Health Board is the:",
+      "rationale": "Under RA 7160, the mayor chairs the Local Health Board at the municipal level."
+    },
+    {
+      "id": "np1-e1-q88",
+      "number": 88,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Growth monitoring chart is recommended for assessing child’s health"
+        },
+        {
+          "letter": "B",
+          "text": "Voluntary blood donation promoted through walking blood banks"
+        },
+        {
+          "letter": "C",
+          "text": "Public sector is encouraged to work separately from private sector"
+        },
+        {
+          "letter": "D",
+          "text": "Traditional birth attendants are trained and allowed to provide prenatal care"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Which statement is INCORRECT?",
+      "rationale": "Public and private sectors are encouraged to collaborate, not work separately."
+    },
+    {
+      "id": "np1-e1-q89",
+      "number": 89,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Operation and maintenance of health facilities"
+        },
+        {
+          "letter": "B",
+          "text": "Allocation of funds"
+        },
+        {
+          "letter": "C",
+          "text": "Implementation of health programs/projects"
+        },
+        {
+          "letter": "D",
+          "text": "Delivery of health services"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Under the present system, the Local Government Unit is responsible for:",
+      "rationale": "After devolution, LGUs are primarily responsible for delivering basic health services."
+    },
+    {
+      "id": "np1-e1-q90",
+      "number": 90,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Non-government organizations"
+        },
+        {
+          "letter": "B",
+          "text": "Local Government Units"
+        },
+        {
+          "letter": "C",
+          "text": "All units/organizations"
+        },
+        {
+          "letter": "D",
+          "text": "Other government organizations"
+        }
+      ],
+      "answer": "B",
+      "part": "A",
+      "source": "reviewed",
+      "question": "With the present system, family planning programs at municipal/barangay levels are managed by:",
+      "rationale": "Family planning services at local levels are managed by LGUs under the devolved health system."
+    },
+    {
+      "id": "np1-e1-q91",
+      "number": 91,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Assignment of epidemiologist"
+        },
+        {
+          "letter": "B",
+          "text": "Nature of the disease itself"
+        },
+        {
+          "letter": "C",
+          "text": "Application of effective control measures"
+        },
+        {
+          "letter": "D",
+          "text": "Knowledge of appropriate technology"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The control of any preventable disease depends to a large extent EXCEPT:",
+      "rationale": "Disease control mainly depends on the nature of the disease, proper control measures, and appropriate technology — not merely on assigning an epidemiologist."
+    },
+    {
+      "id": "np1-e1-q92",
+      "number": 92,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "An intact skin"
+        },
+        {
+          "letter": "B",
+          "text": "Personal hygiene"
+        },
+        {
+          "letter": "C",
+          "text": "Complete immunization"
+        },
+        {
+          "letter": "D",
+          "text": "Physical stamina"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "The first line of defense of the body against disease is:",
+      "rationale": "Intact skin is the body’s primary physical barrier against infection."
+    },
+    {
+      "id": "np1-e1-q93",
+      "number": 93,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "A virulent agent can resist disinfection"
+        },
+        {
+          "letter": "B",
+          "text": "An appropriate portal of entry will not cause infection"
+        },
+        {
+          "letter": "C",
+          "text": "Mode of entry of harmful organisms is direct entry"
+        },
+        {
+          "letter": "D",
+          "text": "Every link in the chain of infection can be interrupted"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "When breaking the chain of infection, which of the following is TRUE?",
+      "rationale": "Infection control works by breaking any link in the chain (agent, reservoir, portal, transmission, etc.)."
+    },
+    {
+      "id": "np1-e1-q94",
+      "number": 94,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Their immune system is still underdeveloped"
+        },
+        {
+          "letter": "B",
+          "text": "All babies have antibodies from their mothers"
+        },
+        {
+          "letter": "C",
+          "text": "Babies are less exposed to harmful microorganisms"
+        },
+        {
+          "letter": "D",
+          "text": "Skin of babies is quite intact"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Why do newborn babies have a limited ability to produce antibodies against infection?",
+      "rationale": "Newborns have immature immune systems, limiting their antibody production."
+    },
+    {
+      "id": "np1-e1-q95",
+      "number": 95,
+      "subjectId": "np1",
+      "situationId": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Modify risk behavior"
+        },
+        {
+          "letter": "B",
+          "text": "Help individual protect himself"
+        },
+        {
+          "letter": "C",
+          "text": "Reduce risk of exposure"
+        },
+        {
+          "letter": "D",
+          "text": "Avoid unnecessary stress"
+        }
+      ],
+      "answer": "A",
+      "part": "B",
+      "source": "reviewed",
+      "question": "Health education is a vital component in disease control. Its main aim is to:",
+      "rationale": "The primary goal of health education is behavior change to reduce disease risk."
+    },
+    {
+      "id": "np1-e1-q96",
+      "number": 96,
+      "subjectId": "np1",
+      "situationId": "sit-aling-tasia-diarrhea",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Concept of health"
+        },
+        {
+          "letter": "B",
+          "text": "Health definitions"
+        },
+        {
+          "letter": "C",
+          "text": "Health cognition"
+        },
+        {
+          "letter": "D",
+          "text": "Health perceptions"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "A person’s ideas, beliefs and attitudes about health and illness is referred to as his:",
+      "rationale": "Health perceptions refer to an individual’s beliefs and attitudes regarding health and illness."
+    },
+    {
+      "id": "np1-e1-q97",
+      "number": 97,
+      "subjectId": "np1",
+      "situationId": "sit-aling-tasia-diarrhea",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Take family data"
+        },
+        {
+          "letter": "B",
+          "text": "Ask about illness of children"
+        },
+        {
+          "letter": "C",
+          "text": "Determine economic level"
+        },
+        {
+          "letter": "D",
+          "text": "Observe home and environmental conditions"
+        }
+      ],
+      "answer": "D",
+      "part": "A",
+      "source": "reviewed",
+      "question": "During initial contact with the family, which should you prioritize?",
+      "rationale": "Observation during home visit gives immediate insight into causes of diarrhea (sanitation, water source, hygiene)."
+    },
+    {
+      "id": "np1-e1-q98",
+      "number": 98,
+      "subjectId": "np1",
+      "situationId": "sit-aling-tasia-diarrhea",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Immunization level"
+        },
+        {
+          "letter": "B",
+          "text": "Eating habits"
+        },
+        {
+          "letter": "C",
+          "text": "Spiritual practices"
+        },
+        {
+          "letter": "D",
+          "text": "Recreational activities"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Which information would be most helpful in assessing family health status?",
+      "rationale": "Immunization status is a key indicator of preventive health practices."
+    },
+    {
+      "id": "np1-e1-q99",
+      "number": 99,
+      "subjectId": "np1",
+      "situationId": "sit-aling-tasia-diarrhea",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Self-directed learning"
+        },
+        {
+          "letter": "B",
+          "text": "Independent living"
+        },
+        {
+          "letter": "C",
+          "text": "Breast self-exam"
+        },
+        {
+          "letter": "D",
+          "text": "Responsible care"
+        }
+      ],
+      "answer": "C",
+      "part": "A",
+      "source": "reviewed",
+      "question": "This is an example of a specific evidence of competence in self-care:",
+      "rationale": "Performing breast self-exam shows practical self-care competence."
+    },
+    {
+      "id": "np1-e1-q100",
+      "number": 100,
+      "subjectId": "np1",
+      "situationId": "sit-aling-tasia-diarrhea",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Health behavior change"
+        },
+        {
+          "letter": "B",
+          "text": "Keeping in style"
+        },
+        {
+          "letter": "C",
+          "text": "Model healthy living"
+        },
+        {
+          "letter": "D",
+          "text": "Guide to healthful practice"
+        }
+      ],
+      "answer": "A",
+      "part": "A",
+      "source": "reviewed",
+      "question": "Lifestyle appraisal is most important as basis for:",
+      "rationale": "Lifestyle appraisal helps identify unhealthy behaviors that need modification."
+    }
+  ]
+}
