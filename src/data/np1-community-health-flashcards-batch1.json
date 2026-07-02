@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "batch": "NP I – Community Health Nursing, Batch 1 Flashcards (v2 — verified)",
+    "source": "reviewed",
+    "derived_from": "np1-community-health-lessons-batch1.json",
+    "card_count": 27
+  },
+  "flashcards": [
+    {"id": "fc-np1-001", "lesson_id": "np1-ch-001", "front": "What law devolved basic health service delivery to LGUs?", "back": "RA 7160, the Local Government Code of 1991."},
+    {"id": "fc-np1-002", "lesson_id": "np1-ch-001", "front": "Who heads the Rural Health Unit?", "back": "The Municipal/City Health Officer (a physician)."},
+    {"id": "fc-np1-003", "lesson_id": "np1-ch-001", "front": "What is PhilHealth's role in the health system?", "back": "Financing — it reimburses covered services; it does not deliver care directly (that's LGU facilities) or set national policy (that's DOH)."},
+    {"id": "fc-np1-004", "lesson_id": "np1-ch-001", "front": "Referral ladder from smallest to largest facility?", "back": "Barangay Health Station → Rural Health Unit/City Health Office → District/Provincial Hospital → Regional/Tertiary Hospital."},
+    {"id": "fc-np1-005", "lesson_id": "np1-ch-002", "front": "What year and declaration formally defined Primary Health Care?", "back": "1978, the Alma-Ata Declaration (WHO/UNICEF)."},
+    {"id": "fc-np1-006", "lesson_id": "np1-ch-002", "front": "What law established Universal Health Care in the Philippines, and when?", "back": "RA 11223, the Universal Health Care Act, 2019."},
+    {"id": "fc-np1-007", "lesson_id": "np1-ch-002", "front": "What does RA 11223 do regarding PhilHealth membership?", "back": "Automatically enrolls every Filipino citizen in the National Health Insurance Program — no premium payment history required for coverage."},
+    {"id": "fc-np1-008", "lesson_id": "np1-ch-002", "front": "PHC vs. UHC — what's the key distinction?", "back": "PHC is a care philosophy/strategy (Alma-Ata, 1978); UHC is a specific Philippine policy/law built on it (RA 11223, 2019)."},
+    {"id": "fc-np1-009", "lesson_id": "np1-ch-003", "front": "Define incidence.", "back": "The number of NEW cases of a disease in a population during a specified time period."},
+    {"id": "fc-np1-010", "lesson_id": "np1-ch-003", "front": "Define prevalence.", "back": "The total number of EXISTING cases (new + old) of a disease at a given point/period in time."},
+    {"id": "fc-np1-011", "lesson_id": "np1-ch-003", "front": "A nurse teaches diabetic foot care to prevent amputation after diagnosis — what level of prevention?", "back": "Tertiary — the disease already exists; the action limits further damage/disability."},
+    {"id": "fc-np1-012", "lesson_id": "np1-ch-003", "front": "A nurse conducts community-wide TB sputum screening — what level of prevention?", "back": "Secondary — early detection of existing but not-yet-advanced disease."},
+    {"id": "fc-np1-013", "lesson_id": "np1-ch-003", "front": "What are the three components of the epidemiologic triad?", "back": "Agent, Host, Environment."},
+    {"id": "fc-np1-014", "lesson_id": "np1-ch-004", "front": "What does COPAR stand for?", "back": "Community Organizing Participatory Action Research."},
+    {"id": "fc-np1-014b", "lesson_id": "np1-ch-004", "front": "What are the 4 official phases of COPAR (verified)?", "back": "Pre-Entry → Entry/Social Preparation → Organization-Building → Sustenance and Strengthening."},
+    {"id": "fc-np1-014c", "lesson_id": "np1-ch-004", "front": "What happens in the COPAR 'Organization-Building' phase specifically?", "back": "Identified leaders/core groups receive formal training and are structured into a functioning, community-wide organization — distinct from Entry (integration/rapport-building) and Sustenance (independent operation)."},
+    {"id": "fc-np1-015", "lesson_id": "np1-ch-004", "front": "What is a COPAR 'core group'?", "back": "A small group of trained local leaders/volunteers identified in the Entry phase and formally organized during Organization-Building."},
+    {"id": "fc-np1-016", "lesson_id": "np1-ch-004", "front": "How does the nurse's/organizer's role change across COPAR phases?", "back": "External facilitator/catalyst (Pre-Entry/Entry) → trainer/capacity-builder (Organization-Building) → advisory role, eventual withdrawal as the community sustains its own leadership (Sustenance and Strengthening)."},
+    {"id": "fc-np1-017", "lesson_id": "np1-ch-004", "front": "What distinguishes COPAR from a routine community assessment?", "back": "COPAR emphasizes community self-determination — the community identifies and acts on its own problems, rather than the health worker imposing solutions."},
+    {"id": "fc-np1-018", "lesson_id": "np1-ch-005", "front": "Given several at-risk families, which does the community health nurse generally prioritize?", "back": "Actual (not just potential) problems first; problems affecting more family members before those affecting one; often the problem the family itself sees as most urgent."},
+    {"id": "fc-np1-019", "lesson_id": "np1-ch-005", "front": "Name common 'family at risk' indicators in community health nursing.", "back": "Active communicable disease case, pregnancy (esp. teen/high-risk), unmanaged chronic illness, overcrowded/unsanitary housing, lack of safe water, family violence, significant poverty."},
+    {"id": "fc-np1-020", "lesson_id": "np1-ch-006", "front": "What are RA 10121's four OFFICIAL thematic areas (not the generic single-word version)?", "back": "(1) Disaster Prevention and Mitigation, (2) Disaster Preparedness, (3) Disaster Response, (4) Disaster Rehabilitation and Recovery — paired terms, per the actual law/NDRRMP."},
+    {"id": "fc-np1-020b", "lesson_id": "np1-ch-006", "front": "What law created the NDRRMC and these four thematic areas?", "back": "RA 10121, the Philippine Disaster Risk Reduction and Management Act of 2010 — it replaced the old National Disaster Coordinating Council."},
+    {"id": "fc-np1-021", "lesson_id": "np1-ch-006", "front": "In START triage, what does each color mean?", "back": "Red = Immediate, Yellow = Delayed, Green = Minor/walking wounded, Black = Expectant/deceased."},
+    {"id": "fc-np1-022", "lesson_id": "np1-ch-006", "front": "A nurse conducts an evacuation drill with the barangay — which RA 10121 thematic area?", "back": "Disaster Preparedness (it happens before the disaster event, as readiness planning)."},
+    {"id": "fc-np1-023", "lesson_id": "np1-ch-006", "front": "Why does mass-casualty triage logic differ from routine individual-patient prioritization?", "back": "Mass-casualty triage optimizes survival across the whole casualty group given limited resources — some critically injured patients may be categorized 'expectant' rather than treated first, unlike normal single-patient prioritization."},
+    {"id": "fc-np1-024", "lesson_id": "np1-ch-006", "front": "What major secondary risk is linked to evacuation centers?", "back": "Communicable disease outbreaks due to overcrowding and disrupted sanitation."}
+  ]
+}

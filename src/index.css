@@ -234,6 +234,53 @@ a:hover { text-decoration: underline; }
 .outline-topic { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; padding: 0.5rem 0.65rem; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 0.86rem; color: var(--text-dim); }
 .empty { color: var(--muted); text-align: center; padding: 2rem; }
 
+/* ---------------------------------------------------------------- lessons */
+.lesson-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+.lesson-card { width: 100%; text-align: left; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.7rem 0.8rem; cursor: pointer; color: var(--text); font-family: var(--sans); transition: border-color 0.12s; }
+.lesson-card:hover { border-color: var(--accent-dim); }
+.lesson-card-top { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+.lesson-card-title { font-family: var(--serif); font-size: 1rem; }
+.lesson-stars { color: var(--accent); font-size: 0.8rem; letter-spacing: 0.02em; white-space: nowrap; }
+.lesson-stars.lg { font-size: 1rem; }
+.lesson-card-meta { display: flex; gap: 0.35rem; font-size: 0.74rem; color: var(--muted); margin-top: 0.3rem; }
+
+.lesson-detail { gap: 1.4rem; }
+.back-btn { align-self: flex-start; }
+.lesson-head { background: var(--panel); border: 1px solid var(--border-hi); border-radius: var(--radius); padding: 1.2rem 1.3rem; }
+.lesson-head-top { display: flex; align-items: center; justify-content: space-between; }
+.lesson-title { font-family: var(--serif); font-size: 1.6rem; margin: 0.5rem 0 0.25rem; line-height: 1.2; }
+.lesson-sub { color: var(--muted); font-size: 0.85rem; margin: 0 0 0.7rem; }
+.lesson-chips { display: flex; gap: 0.4rem; }
+
+.lesson-section { display: flex; flex-direction: column; gap: 0.6rem; }
+.lesson-section-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin: 0; font-weight: 700; }
+.sub-heading { font-size: 0.8rem; color: var(--text-dim); margin: 0.6rem 0 0.1rem; font-weight: 700; }
+.lesson-prose { font-family: var(--serif); font-size: 1.05rem; line-height: 1.65; color: var(--text); margin: 0; }
+
+.bullet-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.45rem; }
+.bullet-list li { position: relative; padding-left: 1.1rem; font-size: 0.92rem; color: var(--text-dim); line-height: 1.5; }
+.bullet-list li::before { content: "—"; position: absolute; left: 0; color: var(--accent-dim); }
+.bullet-list.highlight li { color: var(--text); }
+.bullet-list.pearl li::before { content: "✓"; color: var(--accent); }
+.bullet-list.warn li::before { content: "!"; color: var(--warn); }
+
+.def-list { margin: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+.def-row { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.6rem 0.75rem; }
+.def-row dt { font-weight: 700; font-size: 0.85rem; color: var(--accent); margin: 0 0 0.2rem; }
+.def-row dd { margin: 0; font-size: 0.88rem; color: var(--text-dim); }
+
+.mnemonic-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.mnemonic { background: rgba(52,211,153,0.06); border: 1px solid var(--border-hi); border-radius: var(--radius-sm); padding: 0.6rem 0.75rem; }
+.mnemonic-key { font-weight: 800; color: var(--accent); font-size: 0.9rem; }
+.mnemonic-expansion { font-size: 0.85rem; color: var(--text-dim); margin-top: 0.15rem; }
+
+.ref-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.35rem; }
+.ref-list li { font-size: 0.78rem; color: var(--muted); line-height: 1.5; }
+
+.related-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chip-link { appearance: none; font-family: var(--sans); cursor: pointer; border: 1px solid var(--border-hi); background: var(--panel-2); }
+.chip-link:hover { border-color: var(--accent-dim); color: var(--accent); }
+
 /* ---------------------------------------------------------------- tags */
 .tag { font-size: 0.66rem; font-weight: 700; padding: 0.18rem 0.5rem; border-radius: 6px; letter-spacing: 0.02em; }
 .tag-reviewed { background: rgba(52,211,153,0.14); color: var(--accent); }

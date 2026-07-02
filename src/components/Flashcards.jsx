@@ -76,7 +76,7 @@ export default function Flashcards() {
       <div className="screen-head">
         <h1>Flashcards</h1>
         <p className="screen-sub">
-          Derived from the reviewed NP I question bank
+          From reviewed NP I lessons and the exam question bank
         </p>
       </div>
 
@@ -136,21 +136,30 @@ export default function Flashcards() {
             <div className="flashcard-inner">
               <div className="flashcard-face front">
                 <div className="fc-tags">
-                  <PartTag part={card.part} />
+                  {card.kind === "qa" ? (
+                    <PartTag part={card.part} />
+                  ) : (
+                    <span className="tag tag-part">Lesson</span>
+                  )}
                   <SourceTag source={card.source} />
                 </div>
-                {card.scenario && (
+                {card.kind === "qa" && card.scenario && (
                   <p className="fc-scenario">{card.scenario}</p>
+                )}
+                {card.kind === "lesson" && card.lessonTitle && (
+                  <p className="fc-scenario">{card.lessonTitle}</p>
                 )}
                 <p className="fc-question">{card.front}</p>
                 <span className="fc-hint">Tap to reveal answer</span>
               </div>
               <div className="flashcard-face back">
                 <div className="fc-answer-label">Answer</div>
-                <p className="fc-answer">
-                  <span className="fc-answer-letter">{card.answerLetter}.</span>{" "}
-                  {card.answerText}
-                </p>
+                {card.kind === "qa" && (
+                  <p className="fc-answer">
+                    <span className="fc-answer-letter">{card.answerLetter}.</span>{" "}
+                    {card.answerText}
+                  </p>
+                )}
                 <p className="fc-rationale">{card.back}</p>
                 <span className="fc-hint">Tap to flip back</span>
               </div>

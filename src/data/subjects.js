@@ -1,13 +1,24 @@
 // Subject registry. This is the ONLY place that knows which subjects have
-// data. Adding NP II–V later is purely additive: drop a new `*-questions.json`
-// (same shape as np1-questions.json), import it, and add one entry to
-// `loadedSubjects`. No component or engine code changes — every screen reads
+// data. Adding NP II–V later is purely additive: drop in new
+// `npX-questions.json` / `npX-*-lessons-*.json` / `npX-*-flashcards-*.json`
+// files (same shapes as the NP I ones below) and add one entry to
+// `registry`. No component or engine code changes — every screen reads
 // subjects through the helpers below.
 
-import np1 from "./np1-questions.json";
+import np1Questions from "./np1-questions.json";
+import np1LessonsData from "./np1-community-health-lessons-batch1.json";
+import np1FlashcardsData from "./np1-community-health-flashcards-batch1.json";
 
-// Datasets that ship with real, reviewed content.
-const loadedSubjects = [np1];
+// Each entry pairs a subject's question bank with its (optional) lesson set
+// and lesson-derived flashcard set. Lessons/flashcards are optional — a
+// subject can ship with just a question bank, same as before.
+const registry = [
+  {
+    questions: np1Questions,
+    lessons: np1LessonsData,
+    curatedFlashcards: np1FlashcardsData,
+  },
+];
 
 // Subjects on the roadmap but not yet written. Shown as "coming soon" so the
 // full 5-paper structure is visible without faking content.
@@ -19,15 +30,29 @@ export const comingSoonSubjects = [
 ];
 
 // Normalised subject objects the app consumes.
-export const subjects = loadedSubjects.map((ds) => ({
-  ...ds.subject,
-  source: ds.source,
-  situations: ds.situations,
-  questions: ds.questions.map((q) => ({ ...q, subjectId: ds.subject.id })),
-  hasQuestions: ds.questions.length > 0,
-  hasLessons: Array.isArray(ds.lessons) && ds.lessons.length > 0,
-  lessons: ds.lessons || [],
-}));
+export const subjects = registry.map(({ questions: ds, lessons, curatedFlashcards }) => {
+  const subjectId = ds.subject.id;
+  const lessonList = (lessons?.lessons || []).map((l) => ({
+    ...l,
+    subjectId,
+    source: lessons?._meta?.source || "reviewed",
+  }));
+  const flashcardList = (curatedFlashcards?.flashcards || []).map((c) => ({
+    ...c,
+    subjectId,
+    source: curatedFlashcards?._meta?.source || "reviewed",
+  }));
+  return {
+    ...ds.subject,
+    source: ds.source,
+    situations: ds.situations,
+    questions: ds.questions.map((q) => ({ ...q, subjectId })),
+    hasQuestions: ds.questions.length > 0,
+    lessons: lessonList,
+    hasLessons: lessonList.length > 0,
+    curatedFlashcards: flashcardList,
+  };
+});
 
 const situationIndex = new Map();
 subjects.forEach((s) =>
@@ -54,12 +79,32 @@ export function allQuestions() {
   );
 }
 
+// Every written lesson across every loaded subject, tagged with its subject.
+export function allLessons() {
+  return subjects.flatMap((s) =>
+    s.lessons.map((l) => ({ ...l, subjectCode: s.code, subjectTitle: s.title }))
+  );
+}
+
+export function getLesson(id) {
+  return allLessons().find((l) => l.id === id) || null;
+}
+
+// Every curated (lesson-derived) flashcard across every loaded subject.
+export function allCuratedFlashcards() {
+  return subjects.flatMap((s) =>
+    (s.curatedFlashcards || []).map((c) => ({ ...c, subjectCode: s.code }))
+  );
+}
+
 export function totals() {
   const qs = allQuestions();
+  const lessons = allLessons();
   return {
     subjectsWithContent: subjects.length,
     subjectsPlanned: subjects.length + comingSoonSubjects.length,
     questions: qs.length,
     reviewed: qs.filter((q) => q.source === "reviewed").length,
+    lessons: lessons.length,
   };
 }

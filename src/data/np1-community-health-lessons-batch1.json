@@ -1,0 +1,487 @@
+{
+  "_meta": {
+    "batch": "NP I – Community Health Nursing, Batch 1 (v2 — verified)",
+    "source": "reviewed",
+    "note": "Written by Lead Nursing Researcher/Instructional Designer role per approved PNLE-KB-Outline-Audit-v2.md architecture. v1 was written without web search; this v2 pass ran targeted web searches to verify the two items flagged uncertain and corrected both: (1) COPAR was corrected from 3 to 4 official phases (added 'Organization-Building'), confirmed against multiple Philippine nursing-school course materials; (2) the disaster nursing lesson was corrected from the generic international 'Mitigation/Preparedness/Response/Recovery' model to RA 10121's actual official paired terminology ('Disaster Prevention and Mitigation,' 'Disaster Preparedness,' 'Disaster Response,' 'Disaster Rehabilitation and Recovery'), confirmed against the RA 10121 text and the NDRRMP 2011–2028. Remaining [VERIFY] tags elsewhere in this file (e.g., exact RA 7160/RA 11223 provision numbers) were not re-checked this pass and should still be treated as pending verification, not confirmed.",
+    "lesson_count": 6,
+    "corrections_applied": ["np1-ch-004 (COPAR phases)", "np1-ch-006 (RA 10121 terminology)"]
+  },
+  "lessons": [
+    {
+      "id": "np1-ch-001",
+      "title": "The Philippine Health Care Delivery System",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Health Care Systems",
+      "subcategory": "Structure & Governance",
+      "difficulty": "Foundational",
+      "estimated_study_time_min": 25,
+      "high_yield": "★★★★★",
+      "high_yield_reason": "Directly named in the official TOS under NP I; foundational for every other community health topic and frequently tested as structure/who-does-what items.",
+      "learning_objectives": [
+        "Describe the three levels of the Philippine health care delivery system (national, regional, local)",
+        "Differentiate the roles of DOH, LGUs, and PhilHealth",
+        "Explain how devolution under the Local Government Code shaped current health service delivery",
+        "Identify the referral pathway from barangay to tertiary facility"
+      ],
+      "prerequisites": [],
+      "core_concepts": [
+        "Health care delivery in the Philippines is a devolved, three-tier system: national policy/regulation (DOH), local delivery (LGU-run RHUs, city/municipal health offices), and financing (PhilHealth)",
+        "The 1991 Local Government Code devolved basic health service delivery to LGUs; DOH retained stewardship, standard-setting, and specialized/tertiary services",
+        "Primary care is delivered through Barangay Health Stations (BHS) and Rural Health Units (RHUs)/City Health Offices; secondary care through district/provincial hospitals; tertiary care through regional/specialty hospitals and medical centers"
+      ],
+      "definitions": [
+        {"term": "Devolution", "definition": "Transfer of basic health service responsibility and funding from the national government to LGUs (provinces, cities, municipalities), per the Local Government Code of 1991 (RA 7160)."},
+        {"term": "DOH (Department of Health)", "definition": "The national government agency responsible for health policy, standards, regulation, and stewardship of the health system as a whole."},
+        {"term": "PhilHealth", "definition": "The Philippine Health Insurance Corporation — the national health insurer, financing coverage under the National Health Insurance Program and, since RA 11223, automatic UHC enrollment for all citizens."}
+      ],
+      "detailed_explanation": "The Philippine health system is organized in tiers that mirror the referral pathway a patient moves through. At the community level, the Barangay Health Station (BHS), typically staffed by a Barangay Health Worker (BHW) and visited periodically by a Rural Health Midwife or Public Health Nurse, is the first point of contact. Above it sits the Rural Health Unit (RHU) in rural areas or the City/Municipal Health Office in urban areas — headed by the Municipal/City Health Officer (a physician) and staffed by public health nurses, midwives, and sanitary inspectors — which delivers primary care and basic preventive/promotive services. Referral from here moves to district or provincial hospitals (secondary care, basic surgical/inpatient capability), then to regional hospitals or medical centers (tertiary care, specialist and subspecialist services). Since devolution under RA 7160 (1991), LGUs (provinces, cities, municipalities) are legally responsible for operating and funding these local facilities, while DOH functions as the national steward — setting policy, standards, technical assistance, and running select national/specialty hospitals directly. PhilHealth sits alongside this structure as the financing arm, reimbursing facilities for covered services.",
+      "clinical_significance": "Nurses in both hospital and community settings need to know this pathway to make appropriate referrals, understand why certain services are or aren't available at a given facility level, and to correctly counsel patients/families on where to seek care for their condition and how the referral system is supposed to work.",
+      "pathophysiology": null,
+      "assessment": {
+        "signs_and_symptoms": null,
+        "diagnostics": null,
+        "laboratory_findings": null
+      },
+      "medical_management": "Not applicable — this is a systems/structure topic, not a clinical condition.",
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Community/family assessment of health-seeking behavior, awareness of and access to local facilities, and existing barriers (distance, cost, cultural).",
+          "diagnosis": "Example: Ineffective health maintenance related to limited access to primary care facilities.",
+          "planning": "Collaborate with LGU health office and barangay officials to strengthen referral linkages and health education on when/where to seek care.",
+          "interventions": "Health teaching on the referral system; coordinate with BHWs; strengthen record/referral slip systems.",
+          "evaluation": "Improved appropriate use of facility levels (e.g., reduced inappropriate ER use for primary-care-level concerns)."
+        },
+        "patient_education": [
+          "Where to go first for non-emergency concerns (BHS/RHU, not the hospital)",
+          "What documents/referral slips are needed to move up the referral chain",
+          "PhilHealth coverage basics relevant to their visit"
+        ]
+      },
+      "complications": null,
+      "priority_nursing_actions": [
+        "Direct patients to the appropriate level of care first (avoid unnecessary tertiary-facility overload)",
+        "Ensure proper referral documentation when escalating care"
+      ],
+      "safety_considerations": null,
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "Which facility/personnel is responsible for X (e.g., 'Who heads the Rural Health Unit?' → Municipal Health Officer)",
+          "What law devolved health services to LGUs → RA 7160, Local Government Code of 1991",
+          "Correct referral sequence from barangay to tertiary care"
+        ],
+        "clinical_pearls": [
+          "DOH = policy/stewardship/national; LGU = actual local service delivery, post-devolution",
+          "PhilHealth is financing, not service delivery — don't confuse its role with DOH's"
+        ],
+        "common_mistakes": [
+          "Confusing DOH's regulatory role with LGUs' operational role",
+          "Assuming PhilHealth runs hospitals — it does not; it reimburses/finances care"
+        ]
+      },
+      "mnemonics": [
+        {"mnemonic": "B-R-D-R-T", "expansion": "Barangay Health Station → Rural Health Unit/City Health Office → District Hospital → Regional Hospital → Tertiary/Medical Center — the referral ladder, smallest to largest."}
+      ],
+      "quick_review": [
+        "3 tiers: national (DOH) → local (LGU-run facilities) → financing (PhilHealth)",
+        "Devolution = RA 7160, 1991",
+        "Referral ladder: BHS → RHU/City Health Office → District/Provincial Hospital → Regional/Tertiary"
+      ],
+      "key_takeaways": [
+        "DOH sets policy; LGUs deliver care; PhilHealth finances it",
+        "Know the referral ladder cold — it's a recurring PNLE structure question"
+      ],
+      "references": [
+        "RA 7160, Local Government Code of 1991 [VERIFY exact devolved-functions section if quoting statute directly]",
+        "Department of Health organizational mandate (doh.gov.ph) [VERIFY current org structure — not fetched this session]"
+      ],
+      "related_lessons": ["np1-ch-002", "np1-ch-003"]
+    },
+    {
+      "id": "np1-ch-002",
+      "title": "Primary Health Care: Alma-Ata to Universal Health Care (RA 11223)",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Health Care Systems",
+      "subcategory": "Primary Health Care Philosophy & Policy",
+      "difficulty": "Foundational",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★★",
+      "high_yield_reason": "Explicitly named in the official TOS (Primary Health Care/Primary Care under NP I); UHC Act is current, high-priority policy content.",
+      "learning_objectives": [
+        "Explain the philosophy and four A's/elements of Primary Health Care (PHC) from the 1978 Alma-Ata Declaration",
+        "Describe the key provisions of RA 11223 (Universal Health Care Act)",
+        "Differentiate PHC as a philosophy/strategy versus UHC as a policy/legal framework",
+        "Identify the role of nurses in PHC implementation at the community level"
+      ],
+      "prerequisites": ["np1-ch-001"],
+      "core_concepts": [
+        "PHC, per the 1978 Alma-Ata Declaration, is essential health care made universally accessible through means acceptable to individuals/families, with their full participation, at a cost the community/country can afford",
+        "PHC commonly summarized by the '4 A's': Accessibility, Availability, Affordability, Acceptability [🔵 review-center convention framing of the PHC elements, not a verbatim Alma-Ata phrase — useful teaching shorthand]",
+        "RA 11223 (Universal Health Care Act, 2019) automatically enrolls every Filipino citizen in the National Health Insurance Program, reorganizes local health systems into 'health care provider networks,' and shifts emphasis toward population-based, primary-care-first delivery"
+      ],
+      "definitions": [
+        {"term": "Primary Health Care (PHC)", "definition": "A philosophy and strategy for organizing health care around accessible, community-participatory, essential services, first formally defined at the 1978 Alma-Ata Declaration (WHO/UNICEF)."},
+        {"term": "Universal Health Care (UHC)", "definition": "A policy goal — and in the Philippines, a specific law (RA 11223) — ensuring all citizens have access to needed quality health services without financial hardship."}
+      ],
+      "detailed_explanation": "PHC and UHC are related but distinct: PHC is the *how* (a care philosophy/strategy centered on accessibility, community participation, and appropriate technology), while UHC is a *policy commitment* (that everyone gets covered, quality care without financial hardship). The Philippines formally embraced PHC starting in the late 1970s/1980s, restructuring rural health delivery around it. RA 11223, signed in 2019, operationalizes UHC domestically: it automatically enrolls all Filipinos in PhilHealth (removing the old distinction between 'members' who paid premiums and the previously uninsured), mandates the creation of integrated 'health care provider networks' organized by province/city to coordinate primary-to-tertiary referral, and pushes a 'primary care first' gatekeeping model where patients are meant to access non-emergency care through a primary care provider before being referred upward.",
+      "clinical_significance": "Community health nurses are direct implementers of PHC principles — home visiting, health education, and working through community health workers all operationalize PHC's participatory, accessible-care philosophy. Nurses also need to understand UHC/RA 11223 to correctly advise patients on their now-automatic PhilHealth coverage and the referral-network model.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": null, "laboratory_findings": null},
+      "medical_management": "Not applicable — policy/systems topic.",
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Assess community awareness of PhilHealth coverage/UHC entitlements and existing barriers to primary care access.",
+          "diagnosis": "Example: Deficient knowledge related to unfamiliarity with UHC/PhilHealth entitlements.",
+          "planning": "Plan community health education sessions on UHC coverage and how to access the local provider network.",
+          "interventions": "Health teaching, coordination with LGU health office on provider-network navigation, community organizing.",
+          "evaluation": "Increased appropriate utilization of primary care services; improved understanding of entitlements."
+        },
+        "patient_education": [
+          "All Filipinos are automatically PhilHealth members under RA 11223 — no need to have paid premiums to be covered for certain services",
+          "The primary-care-first / gatekeeping model and why going straight to a hospital for non-emergencies may not be the intended pathway"
+        ]
+      },
+      "complications": null,
+      "priority_nursing_actions": ["Correct misinformation about needing to 'enroll' in PhilHealth when coverage is now automatic under UHC"],
+      "safety_considerations": null,
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "Year and origin of PHC → 1978, Alma-Ata Declaration",
+          "What law established UHC in the Philippines → RA 11223 (2019)",
+          "Distinguishing PHC (philosophy/strategy) from UHC (policy/law) when a question tests conceptual precision"
+        ],
+        "clinical_pearls": ["If a question asks about the *philosophy*, think PHC/Alma-Ata; if it asks about the *current Philippine law*, think RA 11223/UHC Act."],
+        "common_mistakes": ["Treating PHC and UHC as interchangeable terms on the exam — they test the distinction"]
+      },
+      "mnemonics": [
+        {"mnemonic": "4 A's of PHC", "expansion": "Accessibility, Availability, Affordability, Acceptability [🔵 review-center convention]"}
+      ],
+      "quick_review": [
+        "PHC = philosophy, born 1978 Alma-Ata Declaration",
+        "UHC = Philippine policy, RA 11223 (2019)",
+        "RA 11223: automatic PhilHealth enrollment + provider networks + primary-care-first model"
+      ],
+      "key_takeaways": [
+        "Know the Alma-Ata year and RA 11223 cold — both are exact-fact exam bait",
+        "PHC = strategy/philosophy; UHC = the legal commitment/policy built on it"
+      ],
+      "references": [
+        "WHO/UNICEF, Declaration of Alma-Ata, 1978",
+        "Republic Act No. 11223, Universal Health Care Act (2019) [VERIFY specific implementing-rules details if quoting directly — not fetched this session]"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-003"]
+    },
+    {
+      "id": "np1-ch-003",
+      "title": "Epidemiology and Levels of Prevention",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Epidemiology & Biostatistics",
+      "subcategory": "Core Epidemiologic Concepts",
+      "difficulty": "Foundational",
+      "estimated_study_time_min": 35,
+      "high_yield": "★★★★★",
+      "high_yield_reason": "Explicitly named topic in the official TOS ('Epidemiology, Vital Statistics, Demography'); levels of prevention are a classic, frequently-tested application concept.",
+      "learning_objectives": [
+        "Define epidemiology and its core measures (incidence, prevalence)",
+        "Differentiate the three levels of prevention (primary, secondary, tertiary) with concrete community health examples",
+        "Explain the epidemiologic triad (agent-host-environment)",
+        "Interpret basic vital statistics used in community health (crude birth/death rate, infant mortality rate)"
+      ],
+      "prerequisites": ["np1-ch-001"],
+      "core_concepts": [
+        "Epidemiology is the study of the distribution and determinants of health-related states/events in populations, and the application of this to control health problems",
+        "Levels of prevention: Primary (prevent disease before it occurs — e.g., immunization), Secondary (early detection/prompt treatment — e.g., screening), Tertiary (limit disability, rehabilitate after disease has occurred — e.g., stroke rehab)",
+        "The epidemiologic triad: Agent (causative factor), Host (the person/population), Environment (external factors influencing exposure) — disease occurs when these three interact"
+      ],
+      "definitions": [
+        {"term": "Incidence", "definition": "The number of NEW cases of a disease occurring in a population during a specified time period."},
+        {"term": "Prevalence", "definition": "The total number of EXISTING cases (new + old) of a disease in a population at a given point or period in time."},
+        {"term": "Primary prevention", "definition": "Actions taken to prevent disease/injury before it occurs (e.g., immunization, health education, safe water supply)."},
+        {"term": "Secondary prevention", "definition": "Early detection and prompt treatment to halt or slow disease progression (e.g., Pap smear screening, TB sputum screening)."},
+        {"term": "Tertiary prevention", "definition": "Reducing the impact of established disease/disability through rehabilitation and preventing further complications (e.g., post-stroke physical therapy, diabetic foot care to prevent amputation)."}
+      ],
+      "detailed_explanation": "PNLE community health items frequently present a scenario and ask which level of prevention a described nursing action represents. The clearest way to sort them: if the disease/injury hasn't happened yet and the action stops it from starting, it's primary (immunization, handwashing education, prenatal vitamins). If the disease is already present but not yet symptomatic/advanced and the action finds it early, it's secondary (screening — mammogram, sputum exam, newborn screening). If the disease/injury has already caused damage and the action limits further decline or restores function, it's tertiary (diabetic teaching to prevent amputation after diagnosis, stroke rehabilitation, colostomy care teaching). The epidemiologic triad frames outbreak/disease-causation questions: Agent (the pathogen/toxin/factor), Host (susceptibility factors — age, immune status, nutrition), Environment (physical/social/biological surroundings enabling transmission, e.g., contaminated water, crowding).",
+      "clinical_significance": "This framework underlies essentially every community health intervention choice tested — knowing which level of prevention a given nursing action falls under is a recurring PNLE question type, and correctly identifying agent-host-environment factors is core to outbreak investigation and control planning.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": null, "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Identify at-risk populations and where along the primary-secondary-tertiary continuum they need intervention.",
+          "diagnosis": "Example: Risk for infection related to lack of immunization access in the community.",
+          "planning": "Design interventions matched to the correct prevention level for the population's actual risk profile.",
+          "interventions": "Immunization campaigns (primary), community-wide screening programs (secondary), rehabilitation/support-group linkage (tertiary).",
+          "evaluation": "Measured via incidence/prevalence trend changes, screening uptake rates, or reduced complication rates."
+        },
+        "patient_education": ["Explain screening purpose/frequency to encourage secondary-prevention uptake (e.g., why routine BP/blood glucose checks matter even when asymptomatic)"]
+      },
+      "complications": null,
+      "priority_nursing_actions": ["Match the intervention to the correct prevention level — a common source of PNLE distractor traps is offering a correctly-worded action at the wrong level"],
+      "safety_considerations": null,
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "Scenario: 'A nurse teaches a diabetic client foot care to prevent amputation' → tertiary prevention (disease already present, action limits further damage)",
+          "Scenario: 'A nurse administers the BCG vaccine to a newborn' → primary prevention",
+          "Scenario: 'A nurse conducts a community-wide TB sputum screening' → secondary prevention",
+          "Incidence vs. prevalence numeric-style items"
+        ],
+        "clinical_pearls": ["If the client already HAS the diagnosis and the action is about limiting damage/rehab → automatically tertiary, regardless of how 'preventive' the action sounds."],
+        "common_mistakes": ["Calling any screening-and-treat action 'primary' just because it sounds preventive — screening = secondary by definition"]
+      },
+      "mnemonics": [
+        {"mnemonic": "Primary = Prevent, Secondary = Screen/Spot early, Tertiary = Treat the damage/Rehab", "expansion": "Quick 3-word anchor per level."}
+      ],
+      "quick_review": [
+        "Primary = before disease exists (immunization, education)",
+        "Secondary = early detection (screening)",
+        "Tertiary = limiting damage/rehab after disease is established",
+        "Triad = Agent + Host + Environment"
+      ],
+      "key_takeaways": [
+        "Prevention-level scenario questions are one of the most recurring NP I item types — practice sorting scenarios fast",
+        "Incidence = new cases; Prevalence = all existing cases"
+      ],
+      "references": [
+        "Standard community health nursing curriculum framework (Leavell & Clark levels of prevention model) [🔵 widely used teaching model, standard across PH nursing schools, not a PRC-issued document]"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-004"]
+    },
+    {
+      "id": "np1-ch-004",
+      "title": "Community Organizing Participatory Action Research (COPAR)",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Community Development",
+      "subcategory": "COPAR Process",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★",
+      "high_yield_reason": "Explicitly named as its own topic in the official TOS; was completely missing from the original v1 outline draft, confirmed gap.",
+      "learning_objectives": [
+        "Define COPAR and its underlying philosophy",
+        "Sequence the phases of COPAR correctly",
+        "Identify the nurse's role at each COPAR phase",
+        "Differentiate COPAR from a routine community health assessment"
+      ],
+      "prerequisites": ["np1-ch-001", "np1-ch-003"],
+      "core_concepts": [
+        "COPAR is a social development approach used in Philippine community health practice that empowers communities to identify their own problems and mobilize their own resources to address them, rather than having solutions imposed externally",
+        "🟢 CORRECTED (was previously listed as 3 phases — verified via web search against multiple Philippine nursing-school course materials, consistently confirmed): COPAR has FOUR official phases — (1) Pre-Entry, (2) Entry/Social Preparation, (3) Organization-Building, and (4) Sustenance and Strengthening. The 'Organization-Building' phase (where trained leaders/core groups are formally structured into a functioning community organization) is distinct from Entry and was missing in the original draft.",
+        "The nurse's/organizer's role shifts across phases from external facilitator/catalyst (Pre-Entry/Entry) to trainer/capacity-builder (Organization-Building) to advisory/eventual withdrawal as the community sustains its own leadership structures (Sustenance and Strengthening)"
+      ],
+      "definitions": [
+        {"term": "COPAR", "definition": "Community Organizing Participatory Action Research — a continuous, participatory process of educating and mobilizing communities to identify and act on their own health and development needs."},
+        {"term": "Core group", "definition": "A small group of community leaders/volunteers identified and trained early in COPAR (Entry phase) to help lead the organizing process from within the community; formally structured into an organization during the Organization-Building phase."}
+      ],
+      "detailed_explanation": "COPAR distinguishes itself from a standard community health assessment by its emphasis on community self-determination — the nurse or health worker acts as a facilitator/catalyst, not the decision-maker. (1) Pre-Entry: the organizer/institution selects a project site, conducts preliminary social investigation, and prepares staff/host arrangements before any community contact. (2) Entry/Social Preparation: the organizer integrates with the community (living among and absorbing their lifestyle), runs an information campaign, deepens the social investigation, provides basic health services as an entry point, and identifies potential leaders — this phase is sometimes described as 'conscientization,' helping people realize they have the capacity to understand and change their own situation. (3) Organization-Building: identified leaders and core groups are formally trained (formal, informal, and on-the-job training) and structured into a functioning, community-wide organization capable of managing its own concerns and programs. (4) Sustenance and Strengthening: the established community organization independently plans, implements, and evaluates its own programs — training members to monitor/implement health programs, identifying new leaders, building partnerships, and initiating livelihood projects — with the original organizer's role reduced to overall guidance rather than direct leadership.",
+      "clinical_significance": "COPAR is directly examined as a community health methodology distinct from clinical nursing process; PNLE items testing this usually give a scenario describing a specific organizing activity and ask which COPAR phase it represents, or ask about the nurse's appropriate role at that phase.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": null, "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Community integration and secondary-data review before formal entry.",
+          "diagnosis": "Not a clinical nursing diagnosis context — COPAR uses community-identified problems/priorities instead.",
+          "planning": "Co-planned with the community core group, not unilaterally by the health worker.",
+          "interventions": "Core group formation and training, participatory community diagnosis, mobilization for community-identified priority actions.",
+          "evaluation": "Sustainability of community-led structures after the organizer withdraws."
+        },
+        "patient_education": ["Not applicable in the traditional 1:1 sense — COPAR education is community/group-level capacity building"]
+      },
+      "complications": null,
+      "priority_nursing_actions": ["Avoid imposing the nurse's own priorities over community-identified priorities — this violates COPAR's core philosophy and is a common wrong-answer trap on exam items"],
+      "safety_considerations": null,
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "Scenario ordering: which COPAR activity comes first (pre-entry secondary data review vs. core group formation)",
+          "Distinguishing the nurse's facilitator role from a directive 'expert' role"
+        ],
+        "clinical_pearls": ["If an exam option has the nurse deciding/imposing a solution rather than facilitating the community's own decision, it's very likely the wrong answer in a COPAR context."],
+        "common_mistakes": ["Treating COPAR as identical to a routine windshield survey/community assessment — COPAR is specifically about organizing for community self-mobilization, not just data collection"]
+      },
+      "mnemonics": [
+        {"mnemonic": "P-E-O-S", "expansion": "Pre-entry → Entry/social preparation → Organization-building → Sustenance & strengthening (4 phases, confirmed)"}
+      ],
+      "quick_review": [
+        "COPAR = community self-mobilization, not externally imposed solutions",
+        "4 phases: Pre-Entry → Entry (Social Preparation) → Organization-Building → Sustenance and Strengthening",
+        "Nurse role: facilitator/catalyst → integrator → trainer/capacity-builder → advisory/withdrawal",
+        "Core group = locally trained leaders who are formally organized in the Organization-Building phase"
+      ],
+      "key_takeaways": [
+        "COPAR is philosophy-driven — 'who decides' matters as much as 'what is decided' on exam items",
+        "COPAR has 4 phases, not 3 — Organization-Building is a distinct, commonly-tested phase between Entry and Sustenance"
+      ],
+      "references": [
+        "Nurseslabs, 'Community Organizing Participatory Action Research (COPAR)' — https://nurseslabs.com/copar-community-organizing-participatory-action-research/ (verified via web search; consistent with multiple Philippine nursing-school course materials, e.g. Bukidnon State University, Central Mindanao University, Cavite State University community health nursing course documents)",
+        "🟡 Original source of the COPAR methodology is Philippine community organizing/social work literature (associated with institutions such as UP College of Social Work and Community Development); the specific originating academic citation was not directly retrieved this session — the phase structure above is corroborated across multiple independent PH nursing-school sources, but the primary originating document is not yet directly cited"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-005"]
+    },
+    {
+      "id": "np1-ch-005",
+      "title": "The Family as Client: Normal Family vs. Family at Risk",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Family Health Nursing",
+      "subcategory": "Family Nursing Process",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★",
+      "high_yield_reason": "Explicitly split in the official TOS into 'Care of Normal Families' vs. 'Families at Risk' — a confirmed structural distinction that was collapsed/generic in the original v1 outline.",
+      "learning_objectives": [
+        "Apply the nursing process to the family as the unit of care",
+        "Differentiate a 'normal'/well family from a 'family at risk'",
+        "Identify common family health risk indicators used in community health nursing",
+        "Prioritize family nursing problems using a structured approach"
+      ],
+      "prerequisites": ["np1-ch-001"],
+      "core_concepts": [
+        "In community health nursing, the family — not just the individual — is frequently the primary unit of care, since family dynamics, resources, and behavior directly shape individual health outcomes",
+        "A 'family at risk' is one with identifiable factors that increase vulnerability to illness, injury, or crisis (e.g., presence of a communicable disease case, a pregnant teen, a family member with a chronic untreated illness, overcrowding, poor sanitation access, family violence)",
+        "Family nursing care plans use the same nursing process (Assessment–Diagnosis–Planning–Intervention–Evaluation) applied at the family-unit level rather than only the individual level"
+      ],
+      "definitions": [
+        {"term": "Family at risk", "definition": "A family unit with one or more identifiable health/social factors that increase its vulnerability to illness, disability, or crisis, requiring closer nursing follow-up and intervention."},
+        {"term": "Family health risk appraisal", "definition": "Systematic assessment of a family's structure, function, resources, and specific risk indicators used to prioritize which families need closer community health nursing follow-up."}
+      ],
+      "detailed_explanation": "Community health nurses typically triage caseloads by identifying which families are 'at risk' and require closer, more frequent follow-up versus 'normal'/well families who need routine health promotion contact only. Common at-risk indicators taught in PH community health nursing include: presence of a communicable disease case in the household (e.g., active TB), a family member who is pregnant (especially teen pregnancy or high-risk pregnancy), infants/young children (higher vulnerability), a family member with an unmanaged chronic illness, overcrowded or unsanitary housing, lack of access to safe water, family violence/abuse, and significant economic deprivation. Prioritization within a caseload commonly follows criteria such as: problems that are actual (not just potential) come before potential problems; problems affecting more family members are prioritized over those affecting one member; and problems the family itself recognizes as urgent are typically prioritized to preserve their participation and buy-in.",
+      "clinical_significance": "This underlies how community health nurses allocate limited home-visiting time/resources across a barangay caseload, and is directly tested as prioritization-style PNLE items (given several families, which does the nurse visit first?).",
+      "pathophysiology": null,
+      "assessment": {
+        "signs_and_symptoms": null,
+        "diagnostics": "Family health risk appraisal / family assessment tools covering structure, function, resources, and specific risk indicators.",
+        "laboratory_findings": null
+      },
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Family structure (genogram), function, resources, environment, and specific risk indicators (communicable disease, pregnancy, chronic illness, safety).",
+          "diagnosis": "Example: Risk for infection transmission related to an active TB case within the household.",
+          "planning": "Prioritize families/problems using actual-before-potential and number-of-members-affected criteria.",
+          "interventions": "Home visits, health teaching tailored to the specific risk, referral to appropriate services.",
+          "evaluation": "Reduction in identified risk indicators over successive visits; resolution or stabilization of the at-risk status."
+        },
+        "patient_education": ["Tailored to the specific risk identified (e.g., TB DOTS adherence teaching for a household with an active case, prenatal care importance for a family with a pregnant member)"]
+      },
+      "complications": null,
+      "priority_nursing_actions": [
+        "When given multiple families in a scenario, visit the one with an ACTUAL, more urgent, and more widely-affecting problem first — this is the classic PNLE prioritization pattern for this topic"
+      ],
+      "safety_considerations": null,
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "'Which family should the community health nurse visit first?' prioritization scenarios comparing several households",
+          "Identifying which listed factor makes a family 'at risk' vs. a distractor that sounds concerning but isn't a recognized risk indicator"
+        ],
+        "clinical_pearls": ["Actual problem > potential problem; problem affecting many members > problem affecting one; communicable/infectious risk to others often outranks a risk contained to one individual"],
+        "common_mistakes": ["Prioritizing by severity of diagnosis alone without considering whether the problem is actual vs. potential, or how many family members are affected"]
+      },
+      "mnemonics": [],
+      "quick_review": [
+        "Family = unit of care in community health nursing, not just the individual",
+        "At-risk indicators: communicable disease, pregnancy (esp. teen/high-risk), chronic illness, unsafe housing/water, violence, poverty",
+        "Prioritize: actual > potential; multiple members affected > single member; family-recognized urgency matters"
+      ],
+      "key_takeaways": [
+        "Family nursing prioritization scenarios are a recurring, high-yield NP I item type — practice ranking multiple-family scenarios",
+        "The TOS explicitly separates 'normal family' content from 'family at risk' content — expect both framings on the exam"
+      ],
+      "references": [
+        "Standard Philippine community/family health nursing curriculum content [🔵 broadly consistent across PH nursing textbooks; exact prioritization-criteria wording can vary by source — treat the general logic as reliable, exact phrasing as approximate]"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-004", "np1-ch-006"]
+    },
+    {
+      "id": "np1-ch-006",
+      "title": "Disaster Nursing: Community Preparedness and Response",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Disaster & Emergency Community Health",
+      "subcategory": "Disaster Cycle",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★",
+      "high_yield_reason": "Explicitly named in the official TOS ('Care of the Community During Disaster'); the Philippines' high disaster exposure makes this consistently relevant/tested content.",
+      "learning_objectives": [
+        "Sequence the phases of the disaster management cycle",
+        "Identify the nurse's role at each disaster phase",
+        "Apply triage principles in a mass-casualty/disaster context",
+        "Describe community-level disaster preparedness planning"
+      ],
+      "prerequisites": ["np1-ch-001"],
+      "core_concepts": [
+        "🟢 CORRECTED (verified via web search against RA 10121 text, its NDRRMP 2011–2028, and NDRRMC official documents): the Philippines' legal disaster framework does NOT use the generic single-word 'Mitigation/Preparedness/Response/Recovery' model. RA 10121 (Philippine Disaster Risk Reduction and Management Act of 2010) officially defines FOUR PAIRED thematic areas: (1) Disaster Prevention and Mitigation, (2) Disaster Preparedness, (3) Disaster Response, and (4) Disaster Rehabilitation and Recovery — each led by a designated NDRRMC member-agency and corresponding NDRRMC committee.",
+        "The generic international 4-phase disaster-cycle model (Mitigation/Preparedness/Response/Recovery) is still useful as a conceptual scaffold and is what most general/international nursing textbooks teach, but on a PNLE item testing Philippine-specific law, the officially correct terminology is the RA 10121 paired-thematic-area wording above",
+        "Community health nurses have distinct roles at each RA 10121 thematic area — from hazard mapping and public education (prevention and mitigation/preparedness) to triage and emergency care coordination (response) to psychosocial support and rebuilding health services (rehabilitation and recovery)",
+        "START (Simple Triage and Rapid Treatment) is a commonly taught mass-casualty triage method sorting victims into categories (commonly color-coded: immediate/red, delayed/yellow, minor/green, expectant or deceased/black) [🔵 START is a widely-used, standard emergency/disaster triage teaching framework; this session's research did not confirm it as an explicit DOH/PH-mandated protocol name, so treat it as generally-taught convention rather than confirmed PH statute]"
+      ],
+      "definitions": [
+        {"term": "Disaster Prevention and Mitigation", "definition": "RA 10121's official first thematic area — actions taken to avoid or reduce the long-term risk of a disaster's impact before it occurs (e.g., building codes, hazard mapping, land-use planning restricting development in high-hazard zones)."},
+        {"term": "Disaster Preparedness", "definition": "RA 10121's official second thematic area — planning and readiness activities conducted in advance of a disaster to ensure effective response (e.g., evacuation drills, stockpiling supplies, training, early warning systems)."},
+        {"term": "Disaster Rehabilitation and Recovery", "definition": "RA 10121's official fourth thematic area — the long-term process of rebuilding communities after a disaster: restoring infrastructure and health services, and implementing measures to prevent/reduce future disaster impact."},
+        {"term": "Triage", "definition": "The process of sorting casualties by urgency/survivability to allocate limited resources to those who will benefit most, especially in mass-casualty situations."}
+      ],
+      "detailed_explanation": "RA 10121 restructured the former National Disaster Coordinating Council into the NDRRMC and organizes all national disaster policy around four official thematic areas, each with its own lead agency and NDRRMC committee: (1) Disaster Prevention and Mitigation — hazard/vulnerability mapping, risk assessments, land-use and infrastructure standards; community health nurses may contribute to hazard mapping and health-risk advocacy here. (2) Disaster Preparedness — developing and rehearsing community disaster/evacuation plans, stockpiling supplies, training, and early warning systems; nurses conduct public education (e.g., 'go-bag' contents, evacuation routes) and help build local DRRM capacity. (3) Disaster Response — the phase most textbooks focus on for direct clinical action: search and rescue support, emergency medical services, field triage, first aid, coordinating evacuation-center health services, and communicable-disease surveillance in crowded shelters (a major post-disaster risk in the Philippines given frequent typhoon-driven evacuations). (4) Disaster Rehabilitation and Recovery — restoring routine health services, psychosocial support for trauma, and rebuilding damaged health infrastructure, alongside longer-term risk-reduction measures to prevent recurrence. Under mass-casualty triage systems like START, the sickest-but-savable victims (immediate/red) are treated first; those with injuries that can wait (delayed/yellow) next; walking wounded (minor/green) last among survivors; and victims not expected to survive given available resources are categorized separately (expectant/black) — a deliberately different logic from normal individual patient prioritization, since disaster triage optimizes survival across the whole casualty group rather than any one patient.",
+      "clinical_significance": "The Philippines' high exposure to typhoons, earthquakes, and floods makes disaster nursing directly practice-relevant, not just exam content — and PNLE tests both the phase-sequencing knowledge and the ethically distinct logic of mass-casualty triage versus routine individual-patient prioritization.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": null, "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Community hazard/vulnerability assessment; post-disaster rapid needs assessment of the affected population.",
+          "diagnosis": "Example: Risk for infection related to overcrowded evacuation center conditions.",
+          "planning": "Develop/rehearse community disaster plans; plan surge capacity and shelter health services.",
+          "interventions": "Triage, first aid, disease surveillance in shelters, psychosocial first aid, health education.",
+          "evaluation": "Reduced morbidity/mortality; effective resource allocation; community resilience post-recovery."
+        },
+        "patient_education": ["Family/community disaster preparedness planning: go-bags, evacuation routes, family reunification plans"]
+      },
+      "complications": [
+        "Communicable disease outbreaks in crowded evacuation centers",
+        "Mental health impact/trauma in affected populations",
+        "Disruption of routine health services (immunization, prenatal care, chronic disease management) post-disaster"
+      ],
+      "priority_nursing_actions": [
+        "In mass-casualty triage, apply START/color-coded logic rather than standard individual prioritization — treat the group's overall survivability, not just severity of one patient's condition",
+        "Prioritize communicable disease surveillance early in the Disaster Response thematic area given evacuation-center overcrowding risk"
+      ],
+      "safety_considerations": ["Shelter overcrowding and sanitation directly drive secondary outbreak risk — a recurring exam link between the Disaster Response thematic area and infectious disease content"],
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "Sequencing/naming RA 10121's four OFFICIAL thematic areas correctly: Disaster Prevention and Mitigation → Disaster Preparedness → Disaster Response → Disaster Rehabilitation and Recovery (paired terms, not single words)",
+          "Mass-casualty triage color/category assignment given a described set of casualties",
+          "Identifying the correct thematic area for a described nursing action (e.g., 'the nurse conducts an evacuation drill' → Disaster Preparedness, not Response)",
+          "If a question specifically references Philippine law/NDRRMC, the paired terminology is the technically correct answer over the generic single-word version"
+        ],
+        "clinical_pearls": ["If a scenario is BEFORE the disaster event, it's Prevention/Mitigation or Preparedness; if it's DURING, it's Response; if it's AFTER, it's Rehabilitation and Recovery — anchor on timing first, then refine using the official paired terms."],
+        "common_mistakes": [
+          "Applying normal individual-patient prioritization logic (most unstable first, always) to a true mass-casualty triage question, where the expectant/black category deliberately deprioritizes some critically injured patients given resource limits",
+          "Using only the generic 'Mitigation/Preparedness/Response/Recovery' single-word labels when a question is specifically testing RA 10121/NDRRMC knowledge — the officially correct labels pair Prevention with Mitigation and Rehabilitation with Recovery"
+        ]
+      },
+      "mnemonics": [
+        {"mnemonic": "RA 10121's 4 thematic areas", "expansion": "(1) Disaster Prevention and Mitigation → (2) Disaster Preparedness → (3) Disaster Response → (4) Disaster Rehabilitation and Recovery"},
+        {"mnemonic": "START colors", "expansion": "Red = Immediate, Yellow = Delayed, Green = Minor/walking wounded, Black = Expectant/deceased [🔵 standard emergency-triage teaching convention]"}
+      ],
+      "quick_review": [
+        "RA 10121's 4 official thematic areas: Disaster Prevention and Mitigation, Disaster Preparedness, Disaster Response, Disaster Rehabilitation and Recovery",
+        "NDRRMC = National Disaster Risk Reduction and Management Council, created by RA 10121 (2010), replacing the old National Disaster Coordinating Council",
+        "START triage: Red/Yellow/Green/Black",
+        "Mass-casualty triage logic ≠ normal individual-patient prioritization logic"
+      ],
+      "key_takeaways": [
+        "Know RA 10121's exact paired thematic-area names, not just the generic international 4-phase model — this is a confirmed, citable correction from the original draft",
+        "Mass-casualty triage is a distinct decision logic from routine prioritization — a common source of PNLE trick questions"
+      ],
+      "references": [
+        "Republic Act No. 10121, Philippine Disaster Risk Reduction and Management Act of 2010 — full text: lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html (verified via web search)",
+        "National Disaster Risk Reduction and Management Plan (NDRRMP) 2011–2028 — confirms the four thematic areas and their NDRRMC committee structure: adrc.asia/documents/dm_information/Philippines_NDRRM_Plan_2011-2028.pdf (verified via web search)",
+        "🔵 START triage framework: standard international emergency/disaster-nursing teaching convention, not confirmed as a specific DOH-mandated protocol name this session"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-005"]
+    }
+  ]
+}

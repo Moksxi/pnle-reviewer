@@ -55,7 +55,8 @@ export default function Home() {
               <span className="subject-name">
                 {s.title}
                 <span className="subject-meta">
-                  {s.questions.length} questions · reviewed
+                  {s.lessons.length} lessons · {s.questions.length} questions ·
+                  reviewed
                 </span>
               </span>
               <span className="chip chip-live">Live</span>

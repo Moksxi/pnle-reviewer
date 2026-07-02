@@ -32,15 +32,20 @@ npm run preview
 | Feature | Status |
 |---|---|
 | **Practice exam** | 100 real, reviewed NP I items with answers + rationales. Timed, config-driven Part A/Part B split, per-question review. |
-| **Flashcards** | Derived from the same reviewed Q&A. Flip, "Got it / Need review", swipe on mobile, mastery saved to `localStorage`. |
-| **Lessons** | Honest empty state + the approved NP I module outline with working search. No written lesson prose exists yet, so none is faked. |
+| **Flashcards** | 127 cards: 27 hand-curated cards tied to written lessons + 100 derived from the reviewed Q&A. Flip, "Got it / Need review", swipe on mobile, mastery saved to `localStorage`. |
+| **Lessons** | 6 fully written NP I lessons (objectives, core concepts, definitions, explanation, nursing management, board-exam focus, mnemonics) grouped by category, with search and a linked detail view. |
 | **Home** | Quick stats (reviewed questions, mastery, best score, subjects) and recent attempts. |
 
 ### Content provenance & integrity
 
-- Every question and flashcard here is **`source: "reviewed"`** — sourced from a
-  real 100-item NP I Community Health exam (Bukidnon State University College of
-  Nursing, 2nd Sem SY 2025–2026), each with a correct answer and explanation.
+- Every lesson, flashcard, and exam question here is **`source: "reviewed"`**.
+  Lessons and their derived flashcards come from a verified NP I content batch
+  (`np1-community-health-lessons-batch1.json` / `...-flashcards-batch1.json`),
+  cross-checked against RA 10121 and Philippine COPAR course materials — two
+  factual corrections from an earlier draft (COPAR's 4 phases, RA 10121's
+  official paired terminology) are recorded in each file's `_meta.note`. Exam
+  questions come from a real 100-item NP I Community Health exam (Bukidnon
+  State University College of Nursing, 2nd Sem SY 2025–2026).
 - The data model also supports **`source: "generated_draft"`**. Any future
   generated item is rendered with a visible **"Draft — pending review"** badge
   (see `src/components/SourceTag.jsx`) so unreviewed content is never presented
@@ -48,12 +53,9 @@ npm run preview
 - Exam structure (5 subjects, 100 items, Part A 80% / Part B 20%) follows the
   **PRC Enhanced TOS, Board Resolution No. 10, s. 2025**. Part B for NP I is
   "Health Education & Research"; those items are tagged `part: "B"`.
-
-> **Note on source files.** The build brief referenced a
-> `PNLE-2026-Review-Knowledge-Base.md` with fully written lessons + flashcards.
-> That file was not present; the only written NP I content available was the
-> 100-item question bank (`Mistybaby Review.pdf`). The exam and flashcards are
-> built from it; lessons show an empty state until reviewed lesson text exists.
+- Lesson content still carries a handful of `[VERIFY]`-tagged references
+  (e.g. exact RA 7160/RA 11223 provision numbers) that were flagged, not yet
+  independently confirmed — visible in each lesson's `references` field.
 
 ---
 
@@ -65,11 +67,13 @@ scripts/np1_exam1_raw.txt      # extracted source text
 src/
   config/examConfig.js         # item counts, timer, Part A/B target ratio
   data/
-    np1-questions.json         # the ONLY NP I content source (100 items + 9 scenarios)
-    subjects.js                # subject registry + query helpers
+    np1-questions.json                            # 100 exam items + 9 scenarios
+    np1-community-health-lessons-batch1.json       # 6 written lessons
+    np1-community-health-flashcards-batch1.json    # 27 lesson-derived flashcards
+    subjects.js                # registry pairing each subject's datasets + query helpers
   lib/
     exam.js                    # exam assembly (ratio-aware) + scoring
-    flashcards.js              # derives cards from questions
+    flashcards.js              # merges curated lesson cards + question-derived cards
     storage.js                 # localStorage (mastery, exam history)
   components/                  # Home, Lessons, Flashcards, Exam, SourceTag
   App.jsx / main.jsx / index.css
@@ -79,11 +83,15 @@ src/
 
 1. Produce `src/data/npX-questions.json` in the same shape as `np1-questions.json`
    (a `subject`, `source`, `situations`, and `questions[]`).
-2. In `src/data/subjects.js`, import it and add it to `loadedSubjects`.
-3. Remove that subject's entry from `comingSoonSubjects`.
+2. Optionally add `npX-*-lessons-*.json` (a `lessons[]` array) and
+   `npX-*-flashcards-*.json` (a `flashcards[]` array with `lesson_id` links) —
+   lessons are optional per subject.
+3. In `src/data/subjects.js`, import them and add one `{ questions, lessons,
+   curatedFlashcards }` entry to `registry`.
+4. Remove that subject's entry from `comingSoonSubjects`.
 
-Every screen and the exam engine read subjects through the registry, so no
-component code changes.
+Every screen, the exam engine, and the flashcard builder read subjects through
+the registry, so no component code changes.
 
 ### Regenerating question data
 
