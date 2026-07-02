@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "batch": "NP I – Community Health Nursing, Batch 1 Flashcards (v2 — verified)",
+    "batch": "NP I – Community Health Nursing, Batch 1 Flashcards (v3 — resolved Q14 COPAR/CO-Process conflict)",
     "source": "reviewed",
     "derived_from": "np1-community-health-lessons-batch1.json",
-    "card_count": 27
+    "card_count": 29
   },
   "flashcards": [
     {"id": "fc-np1-001", "lesson_id": "np1-ch-001", "front": "What law devolved basic health service delivery to LGUs?", "back": "RA 7160, the Local Government Code of 1991."},
@@ -25,6 +25,8 @@
     {"id": "fc-np1-015", "lesson_id": "np1-ch-004", "front": "What is a COPAR 'core group'?", "back": "A small group of trained local leaders/volunteers identified in the Entry phase and formally organized during Organization-Building."},
     {"id": "fc-np1-016", "lesson_id": "np1-ch-004", "front": "How does the nurse's/organizer's role change across COPAR phases?", "back": "External facilitator/catalyst (Pre-Entry/Entry) → trainer/capacity-builder (Organization-Building) → advisory role, eventual withdrawal as the community sustains its own leadership (Sustenance and Strengthening)."},
     {"id": "fc-np1-017", "lesson_id": "np1-ch-004", "front": "What distinguishes COPAR from a routine community assessment?", "back": "COPAR emphasizes community self-determination — the community identifies and acts on its own problems, rather than the health worker imposing solutions."},
+    {"id": "fc-np1-017b", "lesson_id": "np1-ch-004", "front": "What are the 5 stages of the 'Community Organizing Process' (a DIFFERENT model from COPAR's 4 phases)?", "back": "Community Analysis → Design and Initiation → Implementation → Program Maintenance and Consolidation → Dissemination and Reassessment."},
+    {"id": "fc-np1-017c", "lesson_id": "np1-ch-004", "front": "An exam item mentions 'Design and Initiation' as a stage — is this testing COPAR or the Community Organizing Process?", "back": "The Community Organizing Process (5 stages) — 'Design and Initiation' is not a COPAR phase name. COPAR's phases are Pre-Entry, Entry, Organization-Building, Sustenance and Strengthening."},
     {"id": "fc-np1-018", "lesson_id": "np1-ch-005", "front": "Given several at-risk families, which does the community health nurse generally prioritize?", "back": "Actual (not just potential) problems first; problems affecting more family members before those affecting one; often the problem the family itself sees as most urgent."},
     {"id": "fc-np1-019", "lesson_id": "np1-ch-005", "front": "Name common 'family at risk' indicators in community health nursing.", "back": "Active communicable disease case, pregnancy (esp. teen/high-risk), unmanaged chronic illness, overcrowded/unsanitary housing, lack of safe water, family violence, significant poverty."},
     {"id": "fc-np1-020", "lesson_id": "np1-ch-006", "front": "What are RA 10121's four OFFICIAL thematic areas (not the generic single-word version)?", "back": "(1) Disaster Prevention and Mitigation, (2) Disaster Preparedness, (3) Disaster Response, (4) Disaster Rehabilitation and Recovery — paired terms, per the actual law/NDRRMP."},

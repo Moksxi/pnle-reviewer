@@ -4,7 +4,7 @@
     "source": "reviewed",
     "note": "Written by Lead Nursing Researcher/Instructional Designer role per approved PNLE-KB-Outline-Audit-v2.md architecture. v1 was written without web search; this v2 pass ran targeted web searches to verify the two items flagged uncertain and corrected both: (1) COPAR was corrected from 3 to 4 official phases (added 'Organization-Building'), confirmed against multiple Philippine nursing-school course materials; (2) the disaster nursing lesson was corrected from the generic international 'Mitigation/Preparedness/Response/Recovery' model to RA 10121's actual official paired terminology ('Disaster Prevention and Mitigation,' 'Disaster Preparedness,' 'Disaster Response,' 'Disaster Rehabilitation and Recovery'), confirmed against the RA 10121 text and the NDRRMP 2011–2028. Remaining [VERIFY] tags elsewhere in this file (e.g., exact RA 7160/RA 11223 provision numbers) were not re-checked this pass and should still be treated as pending verification, not confirmed.",
     "lesson_count": 6,
-    "corrections_applied": ["np1-ch-004 (COPAR phases)", "np1-ch-006 (RA 10121 terminology)"]
+    "corrections_applied": ["np1-ch-004 (COPAR phases)", "np1-ch-006 (RA 10121 terminology)", "np1-ch-004 (COPAR vs. Community Organizing Process disambiguation, resolving exam Q14 conflict)"]
   },
   "lessons": [
     {
@@ -262,20 +262,23 @@
         "Define COPAR and its underlying philosophy",
         "Sequence the phases of COPAR correctly",
         "Identify the nurse's role at each COPAR phase",
-        "Differentiate COPAR from a routine community health assessment"
+        "Differentiate COPAR from a routine community health assessment",
+        "Distinguish COPAR's 4 phases from the separately-taught 5-stage 'Community Organizing Process' model"
       ],
       "prerequisites": ["np1-ch-001", "np1-ch-003"],
       "core_concepts": [
         "COPAR is a social development approach used in Philippine community health practice that empowers communities to identify their own problems and mobilize their own resources to address them, rather than having solutions imposed externally",
         "🟢 CORRECTED (was previously listed as 3 phases — verified via web search against multiple Philippine nursing-school course materials, consistently confirmed): COPAR has FOUR official phases — (1) Pre-Entry, (2) Entry/Social Preparation, (3) Organization-Building, and (4) Sustenance and Strengthening. The 'Organization-Building' phase (where trained leaders/core groups are formally structured into a functioning community organization) is distinct from Entry and was missing in the original draft.",
-        "The nurse's/organizer's role shifts across phases from external facilitator/catalyst (Pre-Entry/Entry) to trainer/capacity-builder (Organization-Building) to advisory/eventual withdrawal as the community sustains its own leadership structures (Sustenance and Strengthening)"
+        "The nurse's/organizer's role shifts across phases from external facilitator/catalyst (Pre-Entry/Entry) to trainer/capacity-builder (Organization-Building) to advisory/eventual withdrawal as the community sustains its own leadership structures (Sustenance and Strengthening)",
+        "🟢 DISAMBIGUATED: a SEPARATE, similarly-themed model — the generic 'Community Organizing Process' — is taught in the same Philippine nursing course materials, with 5 DIFFERENT stage names: Community Analysis → Design and Initiation → Implementation → Program Maintenance and Consolidation → Dissemination and Reassessment. This is not COPAR and does not share phase names with it. An exam item using terms like 'Design and Initiation' is testing this model, not COPAR."
       ],
       "definitions": [
-        {"term": "COPAR", "definition": "Community Organizing Participatory Action Research — a continuous, participatory process of educating and mobilizing communities to identify and act on their own health and development needs."},
-        {"term": "Core group", "definition": "A small group of community leaders/volunteers identified and trained early in COPAR (Entry phase) to help lead the organizing process from within the community; formally structured into an organization during the Organization-Building phase."}
+        {"term": "COPAR", "definition": "Community Organizing Participatory Action Research — a continuous, participatory process of educating and mobilizing communities to identify and act on their own health and development needs. Has 4 phases: Pre-Entry, Entry/Social Preparation, Organization-Building, Sustenance and Strengthening."},
+        {"term": "Core group", "definition": "A small group of community leaders/volunteers identified and trained early in COPAR (Entry phase) to help lead the organizing process from within the community; formally structured into an organization during the Organization-Building phase."},
+        {"term": "Community Organizing Process", "definition": "A DIFFERENT, 5-stage framework taught alongside COPAR in some Philippine nursing curricula: Community Analysis, Design and Initiation, Implementation, Program Maintenance and Consolidation, Dissemination and Reassessment. Do not confuse its stage names with COPAR's phase names — they are two distinct models."}
       ],
-      "detailed_explanation": "COPAR distinguishes itself from a standard community health assessment by its emphasis on community self-determination — the nurse or health worker acts as a facilitator/catalyst, not the decision-maker. (1) Pre-Entry: the organizer/institution selects a project site, conducts preliminary social investigation, and prepares staff/host arrangements before any community contact. (2) Entry/Social Preparation: the organizer integrates with the community (living among and absorbing their lifestyle), runs an information campaign, deepens the social investigation, provides basic health services as an entry point, and identifies potential leaders — this phase is sometimes described as 'conscientization,' helping people realize they have the capacity to understand and change their own situation. (3) Organization-Building: identified leaders and core groups are formally trained (formal, informal, and on-the-job training) and structured into a functioning, community-wide organization capable of managing its own concerns and programs. (4) Sustenance and Strengthening: the established community organization independently plans, implements, and evaluates its own programs — training members to monitor/implement health programs, identifying new leaders, building partnerships, and initiating livelihood projects — with the original organizer's role reduced to overall guidance rather than direct leadership.",
-      "clinical_significance": "COPAR is directly examined as a community health methodology distinct from clinical nursing process; PNLE items testing this usually give a scenario describing a specific organizing activity and ask which COPAR phase it represents, or ask about the nurse's appropriate role at that phase.",
+      "detailed_explanation": "COPAR distinguishes itself from a standard community health assessment by its emphasis on community self-determination — the nurse or health worker acts as a facilitator/catalyst, not the decision-maker. (1) Pre-Entry: the organizer/institution selects a project site, conducts preliminary social investigation, and prepares staff/host arrangements before any community contact. (2) Entry/Social Preparation: the organizer integrates with the community (living among and absorbing their lifestyle), runs an information campaign, deepens the social investigation, provides basic health services as an entry point, and identifies potential leaders — this phase is sometimes described as 'conscientization,' helping people realize they have the capacity to understand and change their own situation. (3) Organization-Building: identified leaders and core groups are formally trained (formal, informal, and on-the-job training) and structured into a functioning, community-wide organization capable of managing its own concerns and programs. (4) Sustenance and Strengthening: the established community organization independently plans, implements, and evaluates its own programs — training members to monitor/implement health programs, identifying new leaders, building partnerships, and initiating livelihood projects — with the original organizer's role reduced to overall guidance rather than direct leadership.\n\nSeparately, some Philippine nursing course materials teach a related-but-distinct 'Community Organizing Process' with 5 stages: Community Analysis (data-gathering on the community's health/social profile), Design and Initiation (identifying, selecting, and recruiting members/leaders for an organization), Implementation (carrying out planned programs), Program Maintenance and Consolidation (sustaining and institutionalizing the programs), and Dissemination and Reassessment (sharing outcomes and re-evaluating community needs). This model is NOT COPAR and its stage names do not correspond 1:1 to COPAR's phases — treat them as two separate frameworks a PNLE item might test independently. If a question's stage name doesn't match COPAR's Pre-Entry/Entry/Organization-Building/Sustenance vocabulary, it is very likely testing this second model instead.",
+      "clinical_significance": "COPAR is directly examined as a community health methodology distinct from clinical nursing process; PNLE items testing this usually give a scenario describing a specific organizing activity and ask which COPAR phase it represents, or ask about the nurse's appropriate role at that phase. Separately, items may test the 5-stage Community Organizing Process using its own distinct terminology — recognizing which framework a question is using, by its vocabulary, is itself part of what's tested.",
       "pathophysiology": null,
       "assessment": {"signs_and_symptoms": null, "diagnostics": null, "laboratory_findings": null},
       "medical_management": null,
@@ -296,26 +299,37 @@
       "board_exam_focus": {
         "common_exam_angles": [
           "Scenario ordering: which COPAR activity comes first (pre-entry secondary data review vs. core group formation)",
-          "Distinguishing the nurse's facilitator role from a directive 'expert' role"
+          "Distinguishing the nurse's facilitator role from a directive 'expert' role",
+          "Identifying whether a question's stage terminology belongs to COPAR (4 phases) or the Community Organizing Process (5 stages) — e.g., 'Design and Initiation' or 'Program Maintenance-Consolidation' signal the latter, not COPAR"
         ],
-        "clinical_pearls": ["If an exam option has the nurse deciding/imposing a solution rather than facilitating the community's own decision, it's very likely the wrong answer in a COPAR context."],
-        "common_mistakes": ["Treating COPAR as identical to a routine windshield survey/community assessment — COPAR is specifically about organizing for community self-mobilization, not just data collection"]
+        "clinical_pearls": [
+          "If an exam option has the nurse deciding/imposing a solution rather than facilitating the community's own decision, it's very likely the wrong answer in a COPAR context.",
+          "'Design and Initiation' = identification/selection/recruitment of organization members — this is the Community Organizing Process's 2nd stage, NOT a COPAR phase name, even though COPAR's Entry phase covers similar ground (identifying potential leaders)."
+        ],
+        "common_mistakes": [
+          "Treating COPAR as identical to a routine windshield survey/community assessment — COPAR is specifically about organizing for community self-mobilization, not just data collection",
+          "Assuming every 'community organizing' exam item is testing COPAR's 4-phase sequence — some items use the separate 5-stage Community Organizing Process vocabulary instead"
+        ]
       },
       "mnemonics": [
-        {"mnemonic": "P-E-O-S", "expansion": "Pre-entry → Entry/social preparation → Organization-building → Sustenance & strengthening (4 phases, confirmed)"}
+        {"mnemonic": "P-E-O-S", "expansion": "Pre-entry → Entry/social preparation → Organization-building → Sustenance & strengthening (COPAR's 4 phases, confirmed)"},
+        {"mnemonic": "C-D-I-P-D", "expansion": "Community Analysis → Design and Initiation → Implementation → Program Maintenance-Consolidation → Dissemination and Reassessment (the separate 5-stage Community Organizing Process — do not merge with COPAR's phases)"}
       ],
       "quick_review": [
         "COPAR = community self-mobilization, not externally imposed solutions",
-        "4 phases: Pre-Entry → Entry (Social Preparation) → Organization-Building → Sustenance and Strengthening",
+        "COPAR's 4 phases: Pre-Entry → Entry (Social Preparation) → Organization-Building → Sustenance and Strengthening",
         "Nurse role: facilitator/catalyst → integrator → trainer/capacity-builder → advisory/withdrawal",
-        "Core group = locally trained leaders who are formally organized in the Organization-Building phase"
+        "Core group = locally trained leaders who are formally organized in the Organization-Building phase",
+        "⚠️ DO NOT CONFUSE WITH: the separately-taught 'Community Organizing Process' — Community Analysis → Design and Initiation → Implementation → Program Maintenance and Consolidation → Dissemination and Reassessment. This is a DIFFERENT, 5-stage framework some PH nursing lecture materials teach alongside COPAR proper (verified via web search — appears in the same course materials that teach COPAR's 4 phases, as a related-but-distinct model). If an exam item uses terms like 'Design and Initiation' or 'Program Maintenance-Consolidation,' it is testing THIS model, not COPAR's Pre-Entry/Entry/Organization-Building/Sustenance sequence — know both, and don't try to force one onto the other."
       ],
       "key_takeaways": [
         "COPAR is philosophy-driven — 'who decides' matters as much as 'what is decided' on exam items",
-        "COPAR has 4 phases, not 3 — Organization-Building is a distinct, commonly-tested phase between Entry and Sustenance"
+        "COPAR has 4 phases, not 3 — Organization-Building is a distinct, commonly-tested phase between Entry and Sustenance",
+        "There are TWO similarly-named but distinct frameworks in circulation: COPAR (4 phases) and the generic 'Community Organizing Process' (5 stages, different names). Learn both — an exam item's terminology tells you which one it's testing."
       ],
       "references": [
         "Nurseslabs, 'Community Organizing Participatory Action Research (COPAR)' — https://nurseslabs.com/copar-community-organizing-participatory-action-research/ (verified via web search; consistent with multiple Philippine nursing-school course materials, e.g. Bukidnon State University, Central Mindanao University, Cavite State University community health nursing course documents)",
+        "Studocu, 'COPAR: A Comprehensive Guide to Community Organizing Methods' (University of Luzon nursing lecture notes) — confirms the separate 5-stage 'Community Organizing Process' model (Community Analysis, Design and Initiation, Implementation, Program Maintenance and Consolidation, Dissemination and Reassessment) taught alongside COPAR's 4 phases in the same course materials (verified via web search)",
         "🟡 Original source of the COPAR methodology is Philippine community organizing/social work literature (associated with institutions such as UP College of Social Work and Community Development); the specific originating academic citation was not directly retrieved this session — the phase structure above is corroborated across multiple independent PH nursing-school sources, but the primary originating document is not yet directly cited"
       ],
       "related_lessons": ["np1-ch-001", "np1-ch-005"]
