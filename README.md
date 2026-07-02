@@ -7,7 +7,10 @@ Community Health Nursing** and is architected so NP II–V are added later as
 
 - **Stack:** React 18 + Vite, React Router, plain CSS (no backend, no database)
 - **Persistence:** `localStorage` (flashcard mastery + exam scores)
-- **Deploy target:** Netlify (free tier)
+- **Deploy target:** Netlify (free tier) — live at https://pnle-reviewer.netlify.app
+- **Installable:** has a web app manifest + service worker, so it can be added
+  to a phone's home screen and opens like a native app (offline app-shell
+  caching after first visit)
 
 ---
 
