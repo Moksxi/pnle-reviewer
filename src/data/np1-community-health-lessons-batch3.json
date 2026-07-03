@@ -1,0 +1,253 @@
+{
+  "_meta": {
+    "batch": "NP I – Community Health Nursing, Batch 3 (Vital Statistics + School/Occupational Health)",
+    "source": "reviewed",
+    "note": "Written with active web search verification (PSA official pages, official RA texts via lawphil.net, DepEd official announcements, DOLE/OSH legal summaries). Two named TOS gaps closed: 'Epidemiology, Vital Statistics, Demography' (deepened beyond batch 1's epidemiology lesson) and School Health / Occupational Health Nursing (previously missing entirely). Every factual claim is cited; figures are snapshots as of the sources found (mid-2025-2026) and should be treated as such, not permanently fixed.",
+    "lesson_count": 3
+  },
+  "lessons": [
+    {
+      "id": "np1-ch-012",
+      "title": "Vital Statistics: Definitions, Formulas, and Current Philippine Figures",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Epidemiology & Biostatistics",
+      "subcategory": "Vital Statistics",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 35,
+      "high_yield": "★★★★★",
+      "high_yield_reason": "Explicitly named in the official TOS ('Epidemiology, Vital Statistics, Demography'); precise rate definitions and formulas are classic, computation-style PNLE items.",
+      "learning_objectives": [
+        "State the precise official definitions of CBR, CDR, IMR, MMR, TFR, ASFR, and CRNI",
+        "Identify which agency compiles Philippine vital statistics and how",
+        "Interpret current Philippine vital statistics figures and trends",
+        "Apply these definitions to distinguish similar-sounding rates on exam items"
+      ],
+      "prerequisites": ["np1-ch-001", "np1-ch-003"],
+      "core_concepts": [
+        "The Philippine Statistics Authority (PSA), specifically its Civil Registration Service, compiles national vital statistics from vital events (births, deaths, marriages, fetal deaths) registered at the Office of the City/Municipal Civil Registrar nationwide.",
+        "PSA's official definitions (verbatim-sourced): Crude Death Rate (CDR) = number of deaths per 1,000 mid-year population. Infant Mortality Rate (IMR) = number of infant deaths per 1,000 live births in a given year. Maternal Mortality Rate/Ratio (MMR) = number of maternal deaths per 100,000 live births in that year. Total Fertility Rate (TFR) = average number of children a woman would have by age 50 if she experienced the Age-Specific Fertility Rates of a given year. Age-Specific Fertility Rate (ASFR) = number of live births to women of a specific age group per 1,000 females of that same age group. Crude Rate of Natural Increase (CRNI) = the difference between crude birth rate and crude death rate. Crude Birth Rate (CBR) = number of live births per 1,000 mid-year population.",
+        "CURRENT FIGURES (2025 data, provisional as of early 2026 PSA release): Philippine crude birth rate for 2025 was 19.18 per 1,000 population (a continued year-on-year decline — 19.58 in 2023, 19.38 in 2024, 19.18 in 2025). Total Fertility Rate declined from 2.7 in 2017 to 1.9 in 2022 (most recent figure found this session — TFR of 1.9 is BELOW the population replacement level of approximately 2.1, a significant demographic shift worth knowing).",
+        "The global SDG target for Maternal Mortality Ratio is to reduce MMR to less than 70 per 100,000 live births by 2030 (SDG indicator 3.1.1); the SDG target for under-5 mortality is at least as low as 25 per 1,000 live births, and for neonatal mortality at least as low as 12 per 1,000 live births.",
+        "Leading causes of death in the Philippines (Jan-Sep 2025 data, consistent with the same period in 2024): ischaemic heart disease, neoplasms (cancers), and cerebrovascular diseases, in that order — a pattern reflecting the country's ongoing epidemiologic transition toward non-communicable/lifestyle disease as the dominant mortality burden, rather than communicable disease."
+      ],
+      "definitions": [
+        {"term": "Crude Birth Rate (CBR)", "definition": "Number of live births occurring during the year, per 1,000 population estimated at midyear."},
+        {"term": "Crude Death Rate (CDR)", "definition": "Number of deaths per 1,000 mid-year population."},
+        {"term": "Infant Mortality Rate (IMR)", "definition": "Number of infant deaths (death before age 1) per 1,000 live births in a given year."},
+        {"term": "Maternal Mortality Ratio (MMR)", "definition": "Number of maternal deaths per 100,000 live births in a given year (note: per 100,000, NOT per 1,000 — a common source of calculation errors)."},
+        {"term": "Total Fertility Rate (TFR)", "definition": "The average number of children a woman would have by age 50 if she experienced the Age-Specific Fertility Rates of a given year throughout her reproductive life."},
+        {"term": "Replacement-level fertility", "definition": "The TFR (approximately 2.1 in most contexts) needed for a population to exactly replace itself from one generation to the next, absent migration; the Philippines' 2022 TFR of 1.9 is below this level."}
+      ],
+      "detailed_explanation": "Vital statistics questions on the PNLE typically test two things: precise recall of what each rate measures (and critically, what denominator and multiplier each uses — per 1,000 vs. per 100,000 is a frequent distractor), and interpretation of trends. The maternal mortality ratio's per-100,000 denominator (rather than per-1,000, like most other vital rates) is the single most common point of confusion — always double-check which denominator a question is implying before calculating or selecting an answer. The Philippines' vital statistics system runs through PSA's Civil Registration Service: local civil registrars record events, which are compiled nationally and released as provisional data (subject to revision as late registrations are processed) before being finalized. Current trends worth knowing for both clinical and civic-literacy purposes: birth rates and total fertility rate have both been declining for years, with TFR now below replacement level (1.9 as of the most recent confirmed figure, 2022) — a genuine demographic shift with long-term workforce/aging-population implications, distinct from short-term year-to-year noise. Meanwhile, the leading causes of death have shifted decisively toward non-communicable disease (heart disease, cancer, stroke) rather than infectious disease, reflecting the Philippines' position partway through the classic epidemiologic transition.",
+      "clinical_significance": "Nurses use vital statistics both for individual patient counseling context (e.g., explaining population-level risk) and for community health program planning/prioritization — a program targeting the actual leading causes of death (cardiovascular, cancer) will look different from one still oriented primarily around communicable disease control.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": null, "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Use community/national vital statistics to identify priority health problems for a given population.",
+          "diagnosis": "Example: Risk for population-level cardiovascular disease related to lifestyle risk factor prevalence, evidenced by current national mortality data.",
+          "planning": "Align community health program priorities with actual current leading causes of morbidity/mortality, not outdated assumptions.",
+          "interventions": "Health education and screening programs targeted at current top mortality drivers (e.g., cardiovascular risk-factor modification, cancer screening).",
+          "evaluation": "Track whether local/community-level rates trend favorably relative to national figures over time."
+        },
+        "patient_education": ["Explain population-level statistics in accessible terms when relevant to a patient's own risk counseling (e.g., 'heart disease is now the leading cause of death nationally, which is why we screen for it')"]
+      },
+      "complications": null,
+      "priority_nursing_actions": ["Always check the denominator (per 1,000 vs. per 100,000) before interpreting or calculating a vital statistic on an exam item"],
+      "safety_considerations": null,
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "MMR is per 100,000 live births — NOT per 1,000. This single distinction is repeatedly tested.",
+          "Distinguishing IMR (per 1,000 live births) from CDR (per 1,000 total population) — different denominators entirely",
+          "Current leading causes of death in the Philippines (heart disease, cancer, stroke) — testing awareness that the country's disease burden has shifted toward NCDs",
+          "TFR below replacement level (1.9, as of 2022) as a current demographic fact"
+        ],
+        "clinical_pearls": ["If a rate's denominator is described as 'per 100,000,' it is almost certainly MMR (or occasionally a rare-disease incidence rate) — this is the one vital statistic that breaks the otherwise-consistent per-1,000 pattern."],
+        "common_mistakes": ["Calculating MMR using a per-1,000 denominator instead of per-100,000 — a frequent, specifically-tested error"]
+      },
+      "mnemonics": [
+        {"mnemonic": "MMR = 'Mega' denominator", "expansion": "Remember MMR uses the BIGGER denominator (100,000) — 'Mega' Maternal mortality needs a 'Mega' number to avoid tiny, hard-to-compare rates, since maternal deaths are (thankfully) rarer events than general deaths or infant deaths."}
+      ],
+      "quick_review": [
+        "CBR, CDR, IMR: per 1,000. MMR: per 100,000. Know this cold.",
+        "PSA Civil Registration Service compiles Philippine vital statistics from local civil registrars",
+        "2025 CBR: 19.18/1,000 (continued decline). 2022 TFR: 1.9 (below replacement level of ~2.1)",
+        "Current leading PH causes of death: ischaemic heart disease → cancers → cerebrovascular disease"
+      ],
+      "key_takeaways": [
+        "The per-1,000 vs. per-100,000 denominator distinction for MMR is the single highest-value fact in this lesson",
+        "The Philippines' disease burden has shifted toward NCDs — know this as current fact, not assume communicable disease still dominates"
+      ],
+      "references": [
+        "Philippine Statistics Authority, Vital Statistics official definitions — rsso11.psa.gov.ph/vital-statistics (verified via web search)",
+        "Philippine Statistics Authority, Latest Releases (2025 causes of death, MMR/SDG targets) — psa.gov.ph/statistics/vital-statistics/index (verified via web search)",
+        "Macrotrends, Philippines Birth Rate 1950-2026 (2025 CBR figure, sourced from UN data) — macrotrends.net (verified via web search)",
+        "Wikipedia, Demographics of the Philippines, citing PSA 'Total Fertility Rate Declined from 2.7 in 2017 to 1.9 in 2022' (Nov 13, 2022 PSA release) (verified via web search)"
+      ],
+      "related_lessons": ["np1-ch-003", "np1-ch-001"]
+    },
+    {
+      "id": "np1-ch-013",
+      "title": "School Health Nursing: OK sa DepEd and the Healthy Learning Institutions Framework",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Community Health Settings",
+      "subcategory": "School Health Nursing",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★",
+      "high_yield_reason": "Explicitly named in the official TOS as a distinct topic; was completely missing from the knowledge base until this batch — a confirmed gap now closed.",
+      "learning_objectives": [
+        "Identify the current official Philippine school health program name and its component programs",
+        "State the legal basis connecting school health to the Universal Health Care Act",
+        "Describe the school nurse's role in immunization follow-up and deworming",
+        "Explain the 'Healthy Learning Institutions' framework and its origin"
+      ],
+      "prerequisites": ["np1-ch-001", "np1-ch-002"],
+      "core_concepts": [
+        "The Department of Education's (DepEd) overarching school health and nutrition program is 'Oplan Kalusugan sa DepEd' (OK sa DepEd), institutionalized in 2018 as a convergence of the department's health/nutrition initiatives, implemented in partnership with DOH and other stakeholders.",
+        "OK sa DepEd converges SIX flagship programs: (1) School-Based Feeding Program (SBFP), (2) Medical, Dental, and Nursing Services (including the School Dental Health Care Program), (3) Water, Sanitation, and Hygiene in Schools (WinS), (4) Adolescent Reproductive Health (ARH) education, (5) National Drug Education Program (NDEP, supported by tobacco control), and (6) School Mental Health Program.",
+        "Legal basis: Section 30 of RA 11223 (Universal Health Care Act) mandates that all DepEd schools be designated as 'healthy settings' based on DOH/DepEd standards, and mandates DepEd to formulate health-literacy programs/modules integrated into the curriculum.",
+        "Building on this legal basis, DOH and DepEd (with DSWD, CHED, LEB, TESDA, DILG) issued Joint Administrative Order 2022-0001 establishing the 'Healthy Learning Institutions' (HLI) framework, adopting the WHO Health Promoting School Framework's five components: healthy school policies, school environment (physical/social), health skills and education, links with parents/community, and access to health services.",
+        "The WinS program (governed by DepEd Order No. 10, s. 2016) includes a structured deworming protocol; National Deworming Month is observed twice yearly (January and July) toward DOH's goal of eliminating soil-transmitted helminthiasis (STH) among children, via synchronized mass drug administration in schools and communities.",
+        "For school-based immunization: if a student misses a scheduled routine immunization at school, current policy is that the school nurse accompanies/refers them to the nearest Rural Health Unit — students are explicitly NOT to be suspended or reprimanded for having zero or incomplete vaccination doses, or if a guardian has refused vaccination."
+      ],
+      "definitions": [
+        {"term": "OK sa DepEd (Oplan Kalusugan sa DepEd)", "definition": "DepEd's institutionalized (2018) convergence of six flagship school health and nutrition programs, aimed at improving learners' health to support better learning outcomes."},
+        {"term": "Healthy Learning Institutions (HLI)", "definition": "A framework (JAO 2022-0001, operationalizing RA 11223 Sec. 30) designating schools as 'healthy settings' per WHO's Health Promoting School Framework, currently being scaled from an initial pilot in 273 last-mile elementary schools."},
+        {"term": "WinS (WASH in Schools)", "definition": "Water, Sanitation, and Hygiene in Schools — one of OK sa DepEd's component programs, governed by DepEd Order No. 10 s. 2016, covering water/sanitation/hygiene standards and the school deworming protocol."}
+      ],
+      "detailed_explanation": "School health nursing in the Philippines sits at the intersection of DepEd (which runs schools) and DOH (which sets health standards) — a nurse working in this setting typically operates under DepEd's medical/dental/nursing services component of OK sa DepEd, while implementing DOH-set clinical/preventive standards. The six OK sa DepEd programs give a school nurse's scope real breadth: nutrition (SBFP), clinical services (Medical/Dental/Nursing Services), environmental health (WinS, including deworming), reproductive health education (ARH), substance use prevention (NDEP), and mental health (School Mental Health Program). The 2022 Healthy Learning Institutions framework represents a more recent, systems-level evolution — rather than treating these six programs as a checklist, HLI asks whether the school ITSELF (its policies, physical environment, social environment, curriculum, and community linkages) functions as a health-promoting institution, per the WHO model. A recurring exam-relevant detail: the explicit non-punitive stance on missed/refused immunizations — a school nurse identifying an under-immunized student's correct action is referral to the RHU via the school nurse, not exclusion or discipline.",
+      "clinical_significance": "School nurses are often the first point of clinical contact for large populations of children who might not otherwise access regular healthcare, making school health nursing a high-leverage community health role — and the specific policies (non-punitive immunization follow-up, structured deworming, WinS standards) are directly operational, testable content.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": "School-based screening (vision, growth monitoring, deworming status) is a core recurring school nurse activity, though specific screening protocols weren't independently detailed in sources retrieved this session.", "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "School-wide health/nutrition screening; individual student follow-up for missed immunizations or identified health concerns.",
+          "diagnosis": "Example: Risk for parasitic infection related to inconsistent WinS/deworming program participation.",
+          "planning": "Coordinate SBFP, deworming schedules, and immunization catch-up referrals within the school calendar.",
+          "interventions": "Deworming administration (biannual, Jan/July), immunization referral to RHU for missed doses, health education integrated into OK sa DepEd's six components.",
+          "evaluation": "Improved nutritional status indicators, immunization catch-up completion, reduced STH prevalence."
+        },
+        "patient_education": ["Educate students/parents on deworming schedule and rationale (twice yearly, Jan and July)", "Clarify that missed/refused immunization does not result in school exclusion — reassure hesitant families while still facilitating referral"]
+      },
+      "complications": ["Soil-transmitted helminthiasis and its downstream effects on nutrition/growth/cognitive development if WinS/deworming programs lapse", "Vaccine-preventable disease risk in under-immunized school populations"],
+      "priority_nursing_actions": ["Refer, don't exclude — a student with incomplete immunization is referred to the RHU by the school nurse, never suspended or disciplined for vaccination status"],
+      "safety_considerations": ["WinS program's water/sanitation/hygiene standards directly reduce school-based disease transmission risk"],
+      "medication_considerations": ["Anti-helminthic drugs (e.g., albendazole/mebendazole-class) are administered during National Deworming Month via mass drug administration — specific dosing/drug-class detail belongs in the pharmacology module, noted here for program context only"],
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "Name the 6 components of OK sa DepEd",
+          "What law/section mandates schools as 'healthy settings' → RA 11223 Sec. 30",
+          "Correct action when a student has missed/refused immunization → refer to RHU, do NOT suspend/discipline",
+          "When is National Deworming Month observed → January and July"
+        ],
+        "clinical_pearls": ["If an exam option involves excluding, suspending, or disciplining a student over vaccination status, it is wrong by current policy — the correct action is always referral, never exclusion."],
+        "common_mistakes": ["Treating school health nursing as just 'first aid at school' rather than recognizing it as a structured, multi-program national policy area with specific legal backing"]
+      },
+      "mnemonics": [
+        {"mnemonic": "OK sa DepEd's 6: S-M-W-A-N-M", "expansion": "SBFP (feeding) - Medical/Dental/Nursing Services - WinS (water/sanitation/hygiene) - ARH (adolescent reproductive health) - NDEP (drug education) - Mental Health Program"}
+      ],
+      "quick_review": [
+        "OK sa DepEd (2018) = 6 converged programs: SBFP, Medical/Dental/Nursing Services, WinS, ARH, NDEP, School Mental Health",
+        "Legal basis: RA 11223 Sec. 30 (schools as 'healthy settings')",
+        "HLI framework (JAO 2022-0001) = WHO Health Promoting School Framework, 5 components",
+        "Deworming: twice yearly, January and July",
+        "Missed/refused immunization → refer to RHU, never exclude/discipline"
+      ],
+      "key_takeaways": [
+        "School health nursing has real legal/policy structure (RA 11223 Sec. 30, JAO 2022-0001) — not just informal first-aid duty",
+        "The non-punitive immunization-referral policy is a precise, testable, current fact"
+      ],
+      "references": [
+        "DepEd, 'DOH, DEPED LAUNCH HEALTHY LEARNING INSTITUTIONS TO STRENGTHEN SCHOOL HEALTH PROGRAMS,' Oct 2022 — deped.gov.ph (verified via web search)",
+        "PMC, 'School health policies and their implementation during the COVID-19 pandemic in the Philippines' (details OK sa DepEd's 6 components, RA 11223 Sec. 30, immunization referral policy, WinS/DepEd Order 10 s.2016) — pmc.ncbi.nlm.nih.gov/articles/PMC11664900 (verified via web search)",
+        "DOH NCR, National Deworming Month announcement — ncroffice.doh.gov.ph (verified via web search)",
+        "Save the Children Resource Centre, WinS Three Star Approach: Deworming, referencing DepEd Order No. 10 s. 2016 (verified via web search)"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-014"]
+    },
+    {
+      "id": "np1-ch-014",
+      "title": "Occupational Health Nursing and RA 11058 (OSH Law)",
+      "subject": "NP I – Community Health Nursing",
+      "category": "Community Health Settings",
+      "subcategory": "Occupational Health Nursing",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★",
+      "high_yield_reason": "Explicitly named in the official TOS as a distinct topic; was completely missing from the knowledge base until this batch. RA 11058 is current, specific, and legally precise — strong exam material.",
+      "learning_objectives": [
+        "State RA 11058's title, signing date, and what it modernized",
+        "Identify the required occupational health personnel and how staffing ratios are determined",
+        "Explain the worker's right to refuse unsafe work under this law",
+        "Describe the Health and Safety Committee structure"
+      ],
+      "prerequisites": ["np1-ch-001"],
+      "core_concepts": [
+        "RA 11058, 'An Act Strengthening Compliance with Occupational Safety and Health Standards and Providing Penalties for Violations Thereof,' was signed August 17, 2018 and took effect September 5, 2018; its Implementing Rules and Regulations were issued via DOLE Department Order No. 198-18 (December 2018).",
+        "It substantially modernized/effectively superseded the outdated OSH provisions of Articles 162-165 of the Labor Code (Presidential Decree No. 442), elevating OSH from an administrative concern to a mandatory, enforceable state policy with criminal AND administrative sanctions — a major departure from the old purely-administrative penalty scheme.",
+        "Sec. 15 (Occupational Health Personnel and Facilities): covered workplaces must have qualified occupational health personnel — defined in the law as a qualified first aider, nurse, dentist, or physician engaged by the employer. The number of personnel/equipment/facilities required is proportionate to total worker count and hazard risk, with the ideal ratio prescribed by DOLE (via DO 198-18 Rule 1960 staffing tables).",
+        "A landmark worker-protection provision: workers have the right to REFUSE to work without threat of dismissal or discrimination when there is imminent danger (a situation that could cause death or serious injury) — the employer must immediately act to remove the danger, and the worker continues to be paid during the work stoppage.",
+        "Covered workplaces must organize a Health and Safety Committee (HSC): Type A (bipartite — employer + worker representatives) for establishments with 1-100 workers; Type B (tripartite, including a DOLE representative) for larger or higher-risk establishments. The HSC includes ex-officio members such as the first aider, company nurse, dentist, or physician.",
+        "Scope: applies to virtually all establishments/projects/sites across economic activity, INCLUDING PEZA (economic zone) establishments and, per subsequent DOLE advisories, work-from-home/remote arrangements — but explicitly EXCLUDES the public sector from RA 11058's direct coverage (though public-sector agencies/GOCCs performing proprietary functions are covered per some secondary summaries — this scope boundary is nuanced enough to flag as worth a closer legal read if precision matters for a specific case).",
+        "8 hours of mandatory safety and health orientation/seminar is required for all workers, including joint employer-employee orientation components."
+      ],
+      "definitions": [
+        {"term": "Occupational health personnel", "definition": "Per RA 11058, a qualified first aider, nurse, dentist, or physician engaged by the employer to provide occupational health services at the workplace."},
+        {"term": "Imminent danger", "definition": "A workplace situation that can cause death or serious injury, triggering the worker's legal right to refuse work without threat of dismissal/discrimination under RA 11058."},
+        {"term": "Health and Safety Committee (HSC)", "definition": "A body organized within a covered workplace (Type A bipartite, or Type B tripartite with DOLE representation for larger/higher-risk sites) responsible for monitoring, inspecting, and investigating workplace safety and health."}
+      ],
+      "detailed_explanation": "RA 11058 gives occupational/company nurses a codified legal role rather than an informal one: Sec. 15 explicitly names 'nurse' as a category of required occupational health personnel, with DOLE-prescribed staffing ratios (via DO 198-18 Rule 1960) scaled to workforce size and hazard level — meaning a company's obligation to employ occupational health nursing staff is not discretionary once it crosses defined thresholds. The law's most legally significant innovation is the imminent-danger work-refusal right: unlike a general safety complaint, when a situation genuinely threatens death or serious injury, a worker can lawfully stop work immediately, the employer must act to remove the hazard, and the worker keeps being paid throughout — protecting workers from having to choose between their safety and their paycheck. The Health and Safety Committee structure formalizes ongoing safety governance at the workplace level, scaling its composition (bipartite vs. tripartite with DOLE) to establishment size/risk. RA 11058 also introduced criminal liability for violations, a genuine escalation from the Labor Code's prior administrative-only sanctions — reflecting a broader policy shift toward treating occupational safety as enforceable state policy rather than a paperwork compliance item.",
+      "clinical_significance": "Occupational health nursing is a distinct, legally defined community health nursing practice setting — nurses in this role need to know their own legal standing (required personnel under Sec. 15), the staffing framework that determines whether they're mandated at all, and the imminent-danger provision they may need to help invoke or support on a worker's behalf.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": "Pre-employment and periodic medical examinations are standard occupational health nursing functions under the broader OSH framework, though specific examination protocols weren't independently detailed in sources retrieved this session.", "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Workplace hazard assessment; worker health surveillance appropriate to occupational exposure risk.",
+          "diagnosis": "Example: Risk for injury related to inadequate hazard-control measures in a high-risk work area.",
+          "planning": "Ensure occupational health personnel staffing meets DOLE-prescribed ratios for the workplace's size/risk category; plan HSC-driven safety programs.",
+          "interventions": "First-aid/emergency response, health surveillance, safety orientation delivery (part of the mandatory 8-hour worker seminar), supporting a worker's right to refuse unsafe work when imminent danger is present.",
+          "evaluation": "Reduced workplace injury/illness incidence; functioning HSC; documented compliance with OSH standards."
+        },
+        "patient_education": ["Inform workers of their right to refuse unsafe work under imminent danger without fear of dismissal, and that pay continues during the resulting stoppage"]
+      },
+      "complications": ["Untreated workplace injuries/illness when occupational health personnel/facilities are inadequate for the workforce size/risk level"],
+      "priority_nursing_actions": ["Support and do not obstruct a worker's legally protected refusal to perform work under imminent danger conditions"],
+      "safety_considerations": ["The employer bears legal responsibility to immediately act to remove imminent danger once identified — this is a specific, enforceable obligation, not just a best practice"],
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "RA number, signing date, and what it modernized → RA 11058, Aug 17, 2018, superseded outdated Labor Code OSH articles",
+          "Which personnel categories satisfy Sec. 15's occupational health personnel requirement → first aider, nurse, dentist, physician",
+          "What happens to a worker's pay during a lawful work refusal for imminent danger → pay continues",
+          "HSC composition thresholds → Type A (bipartite, 1-100 workers) vs. Type B (tripartite with DOLE, larger/higher-risk)"
+        ],
+        "clinical_pearls": ["If an exam scenario has a worker fired or docked pay for refusing genuinely dangerous work, that's a clear RA 11058 violation — the law explicitly protects both job security and pay continuity in imminent-danger refusals."],
+        "common_mistakes": ["Assuming OSH compliance is purely administrative/paperwork — RA 11058 introduced real criminal liability, a meaningful escalation from the old Labor Code framework"]
+      },
+      "mnemonics": [],
+      "quick_review": [
+        "RA 11058 (Aug 17, 2018) — modernized OSH, added criminal liability",
+        "Sec. 15: required occupational health personnel = first aider, nurse, dentist, physician; DOLE sets staffing ratios",
+        "Imminent danger = worker can refuse work, no dismissal/discrimination, pay continues",
+        "HSC: Type A (bipartite, ≤100 workers) vs. Type B (tripartite w/ DOLE, larger/higher-risk)"
+      ],
+      "key_takeaways": [
+        "RA 11058 gives occupational nurses codified legal standing, not just informal workplace first-aid duty",
+        "The imminent-danger work-refusal-with-continued-pay provision is the law's signature worker protection — know it precisely"
+      ],
+      "references": [
+        "Republic Act No. 11058 full text — lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html (verified via web search)",
+        "Labor Law PH Library, RA 11058 Sec. 15 text and definitions — library.laborlaw.ph (verified via web search)",
+        "Respicio & Co., 'Overview of RA 11058: The Philippine Occupational Safety and Health Standards Law' (signing/effectivity dates, IRR via DO 198-18, criminal liability context, scope) — respicio.ph (verified via web search)",
+        "eLegal Philippines, 'Strengthened OSH Standards under RA 11058' (imminent danger, pay continuity) — elegal.ph (verified via web search)",
+        "UP Manila College of Public Health, OSH Law forum summary (HSC Type A/B composition thresholds) — upm.edu.ph (verified via web search)"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-013"]
+    }
+  ]
+}

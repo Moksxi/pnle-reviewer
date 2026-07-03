@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "batch": "NP I – Community Health Nursing, Batch 3 Flashcards",
+    "source": "reviewed",
+    "derived_from": "np1-community-health-lessons-batch3.json",
+    "card_count": 18
+  },
+  "flashcards": [
+    {"id": "fc-np1-045", "lesson_id": "np1-ch-012", "front": "What denominator does Maternal Mortality Ratio (MMR) use, and how is it different from most other vital rates?", "back": "Per 100,000 live births — unlike CBR/CDR/IMR, which are all per 1,000. This is the single most commonly tested vital-statistics distinction."},
+    {"id": "fc-np1-046", "lesson_id": "np1-ch-012", "front": "Define Infant Mortality Rate (IMR).", "back": "Number of infant deaths per 1,000 live births in a given year."},
+    {"id": "fc-np1-047", "lesson_id": "np1-ch-012", "front": "Define Total Fertility Rate (TFR).", "back": "The average number of children a woman would have by age 50 if she experienced the Age-Specific Fertility Rates of a given year."},
+    {"id": "fc-np1-048", "lesson_id": "np1-ch-012", "front": "What was the Philippines' TFR in 2022, and what does it mean relative to replacement level?", "back": "1.9 — below the replacement level of approximately 2.1, meaning the population is not fully replacing itself through births alone."},
+    {"id": "fc-np1-049", "lesson_id": "np1-ch-012", "front": "What are the current (2025 data) top 3 leading causes of death in the Philippines?", "back": "Ischaemic heart disease, neoplasms (cancers), and cerebrovascular diseases — reflecting a shift toward non-communicable disease as the dominant mortality burden."},
+    {"id": "fc-np1-050", "lesson_id": "np1-ch-012", "front": "What agency compiles official Philippine vital statistics, and from what source?", "back": "The Philippine Statistics Authority (PSA), via its Civil Registration Service, compiling data from vital events registered at local City/Municipal Civil Registrar offices."},
+    {"id": "fc-np1-051", "lesson_id": "np1-ch-012", "front": "What is the SDG target for Maternal Mortality Ratio by 2030?", "back": "Less than 70 per 100,000 live births (SDG indicator 3.1.1)."},
+    {"id": "fc-np1-052", "lesson_id": "np1-ch-013", "front": "What are OK sa DepEd's 6 flagship component programs?", "back": "School-Based Feeding Program (SBFP), Medical/Dental/Nursing Services, WinS (Water, Sanitation, Hygiene in Schools), Adolescent Reproductive Health (ARH), National Drug Education Program (NDEP), School Mental Health Program."},
+    {"id": "fc-np1-053", "lesson_id": "np1-ch-013", "front": "What law/section mandates schools be designated as 'healthy settings'?", "back": "RA 11223 (Universal Health Care Act), Section 30."},
+    {"id": "fc-np1-054", "lesson_id": "np1-ch-013", "front": "A student has missed their scheduled school immunization — what is the correct nursing action?", "back": "The school nurse accompanies/refers the student to the nearest Rural Health Unit. The student is NOT suspended or disciplined for incomplete or refused vaccination."},
+    {"id": "fc-np1-055", "lesson_id": "np1-ch-013", "front": "When is National Deworming Month observed in the Philippines?", "back": "Twice yearly — January and July."},
+    {"id": "fc-np1-056", "lesson_id": "np1-ch-013", "front": "What framework did DOH/DepEd adopt for the Healthy Learning Institutions initiative (JAO 2022-0001)?", "back": "The WHO Health Promoting School Framework — 5 components: healthy school policies, school environment, health skills/education, links with parents/community, access to health services."},
+    {"id": "fc-np1-057", "lesson_id": "np1-ch-014", "front": "What law governs occupational safety and health standards in the Philippines, and when was it signed?", "back": "RA 11058, signed August 17, 2018 (effective September 5, 2018)."},
+    {"id": "fc-np1-058", "lesson_id": "np1-ch-014", "front": "Per RA 11058 Sec. 15, which personnel categories satisfy the 'occupational health personnel' requirement?", "back": "A qualified first aider, nurse, dentist, or physician engaged by the employer."},
+    {"id": "fc-np1-059", "lesson_id": "np1-ch-014", "front": "Under RA 11058, what happens to a worker's pay if they refuse to work due to imminent danger?", "back": "Pay continues during the work stoppage; the worker cannot be dismissed or discriminated against for the refusal, and the employer must act immediately to remove the danger."},
+    {"id": "fc-np1-060", "lesson_id": "np1-ch-014", "front": "What's the difference between a Type A and Type B Health and Safety Committee?", "back": "Type A = bipartite (employer + worker reps), for 1-100 workers. Type B = tripartite (adds a DOLE representative), for larger or higher-risk establishments."},
+    {"id": "fc-np1-061", "lesson_id": "np1-ch-014", "front": "What major penalty innovation did RA 11058 introduce compared to the old Labor Code OSH provisions?", "back": "Criminal liability for violations — a departure from the Labor Code's previously purely administrative sanctions."},
+    {"id": "fc-np1-062", "lesson_id": "np1-ch-014", "front": "How many hours of mandatory safety and health orientation must workers undergo under RA 11058?", "back": "8 hours, including a joint employer-employee orientation component."}
+  ]
+}

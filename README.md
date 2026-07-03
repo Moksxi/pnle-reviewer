@@ -35,8 +35,8 @@ npm run preview
 | Feature | Status |
 |---|---|
 | **Practice exam** | 100 real, reviewed NP I items with answers + rationales. Timed, config-driven Part A/Part B split, per-question review. |
-| **Flashcards** | 149 cards: 49 hand-curated cards tied to written lessons + 100 derived from the reviewed Q&A. Flip, "Got it / Need review", swipe on mobile, mastery saved to `localStorage`. |
-| **Lessons** | 11 fully written NP I lessons across 2 content batches (health systems/COPAR/disaster + DOH national programs) — objectives, core concepts, definitions, explanation, nursing management, board-exam focus, mnemonics — grouped by category, with search and a linked detail view. |
+| **Flashcards** | 167 cards: 67 hand-curated cards tied to written lessons + 100 derived from the reviewed Q&A. Flip, "Got it / Need review", swipe on mobile, mastery saved to `localStorage`. |
+| **Lessons** | 14 fully written NP I lessons across 3 content batches (health systems/COPAR/disaster + DOH national programs + vital statistics/school & occupational health) — objectives, core concepts, definitions, explanation, nursing management, board-exam focus, mnemonics — grouped by category, with search and a linked detail view. |
 | **Home** | Quick stats (reviewed questions, mastery, best score, subjects) and recent attempts. |
 
 ### Content provenance & integrity
@@ -53,9 +53,14 @@ npm run preview
   programs — immunization, TB/DOTS, RH Law, HIV policy, MNCHN/Unang Yakap) was
   written with active web search verification, flagging currency-sensitive
   facts (e.g. the Dec 2023 drug-resistant TB regimen shortening to ~6 months)
-  explicitly in its `_meta.note`. Exam questions come from a real 100-item
-  NP I Community Health exam (Bukidnon State University College of Nursing,
-  2nd Sem SY 2025–2026).
+  explicitly in its `_meta.note`. Batch 3 (vital statistics/demography +
+  school health/OK sa DepEd + occupational health/RA 11058 — closing two
+  named TOS gaps) was also written with active web search verification
+  (PSA, official RA text via lawphil.net, DepEd/DOLE sources), flagging
+  snapshot-in-time figures (e.g. 2025 CBR, 2022 TFR) explicitly in its
+  `_meta.note`. Exam questions come from a real 100-item NP I Community
+  Health exam (Bukidnon State University College of Nursing, 2nd Sem SY
+  2025–2026).
 - The data model also supports **`source: "generated_draft"`**. Any future
   generated item is rendered with a visible **"Draft — pending review"** badge
   (see `src/components/SourceTag.jsx`) so unreviewed content is never presented
@@ -82,6 +87,8 @@ src/
     np1-community-health-flashcards-batch1.json    # 29 lesson-derived flashcards
     np1-community-health-lessons-batch2.json       # 5 written lessons (DOH programs)
     np1-community-health-flashcards-batch2.json    # 20 lesson-derived flashcards
+    np1-community-health-lessons-batch3.json       # 3 written lessons (vital stats, school/occupational health)
+    np1-community-health-flashcards-batch3.json    # 18 lesson-derived flashcards
     subjects.js                # registry merging each subject's dataset batches + query helpers
   lib/
     exam.js                    # exam assembly (ratio-aware) + scoring

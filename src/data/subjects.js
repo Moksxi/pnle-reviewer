@@ -10,6 +10,8 @@ import np1LessonsBatch1 from "./np1-community-health-lessons-batch1.json";
 import np1FlashcardsBatch1 from "./np1-community-health-flashcards-batch1.json";
 import np1LessonsBatch2 from "./np1-community-health-lessons-batch2.json";
 import np1FlashcardsBatch2 from "./np1-community-health-flashcards-batch2.json";
+import np1LessonsBatch3 from "./np1-community-health-lessons-batch3.json";
+import np1FlashcardsBatch3 from "./np1-community-health-flashcards-batch3.json";
 
 // Each entry pairs a subject's question bank with its lesson set(s) and
 // lesson-derived flashcard set(s). `lessons`/`curatedFlashcards` are arrays
@@ -20,8 +22,8 @@ import np1FlashcardsBatch2 from "./np1-community-health-flashcards-batch2.json";
 const registry = [
   {
     questions: np1Questions,
-    lessons: [np1LessonsBatch1, np1LessonsBatch2],
-    curatedFlashcards: [np1FlashcardsBatch1, np1FlashcardsBatch2],
+    lessons: [np1LessonsBatch1, np1LessonsBatch2, np1LessonsBatch3],
+    curatedFlashcards: [np1FlashcardsBatch1, np1FlashcardsBatch2, np1FlashcardsBatch3],
   },
 ];
 
