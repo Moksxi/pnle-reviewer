@@ -14,6 +14,7 @@ import np1LessonsBatch3 from "./np1-community-health-lessons-batch3.json";
 import np1FlashcardsBatch3 from "./np1-community-health-flashcards-batch3.json";
 import np1VisualAidsPatch1 from "./np1-visual-aids-patch1.json";
 import np1VisualAidsPatch2 from "./np1-visual-aids-patch2.json";
+import np1VisualAidsPatch3 from "./np1-visual-aids-patch3.json";
 
 // Visual-aid SVGs are keyed by lesson id and applied as patches on top of
 // whichever batch defines that lesson, rather than living inside a lesson
@@ -21,7 +22,7 @@ import np1VisualAidsPatch2 from "./np1-visual-aids-patch2.json";
 // without editing those already-published batch files. A lesson can carry
 // several visuals (e.g. a Tier 1 structural diagram plus a Tier 3 mnemonic),
 // so aids accumulate into an array per lesson, in patch order.
-const visualAidPatches = [np1VisualAidsPatch1, np1VisualAidsPatch2];
+const visualAidPatches = [np1VisualAidsPatch1, np1VisualAidsPatch2, np1VisualAidsPatch3];
 const visualAidsByLessonId = new Map();
 visualAidPatches.forEach((patch) =>
   (patch?.visual_aids || []).forEach((v) => {
