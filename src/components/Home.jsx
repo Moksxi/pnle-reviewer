@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { subjects, comingSoonSubjects, totals } from "../data/subjects.js";
 import { buildFlashcards } from "../lib/flashcards.js";
 import { masteryStats, getExamHistory, bestScore } from "../lib/storage.js";
+import { getSubjectColor } from "../lib/subjectColors.js";
 
 export default function Home() {
   const t = totals();
@@ -59,26 +60,40 @@ export default function Home() {
       <section className="panel">
         <h2 className="panel-title">Subjects</h2>
         <ul className="subject-list">
-          {subjects.map((s) => (
-            <li key={s.id} className="subject-row">
-              <span className="subject-code">{s.code}</span>
-              <span className="subject-name">
-                {s.title}
-                <span className="subject-meta">
-                  {s.lessons.length} lessons · {s.questions.length} questions ·
-                  reviewed
+          {subjects.map((s) => {
+            const { color } = getSubjectColor(s.id);
+            return (
+              <li
+                key={s.id}
+                className="subject-row"
+                style={{ "--subject-color": color }}
+              >
+                <span className="subject-code">{s.code}</span>
+                <span className="subject-name">
+                  {s.title}
+                  <span className="subject-meta">
+                    {s.lessons.length} lessons · {s.questions.length} questions ·
+                    reviewed
+                  </span>
                 </span>
-              </span>
-              <span className="chip chip-live">Live</span>
-            </li>
-          ))}
-          {comingSoonSubjects.map((s) => (
-            <li key={s.id} className="subject-row muted">
-              <span className="subject-code">{s.code}</span>
-              <span className="subject-name">{s.title}</span>
-              <span className="chip">Coming soon</span>
-            </li>
-          ))}
+                <span className="chip chip-live">Live</span>
+              </li>
+            );
+          })}
+          {comingSoonSubjects.map((s) => {
+            const { color } = getSubjectColor(s.id);
+            return (
+              <li
+                key={s.id}
+                className="subject-row muted"
+                style={{ "--subject-color": color }}
+              >
+                <span className="subject-code">{s.code}</span>
+                <span className="subject-name">{s.title}</span>
+                <span className="chip">Coming soon</span>
+              </li>
+            );
+          })}
         </ul>
       </section>
 
