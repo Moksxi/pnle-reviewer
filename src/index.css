@@ -868,6 +868,43 @@ a:hover { text-decoration: underline; }
 .review-rationale strong { color: var(--ink); }
 
 /* ============================================================
+   Lesson visual aids (inline SVG diagrams)
+   ============================================================ */
+.lesson-visual-aid {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+}
+.lesson-visual-aid svg { width: 100%; height: auto; display: block; }
+
+.lesson-visual-aid .node rect { fill: var(--node-bg, var(--accent-bg)); stroke: var(--node-color, var(--accent)); }
+.lesson-visual-aid .node .th {
+  fill: var(--ink);
+  font-family: var(--head);
+  font-weight: 700;
+  font-size: 13px;
+}
+.lesson-visual-aid .node .ts {
+  fill: var(--ink-dim);
+  font-family: var(--body);
+  font-size: 11px;
+}
+.lesson-visual-aid .arr { stroke: var(--ink-faint); stroke-width: 1.5; fill: none; }
+
+/* Diagram color roles, mapped to the app's approved palette. Five map
+   directly onto brand colors; c-pink and c-gray are derived tints kept in
+   the same family so a 7-role diagram (see OK sa DepEd) still reads as
+   7 distinct steps. */
+.lesson-visual-aid .c-teal   { --node-color: var(--sage);   --node-bg: var(--sage-bg); }
+.lesson-visual-aid .c-blue   { --node-color: var(--sky);    --node-bg: var(--sky-bg); }
+.lesson-visual-aid .c-amber  { --node-color: var(--coral);  --node-bg: var(--coral-bg); }
+.lesson-visual-aid .c-coral  { --node-color: var(--blush);  --node-bg: var(--blush-bg); }
+.lesson-visual-aid .c-purple { --node-color: var(--accent); --node-bg: var(--accent-bg); }
+.lesson-visual-aid .c-pink   { --node-color: #C75980; --node-bg: #F6DCE5; }
+.lesson-visual-aid .c-gray   { --node-color: var(--ink-dim); --node-bg: var(--surface-2); }
+
+/* ============================================================
    Desktop breakpoint
    ============================================================ */
 @media (min-width: 720px) {

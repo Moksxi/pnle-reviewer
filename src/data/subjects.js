@@ -12,6 +12,18 @@ import np1LessonsBatch2 from "./np1-community-health-lessons-batch2.json";
 import np1FlashcardsBatch2 from "./np1-community-health-flashcards-batch2.json";
 import np1LessonsBatch3 from "./np1-community-health-lessons-batch3.json";
 import np1FlashcardsBatch3 from "./np1-community-health-flashcards-batch3.json";
+import np1VisualAidsPatch1 from "./np1-visual-aids-patch1.json";
+
+// Visual-aid SVGs are keyed by lesson id and applied as a patch on top of
+// whichever batch defines that lesson, rather than living inside a lesson
+// batch file — this lets a single patch touch lessons across batches 1-3
+// without editing those already-published batch files.
+const visualAidPatches = [np1VisualAidsPatch1];
+const visualAidByLessonId = new Map(
+  visualAidPatches.flatMap((patch) =>
+    (patch?.visual_aids || []).map((v) => [v.lesson_id, v.svg])
+  )
+);
 
 // Each entry pairs a subject's question bank with its lesson set(s) and
 // lesson-derived flashcard set(s). `lessons`/`curatedFlashcards` are arrays
@@ -44,6 +56,7 @@ export const subjects = registry.map(({ questions: ds, lessons, curatedFlashcard
       ...l,
       subjectId,
       source: batch?._meta?.source || "reviewed",
+      visualAid: visualAidByLessonId.get(l.id) || null,
     }))
   );
   const flashcardList = (curatedFlashcards || []).flatMap((batch) =>

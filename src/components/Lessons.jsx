@@ -147,6 +147,13 @@ function LessonDetail({ lesson: l, onBack, onOpen }) {
         </ul>
       </Section>
 
+      {l.visualAid && (
+        <div
+          className="lesson-visual-aid"
+          dangerouslySetInnerHTML={{ __html: l.visualAid }}
+        />
+      )}
+
       {l.definitions?.length > 0 && (
         <Section title="Key definitions">
           <dl className="def-list">
