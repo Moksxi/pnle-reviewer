@@ -15,6 +15,7 @@ import np1FlashcardsBatch3 from "./np1-community-health-flashcards-batch3.json";
 import np1VisualAidsPatch1 from "./np1-visual-aids-patch1.json";
 import np1VisualAidsPatch2 from "./np1-visual-aids-patch2.json";
 import np1VisualAidsPatch3 from "./np1-visual-aids-patch3.json";
+import np1QuestionCategories from "./np1-questions-categories.json";
 
 // Visual-aid SVGs are keyed by lesson id and applied as patches on top of
 // whichever batch defines that lesson, rather than living inside a lesson
@@ -43,6 +44,10 @@ const registry = [
     questions: np1Questions,
     lessons: [np1LessonsBatch1, np1LessonsBatch2, np1LessonsBatch3],
     curatedFlashcards: [np1FlashcardsBatch1, np1FlashcardsBatch2, np1FlashcardsBatch3],
+    // Editorial category tags for Practice Mode filtering / weak-area
+    // breakdown — a derived organizational aid, not part of the reviewed
+    // question content itself. See np1-questions-categories.json _meta.
+    questionCategories: np1QuestionCategories.byQuestionId,
   },
 ];
 
@@ -56,7 +61,7 @@ export const comingSoonSubjects = [
 ];
 
 // Normalised subject objects the app consumes.
-export const subjects = registry.map(({ questions: ds, lessons, curatedFlashcards }) => {
+export const subjects = registry.map(({ questions: ds, lessons, curatedFlashcards, questionCategories }) => {
   const subjectId = ds.subject.id;
   const lessonList = (lessons || []).flatMap((batch) =>
     (batch?.lessons || []).map((l) => ({
@@ -77,7 +82,11 @@ export const subjects = registry.map(({ questions: ds, lessons, curatedFlashcard
     ...ds.subject,
     source: ds.source,
     situations: ds.situations,
-    questions: ds.questions.map((q) => ({ ...q, subjectId })),
+    questions: ds.questions.map((q) => ({
+      ...q,
+      subjectId,
+      category: questionCategories?.[q.id] || null,
+    })),
     hasQuestions: ds.questions.length > 0,
     lessons: lessonList,
     hasLessons: lessonList.length > 0,
