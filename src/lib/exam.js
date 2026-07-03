@@ -5,7 +5,7 @@
 
 import { examConfig } from "../config/examConfig.js";
 
-function shuffle(arr) {
+export function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));

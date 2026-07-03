@@ -2,12 +2,14 @@ import { Routes, Route, NavLink, Navigate } from "react-router-dom";
 import Home from "./components/Home.jsx";
 import Lessons from "./components/Lessons.jsx";
 import Flashcards from "./components/Flashcards.jsx";
+import Practice from "./components/Practice.jsx";
 import Exam from "./components/Exam.jsx";
 
 const TABS = [
   { to: "/", label: "Home", icon: "◇", end: true },
   { to: "/lessons", label: "Lessons", icon: "▤" },
   { to: "/flashcards", label: "Cards", icon: "▢" },
+  { to: "/practice", label: "Practice", icon: "●" },
   { to: "/exam", label: "Exam", icon: "✎" },
 ];
 
@@ -43,6 +45,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/lessons" element={<Lessons />} />
           <Route path="/flashcards" element={<Flashcards />} />
+          <Route path="/practice" element={<Practice />} />
           <Route path="/exam" element={<Exam />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

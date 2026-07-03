@@ -4,6 +4,7 @@
 const KEYS = {
   mastery: "pnle.mastery.v1", // { [cardId]: "known" | "review" }
   examHistory: "pnle.examHistory.v1", // ExamResult[]
+  practiceHistory: "pnle.practiceHistory.v1", // { [questionId]: "correct" | "incorrect" }
 };
 
 function read(key, fallback) {
@@ -68,4 +69,19 @@ export function bestScore() {
     (best, r) => (r.percent > best ? r.percent : best),
     0
   );
+}
+
+/* ---- Practice Mode history ----------------------------------------------
+   Last-result-only, same shape as flashcard mastery: one entry per question,
+   overwritten on each new attempt rather than logged as a history list. */
+
+export function getPracticeHistory() {
+  return read(KEYS.practiceHistory, {});
+}
+
+export function setPracticeResult(questionId, isCorrect) {
+  const map = getPracticeHistory();
+  map[questionId] = isCorrect ? "correct" : "incorrect";
+  write(KEYS.practiceHistory, map);
+  return map;
 }

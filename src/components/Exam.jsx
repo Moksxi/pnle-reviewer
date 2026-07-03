@@ -4,6 +4,7 @@ import { examConfig, minutesForItems } from "../config/examConfig.js";
 import { buildExam, scoreExam } from "../lib/exam.js";
 import { addExamResult } from "../lib/storage.js";
 import SourceTag, { PartTag } from "./SourceTag.jsx";
+import QuestionReview from "./QuestionReview.jsx";
 
 const POOL = allQuestions();
 
@@ -279,7 +280,7 @@ function Result({ session, onRestart }) {
       </h2>
       <div className="review-list">
         {result.review.map((r, i) => (
-          <ReviewItem key={r.question.id} item={r} index={i} />
+          <QuestionReview key={r.question.id} item={r} index={i} />
         ))}
       </div>
     </div>
@@ -295,43 +296,6 @@ function PartStat({ label, data }) {
         {data.total === 0 ? "—" : `${data.correct}/${data.total}`}
       </div>
       <div className="part-stat-pct">{pct == null ? "no items" : `${pct}%`}</div>
-    </div>
-  );
-}
-
-function ReviewItem({ item, index }) {
-  const { question: q, chosen, isCorrect } = item;
-  return (
-    <div className={"review-item " + (isCorrect ? "correct" : "wrong")}>
-      <div className="review-head">
-        <span className="review-num">Q{index + 1}</span>
-        <span className={"review-badge " + (isCorrect ? "ok" : "no")}>
-          {isCorrect ? "Correct" : chosen ? "Incorrect" : "Skipped"}
-        </span>
-        <PartTag part={q.part} />
-      </div>
-      {q.situation && <p className="q-scenario sm">{q.situation.text}</p>}
-      <p className="review-stem">{q.question}</p>
-      <ul className="review-options">
-        {q.options.map((o) => {
-          const isAnswer = o.letter === q.answer;
-          const isChosen = o.letter === chosen;
-          let cls = "";
-          if (isAnswer) cls = "answer";
-          else if (isChosen) cls = "chosen-wrong";
-          return (
-            <li key={o.letter} className={"review-option " + cls}>
-              <span className="option-letter">{o.letter}</span>
-              <span>{o.text}</span>
-              {isAnswer && <span className="mark">✓ correct</span>}
-              {isChosen && !isAnswer && <span className="mark">your answer</span>}
-            </li>
-          );
-        })}
-      </ul>
-      <p className="review-rationale">
-        <strong>Rationale.</strong> {q.rationale}
-      </p>
     </div>
   );
 }
