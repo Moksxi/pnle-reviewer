@@ -35,20 +35,27 @@ npm run preview
 | Feature | Status |
 |---|---|
 | **Practice exam** | 100 real, reviewed NP I items with answers + rationales. Timed, config-driven Part A/Part B split, per-question review. |
-| **Flashcards** | 127 cards: 27 hand-curated cards tied to written lessons + 100 derived from the reviewed Q&A. Flip, "Got it / Need review", swipe on mobile, mastery saved to `localStorage`. |
-| **Lessons** | 6 fully written NP I lessons (objectives, core concepts, definitions, explanation, nursing management, board-exam focus, mnemonics) grouped by category, with search and a linked detail view. |
+| **Flashcards** | 149 cards: 49 hand-curated cards tied to written lessons + 100 derived from the reviewed Q&A. Flip, "Got it / Need review", swipe on mobile, mastery saved to `localStorage`. |
+| **Lessons** | 11 fully written NP I lessons across 2 content batches (health systems/COPAR/disaster + DOH national programs) — objectives, core concepts, definitions, explanation, nursing management, board-exam focus, mnemonics — grouped by category, with search and a linked detail view. |
 | **Home** | Quick stats (reviewed questions, mastery, best score, subjects) and recent attempts. |
 
 ### Content provenance & integrity
 
 - Every lesson, flashcard, and exam question here is **`source: "reviewed"`**.
-  Lessons and their derived flashcards come from a verified NP I content batch
-  (`np1-community-health-lessons-batch1.json` / `...-flashcards-batch1.json`),
-  cross-checked against RA 10121 and Philippine COPAR course materials — two
-  factual corrections from an earlier draft (COPAR's 4 phases, RA 10121's
-  official paired terminology) are recorded in each file's `_meta.note`. Exam
-  questions come from a real 100-item NP I Community Health exam (Bukidnon
-  State University College of Nursing, 2nd Sem SY 2025–2026).
+  Lessons and their derived flashcards ship as versioned batches
+  (`np1-community-health-lessons-batch1.json` / `...-batch2.json`, and their
+  matching `...-flashcards-*.json` files), each merged together in
+  `src/data/subjects.js`. Batch 1 (health systems, epidemiology, COPAR, family
+  nursing, disaster nursing) was cross-checked against RA 10121 and Philippine
+  COPAR course materials — factual corrections (COPAR's 4 phases vs. the
+  separate 5-stage Community Organizing Process, RA 10121's official paired
+  terminology) are recorded in its `_meta.note`. Batch 2 (DOH national
+  programs — immunization, TB/DOTS, RH Law, HIV policy, MNCHN/Unang Yakap) was
+  written with active web search verification, flagging currency-sensitive
+  facts (e.g. the Dec 2023 drug-resistant TB regimen shortening to ~6 months)
+  explicitly in its `_meta.note`. Exam questions come from a real 100-item
+  NP I Community Health exam (Bukidnon State University College of Nursing,
+  2nd Sem SY 2025–2026).
 - The data model also supports **`source: "generated_draft"`**. Any future
   generated item is rendered with a visible **"Draft — pending review"** badge
   (see `src/components/SourceTag.jsx`) so unreviewed content is never presented
@@ -71,9 +78,11 @@ src/
   config/examConfig.js         # item counts, timer, Part A/B target ratio
   data/
     np1-questions.json                            # 100 exam items + 9 scenarios
-    np1-community-health-lessons-batch1.json       # 6 written lessons
-    np1-community-health-flashcards-batch1.json    # 27 lesson-derived flashcards
-    subjects.js                # registry pairing each subject's datasets + query helpers
+    np1-community-health-lessons-batch1.json       # 6 written lessons (systems/COPAR/disaster)
+    np1-community-health-flashcards-batch1.json    # 29 lesson-derived flashcards
+    np1-community-health-lessons-batch2.json       # 5 written lessons (DOH programs)
+    np1-community-health-flashcards-batch2.json    # 20 lesson-derived flashcards
+    subjects.js                # registry merging each subject's dataset batches + query helpers
   lib/
     exam.js                    # exam assembly (ratio-aware) + scoring
     flashcards.js              # merges curated lesson cards + question-derived cards
@@ -86,11 +95,16 @@ src/
 
 1. Produce `src/data/npX-questions.json` in the same shape as `np1-questions.json`
    (a `subject`, `source`, `situations`, and `questions[]`).
-2. Optionally add `npX-*-lessons-*.json` (a `lessons[]` array) and
-   `npX-*-flashcards-*.json` (a `flashcards[]` array with `lesson_id` links) —
-   lessons are optional per subject.
-3. In `src/data/subjects.js`, import them and add one `{ questions, lessons,
-   curatedFlashcards }` entry to `registry`.
+2. Optionally add one or more `npX-*-lessons-batchN.json` (a `lessons[]`
+   array) and matching `npX-*-flashcards-batchN.json` (a `flashcards[]` array
+   with `lesson_id` links) — lessons are optional per subject, and new
+   content batches for an existing subject are additive: give each batch a
+   unique lesson/flashcard `id` prefix and its own `_meta`, don't overwrite
+   the previous batch's file.
+3. In `src/data/subjects.js`, import them and add one `{ questions, lessons:
+   [...batches], curatedFlashcards: [...batches] }` entry to `registry` — the
+   registry merges all batches into one lesson list and one flashcard list
+   per subject.
 4. Remove that subject's entry from `comingSoonSubjects`.
 
 Every screen, the exam engine, and the flashcard builder read subjects through

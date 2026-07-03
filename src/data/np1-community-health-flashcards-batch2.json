@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "batch": "NP I – Community Health Nursing, Batch 2 Flashcards (DOH Programs)",
+    "source": "reviewed",
+    "derived_from": "np1-community-health-lessons-batch2.json",
+    "card_count": 20
+  },
+  "flashcards": [
+    {"id": "fc-np1-025", "lesson_id": "np1-ch-007", "front": "What law is the legal basis for mandatory childhood immunization, and what's its key birth-dose requirement?", "back": "RA 10152 (2011) — requires the Hepatitis B birth dose within 24 hours of delivery."},
+    {"id": "fc-np1-026", "lesson_id": "np1-ch-007", "front": "Define 'Fully Immunized Child' (FIC).", "back": "A child who has completed all primary NIP/EPI vaccine doses before turning 12 months old."},
+    {"id": "fc-np1-027", "lesson_id": "np1-ch-007", "front": "If a child misses a scheduled vaccine dose, does the series restart?", "back": "No — resume from the missed antigen; the series does not need to restart."},
+    {"id": "fc-np1-028", "lesson_id": "np1-ch-007", "front": "Name a vaccine added to the routine Philippine childhood schedule in 2025.", "back": "Rabies vaccination."},
+    {"id": "fc-np1-029", "lesson_id": "np1-ch-008", "front": "What does DOTS stand for and what is its defining feature?", "back": "Directly Observed Treatment, Short-course — a trained observer directly watches the patient take each TB medication dose."},
+    {"id": "fc-np1-030", "lesson_id": "np1-ch-008", "front": "What is the current Philippine national TB strategic plan (2025-2030)?", "back": "PhilSTEP2 — Philippine Strategic TB Elimination Plan Phase 2."},
+    {"id": "fc-np1-031", "lesson_id": "np1-ch-008", "front": "As of the December 2023 update, how long is the all-oral drug-resistant TB regimen (BPaLM/BPaL)?", "back": "About 6 months — down from the older ~2-year regimen."},
+    {"id": "fc-np1-032", "lesson_id": "np1-ch-008", "front": "Why is direct observation of TB dosing important?", "back": "Missed/incomplete doses drive both individual treatment failure and the development of drug-resistant TB."},
+    {"id": "fc-np1-033", "lesson_id": "np1-ch-009", "front": "What is RA 10354 and when was it signed?", "back": "The Responsible Parenthood and Reproductive Health Act (RH Law), signed December 21, 2012."},
+    {"id": "fc-np1-034", "lesson_id": "np1-ch-009", "front": "Does RA 10354 legalize abortion?", "back": "No. The RH Law provides family planning/contraception access — it explicitly does not legalize abortion."},
+    {"id": "fc-np1-035", "lesson_id": "np1-ch-009", "front": "What guiding principle underlies RA 10354's family planning provisions?", "back": "Free and informed decision-making, without coercion."},
+    {"id": "fc-np1-036", "lesson_id": "np1-ch-010", "front": "What law did RA 11166 repeal, and when was RA 11166 signed?", "back": "It repealed RA 8504 (1998 AIDS Prevention and Control Act); signed December 2018."},
+    {"id": "fc-np1-037", "lesson_id": "np1-ch-010", "front": "At what age can a minor consent to their own HIV test without parental permission under RA 11166?", "back": "15 years old, up to below 18 (15-17 years old)."},
+    {"id": "fc-np1-038", "lesson_id": "np1-ch-010", "front": "Is HIV testing compulsory or voluntary under RA 11166?", "back": "Voluntary — written consent is required before testing."},
+    {"id": "fc-np1-039", "lesson_id": "np1-ch-010", "front": "What does RA 11166 protect regarding HIV status information?", "back": "Confidentiality (Sec. 44) and freedom from discrimination in employment and learning institutions (Sec. 49)."},
+    {"id": "fc-np1-040", "lesson_id": "np1-ch-011", "front": "What DOH Administrative Order established the MNCHN Strategy, and what does MNCHN stand for?", "back": "AO 2008-0029; Maternal, Newborn, Child Health and Nutrition Strategy."},
+    {"id": "fc-np1-041", "lesson_id": "np1-ch-011", "front": "What DOH Administrative Order institutionalized the Unang Yakap protocol, and in what year?", "back": "AO 2009-0025, in 2009."},
+    {"id": "fc-np1-042", "lesson_id": "np1-ch-011", "front": "List the 4 core Unang Yakap interventions in order.", "back": "(1) Immediate thorough drying, (2) skin-to-skin contact with delayed cord clamping (1-3 min), (3) non-separation of baby from mother, (4) breastfeeding initiation."},
+    {"id": "fc-np1-043", "lesson_id": "np1-ch-011", "front": "What is the correct cord-clamping timing under Unang Yakap?", "back": "Delayed 1-3 minutes after birth — NOT immediate clamping."},
+    {"id": "fc-np1-044", "lesson_id": "np1-ch-011", "front": "What's the difference between BEmONC and CEmONC?", "back": "BEmONC = Basic Emergency Obstetric and Newborn Care; CEmONC = Comprehensive EmONC (higher facility capability level) — tiered levels within the MNCHN referral network."}
+  ]
+}

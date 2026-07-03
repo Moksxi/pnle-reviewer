@@ -1,0 +1,395 @@
+{
+  "_meta": {
+    "batch": "NP I – Community Health Nursing, Batch 2 (DOH National Programs)",
+    "source": "reviewed",
+    "note": "Written with active web search verification (searches run this session on doh.gov.ph, ntp.doh.gov.ph, lawphil.net, official/primary sources plus reputable secondary summaries). Every factual claim below is either directly cited or explicitly flagged. Program details (budgets, targets, regimen specifics) are current as of mid-2025-2026 sources found; DOH programs are updated frequently, so treat numeric details (budget figures, target counts) as a snapshot, not a permanently fixed fact.",
+    "lesson_count": 5
+  },
+  "lessons": [
+    {
+      "id": "np1-ch-007",
+      "title": "National Immunization Program (formerly EPI): Structure, Legal Basis, and Current Priorities",
+      "subject": "NP I – Community Health Nursing",
+      "category": "DOH National Health Programs",
+      "subcategory": "Immunization",
+      "difficulty": "Foundational",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★★",
+      "high_yield_reason": "Immunization is a core, perennially tested community health topic; program name and legal basis are exact-fact exam bait.",
+      "learning_objectives": [
+        "State the current official name and legal basis of the Philippines' immunization program",
+        "Explain what 'fully immunized child' (FIC) means under Philippine policy",
+        "Identify current program priorities and recent additions to the routine schedule",
+        "Distinguish free/government (NIP/EPI) vaccines from supplemental privately-recommended vaccines"
+      ],
+      "prerequisites": ["np1-ch-001"],
+      "core_concepts": [
+        "The program launched July 12, 1976 (with WHO/UNICEF support) as the 'Expanded Program on Immunization' (EPI); DOH's own current materials now also refer to it as the 'National Immunization Program' (NIP) — both names appear in current official DOH sources.",
+        "Legal basis: Republic Act No. 10152, the 'Mandatory Infants and Children Health Immunization Act of 2011,' requires basic immunization for all children under five, including the Hepatitis B birth dose within 24 hours of birth.",
+        "A child is 'Fully Immunized Child (FIC)' when all primary vaccine doses are completed before their first birthday.",
+        "All NIP/EPI vaccines are free at Barangay Health Stations, Rural Health Units, city/municipal health offices, and public school clinics.",
+        "Recent development: rabies vaccination added to the routine childhood schedule as of 2025; a 2026 'Ligtas Tigdas' Measles-Rubella catch-up campaign followed 2024-2025 measles outbreaks."
+      ],
+      "definitions": [
+        {"term": "Fully Immunized Child (FIC)", "definition": "A child who has completed all primary NIP/EPI vaccine doses before turning 12 months old."},
+        {"term": "Original EPI target diseases", "definition": "Tuberculosis, poliomyelitis, diphtheria, tetanus, pertussis, and measles — the program's original seven-disease target list at launch."}
+      ],
+      "detailed_explanation": "The National Immunization Program (current DOH framing of the 1976-launched EPI) is the core childhood vaccination platform, legally mandated by RA 10152 (2011), which specifically requires the Hepatitis B birth dose within 24 hours of delivery. Core antigens historically include BCG, Hepatitis B, Pentavalent (DTP-HepB-Hib), OPV/IPV, and Measles-containing vaccine. Rotavirus and Pneumococcal vaccines were added in 2012 for priority populations; Rabies was added to the routine schedule in 2025. Tetanus toxoid is given to pregnant/childbearing-age women. Distinct from free NIP/EPI is the broader PIDSP/Philippine Pediatric Society private schedule, which adds non-free vaccines (Varicella, Hepatitis A, annual Influenza, Meningococcal).",
+      "clinical_significance": "Community health nurses are frontline vaccinators and educators; correctly explaining free vs. supplemental vaccines and 'fully immunized' status are direct patient-education and charting responsibilities.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": "Verification via the Mother and Child Book / barangay-issued immunization card at each visit.", "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Review the child's immunization card against the schedule; assess for contraindications.",
+          "diagnosis": "Example: Risk for infection related to incomplete immunization status.",
+          "planning": "Schedule catch-up doses per current guidance (a missed dose does not require restarting the series).",
+          "interventions": "Administer scheduled vaccines, document, counsel on expected reactions vs. danger signs.",
+          "evaluation": "FIC status achieved by 12 months; sustained high community coverage."
+        },
+        "patient_education": [
+          "A missed dose does NOT mean restarting the whole series",
+          "NIP/EPI vaccines remain free at RHUs/BHS even for families who also see a private pediatrician",
+          "Recognize normal post-vaccination reactions vs. true emergencies (anaphylaxis)"
+        ]
+      },
+      "complications": ["Vaccine-preventable disease outbreaks when community coverage drops — e.g., the 2024-2025 measles outbreaks that prompted the 2026 catch-up campaign"],
+      "priority_nursing_actions": ["Verify and correct gaps in a child's immunization card at every health contact, not only scheduled immunization visits"],
+      "safety_considerations": ["Bring the immunization card to every visit; anaphylaxis risk requires post-vaccination observation"],
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "What law mandates infant immunization and Hep B birth dose timing → RA 10152, within 24 hours of birth",
+          "Definition of 'Fully Immunized Child' → all primary doses completed before 12 months",
+          "Free/NIP vaccines vs. private/supplemental (PIDSP) vaccines"
+        ],
+        "clinical_pearls": ["If a scenario tests 'what happens when a dose is missed,' the answer is almost always 'resume from where they left off,' not 'restart.'"],
+        "common_mistakes": ["Confusing the free government NIP/EPI schedule with the broader private PIDSP schedule"]
+      },
+      "mnemonics": [],
+      "quick_review": [
+        "Launched 1976 as EPI; DOH now also calls it the National Immunization Program (NIP)",
+        "Legal basis: RA 10152 (2011) — Hep B birth dose within 24 hours",
+        "FIC = all primary doses completed before age 1",
+        "Free at RHU/BHS; PIDSP private schedule adds non-free vaccines"
+      ],
+      "key_takeaways": [
+        "RA 10152 and the Hep B 24-hour birth dose timing are precise, testable facts",
+        "Know the free-vs-private vaccine distinction cold"
+      ],
+      "references": [
+        "DOH, 'Immunization Program' / 'Expanded Program on Immunization' — doh.gov.ph/uhc/health-programs/immunization-program/ (verified via web search)",
+        "RA 10152, Mandatory Infants and Children Health Immunization Act of 2011 (verified via web search)",
+        "PIDSP, 2026 Childhood Immunization Calendar — pidsphil.org (verified via web search)"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-009"]
+    },
+    {
+      "id": "np1-ch-008",
+      "title": "National Tuberculosis Control Program (NTP) and the DOTS Strategy",
+      "subject": "NP I – Community Health Nursing",
+      "category": "DOH National Health Programs",
+      "subcategory": "Communicable Disease Control — TB",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★★",
+      "high_yield_reason": "TB remains a major Philippine public health priority; DOTS strategy and the nurse's role are classic, recurring PNLE content.",
+      "learning_objectives": [
+        "Define DOTS and explain its core components",
+        "Identify the current national TB program name and strategic plan",
+        "Describe the nurse's role in directly observed treatment",
+        "Recognize a major recent update in drug-resistant TB treatment duration"
+      ],
+      "prerequisites": ["np1-ch-001", "np1-ch-003"],
+      "core_concepts": [
+        "The Philippines' TB program is officially the National Tuberculosis Control Program (NTP), using DOTS (Directly Observed Treatment, Short-course) as its core case-management approach.",
+        "DOTS core components: government commitment; case detection via sputum smear microscopy (now supplemented by NAAT and AI-powered portable chest X-ray); a standardized regimen directly observed by a health worker for at least the first phase; uninterrupted drug supply; standardized recording/reporting.",
+        "CURRENT strategic plan: the Philippine Strategic TB Elimination Plan Phase 2 (PhilSTEP2) 2025-2030, targeting 12 million Filipinos screened by 2026 — supersedes older plans (e.g., PhilPACT 2012-2016).",
+        "MAJOR RECENT UPDATE: for drug-resistant TB, the Philippines adopted an all-oral BPaLM/BPaL regimen in December 2023 that cuts treatment duration from the older ~2-year regimen to approximately 6 months. Older review materials describing a 2-year DR-TB course are now outdated."
+      ],
+      "definitions": [
+        {"term": "DOTS", "definition": "Directly Observed Treatment, Short-course — the WHO-endorsed TB case-management strategy in which a trained observer watches the patient take each dose of anti-TB medication."},
+        {"term": "TB Preventive Treatment (TPT)", "definition": "Treatment given to people with latent TB infection at high risk of progressing to active TB, such as household contacts; DOH reported over 50% increased TPT enrollment in 2024."}
+      ],
+      "detailed_explanation": "Under DOTS, once a patient is diagnosed (sputum smear microscopy, increasingly supplemented by NAAT and AI-assisted portable chest X-ray under PhilSTEP2), they begin a standardized multidrug regimen, with a trained observer directly watching each dose during at least the initial intensive phase — at a TB clinic, home, workplace, or other agreed location — to prevent missed doses, which drive treatment failure and drug resistance. The health worker also monitors side effects and ensures follow-up until cure. For drug-resistant TB, the treatment landscape changed significantly in December 2023 with the all-oral BPaLM/BPaL regimen, cutting the previous ~2-year, injection-containing regimen to about 6 months with reportedly improved outcomes.",
+      "clinical_significance": "TB nursing spans community health (contact investigation, DOTS supervision, health education) and infection control principles tested elsewhere in the PNLE — the community health nurse is very often the direct DOTS observer in Philippine practice.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": "Classic TB symptoms are covered in the clinical/medical-surgical TB lesson — this lesson focuses on the program/systems angle.", "diagnostics": "Sputum smear microscopy; NAAT; chest X-ray (increasingly AI-assisted portable units).", "laboratory_findings": null},
+      "medical_management": "Standardized multidrug regimens per DOTS category; all-oral BPaLM/BPaL regimen (~6 months) for drug-resistant TB as of the December 2023 update.",
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Screen household/close contacts of any diagnosed case (contact investigation); assess adherence risk factors.",
+          "diagnosis": "Example: Ineffective health maintenance related to inconsistent DOTS attendance.",
+          "planning": "Arrange a convenient, consistent DOTS observation schedule/location.",
+          "interventions": "Direct observation of each dose, side-effect monitoring, adherence counseling, TPT initiation for eligible contacts.",
+          "evaluation": "Treatment completion and cure; no default; contacts appropriately screened."
+        },
+        "patient_education": [
+          "Complete the FULL course even after symptoms improve — premature stopping drives drug resistance",
+          "Household/close contacts should be screened; eligible contacts may be offered TPT"
+        ]
+      },
+      "complications": ["Development of drug-resistant TB from incomplete/inconsistent treatment", "Ongoing community transmission from undiagnosed or non-adherent cases"],
+      "priority_nursing_actions": ["Directly observe medication administration — do not rely on self-report of adherence", "Initiate contact investigation promptly after a new active case is confirmed"],
+      "safety_considerations": ["Standard airborne precautions during the infectious period for pulmonary TB, particularly in home-visit settings"],
+      "medication_considerations": ["Specific first-line drug names (isoniazid, rifampicin, pyrazinamide, ethambutol) and side effects are typically covered in the pharmacology/medical-surgical TB lesson — cross-reference there."],
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "What does DOTS stand for, and its core defining feature (directly observed dosing)",
+          "Current program name and plan (NTP; PhilSTEP2 2025-2030)",
+          "Drug-resistant TB treatment duration — be aware the answer may now be ~6 months (BPaLM/BPaL) rather than the older 2-year regimen"
+        ],
+        "clinical_pearls": ["If a scenario describes a health worker watching a patient swallow TB medication, that IS DOTS by definition — direct observation is the strategy."],
+        "common_mistakes": ["Assuming all TB treatment courses are uniformly ~6-9 months — drug-SENSITIVE TB is typically 6 months, but drug-RESISTANT TB historically took much longer until the 2023 update"]
+      },
+      "mnemonics": [],
+      "quick_review": [
+        "DOTS = Directly Observed Treatment, Short-course",
+        "Current plan: PhilSTEP2 2025-2030",
+        "Dec 2023: DR-TB shifted to all-oral BPaLM/BPaL, ~6 months (down from ~2 years) — key currency update",
+        "Nurse's core role: direct observation of each dose + contact investigation + TPT referral"
+      ],
+      "key_takeaways": [
+        "DOTS's defining feature is DIRECT observation of dosing",
+        "The DR-TB treatment-duration update (2023) is a common source of outdated info in older question banks"
+      ],
+      "references": [
+        "DOH National Tuberculosis Control Program — ntp.doh.gov.ph (verified via web search)",
+        "Philippine News Agency, 'DOH, WHO target 12M Filipinos to be screened for TB by 2026,' Nov 2025 — pna.gov.ph (verified via web search)",
+        "WHO Philippines, PhilSTEP2/screening target announcement — who.int/philippines (verified via web search)",
+        "San Lazaro Hospital BPaLM/BPaL outcomes study, published Jan 2026, confirming Dec 2023 adoption — PMC (verified via web search)"
+      ],
+      "related_lessons": ["np1-ch-003", "np1-ch-001"]
+    },
+    {
+      "id": "np1-ch-009",
+      "title": "Responsible Parenthood and Reproductive Health Act (RA 10354)",
+      "subject": "NP I – Community Health Nursing",
+      "category": "DOH National Health Programs / Health Legislation",
+      "subcategory": "Reproductive Health Policy",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 25,
+      "high_yield": "★★★★",
+      "high_yield_reason": "A named, current, and periodically contested Philippine health law directly relevant to family planning/maternal health nursing content.",
+      "learning_objectives": [
+        "State the official title, RA number, and signing date of the RH Law",
+        "Explain what the law does and does NOT do (family planning access vs. abortion)",
+        "Identify the guiding principles/rights the law is built on",
+        "Note the law's contested legal history and current status"
+      ],
+      "prerequisites": ["np1-ch-001"],
+      "core_concepts": [
+        "RA 10354, the 'Responsible Parenthood and Reproductive Health Act of 2012' (RH Law), was signed by President Benigno Aquino III on December 21, 2012, providing universal access to family planning/contraception, fertility control, sexual education, and maternal care.",
+        "The law does NOT legalize abortion — an explicit, frequently-tested distinction; RA 10354 concerns contraception/family planning access, not abortion.",
+        "Core guiding principles: free and informed decisions on family planning without coercion, respect for reproductive health and rights, and the State's duty to promote maternal and child health alongside family planning access.",
+        "CURRENCY NOTE: the law survived an early Supreme Court challenge (upheld as constitutional, though some specific implementing provisions were struck down); a House bill proposing to REPEAL RA 10354 has also been filed in Congress — an active, contested political topic. RA 10354 remains the current, operative law as of this research."
+      ],
+      "definitions": [
+        {"term": "Responsible parenthood", "definition": "Per RA 10354, the will and ability of a parent to respond to the needs and aspirations of the family, achieved through free and informed decision-making on family planning."},
+        {"term": "Reproductive health", "definition": "A state of complete physical, mental, and social well-being in all matters relating to the reproductive system, not merely the absence of disease, per the law's definitions."}
+      ],
+      "detailed_explanation": "RA 10354 establishes a national policy guaranteeing access to family planning information/services, maternal care, adolescent reproductive health education, and related services, framed around informed choice and non-coercion. It requires LGUs to ensure adequate staffing of skilled health professionals for maternal care. The law explicitly does not legalize, authorize, or promote abortion — a common exam trap. It survived an early Supreme Court constitutional challenge (upheld core constitutionality while striking specific implementing provisions) and remains operative, though a more recent House bill proposes repeal — nurses should know RA 10354 as the current standard while being aware the political landscape is not fully settled.",
+      "clinical_significance": "This law underlies a community health nurse's scope in family planning counseling, LGU-level maternal care service expectations, and patients' legal right to access contraceptive information/services without coercion.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": null, "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Assess patient's family planning knowledge, needs, and barriers to accessing services.",
+          "diagnosis": "Example: Deficient knowledge related to unfamiliarity with available family planning options.",
+          "planning": "Provide non-coercive, informed-choice family planning counseling covering the full range of legally available methods.",
+          "interventions": "Family planning education, referral to LGU maternal/reproductive health services, respecting patient autonomy.",
+          "evaluation": "Patient makes an informed, uncoerced choice consistent with their own values and goals."
+        },
+        "patient_education": ["Clarify that RA 10354 concerns contraception/family planning access — it is not an abortion law", "Explain available family planning methods neutrally, respecting the patient's right to choose (or decline) any method"]
+      },
+      "complications": null,
+      "priority_nursing_actions": ["Provide family planning counseling in a non-coercive, informed-consent-respecting manner"],
+      "safety_considerations": null,
+      "medication_considerations": ["Specific contraceptive method details are typically covered in maternal/OB nursing content rather than this legal-framework lesson"],
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "RA number and short name → RA 10354, RH Law / Responsible Parenthood and Reproductive Health Act of 2012",
+          "'Does RA 10354 legalize abortion?' → No — classic, direct exam distinction",
+          "Guiding principle: informed, non-coerced decision-making"
+        ],
+        "clinical_pearls": ["If an answer choice implies the RH Law authorizes or facilitates abortion, it's wrong by definition."],
+        "common_mistakes": ["Conflating 'reproductive health' broadly with 'abortion rights'"]
+      },
+      "mnemonics": [],
+      "quick_review": [
+        "RA 10354 = RH Law, signed Dec 21, 2012",
+        "Guarantees family planning/contraception access, NOT abortion",
+        "Built on informed choice, non-coercion",
+        "Upheld as constitutional (some provisions struck down); repeal efforts exist in current Congress but the law remains operative"
+      ],
+      "key_takeaways": [
+        "Know cold: RH Law ≠ abortion law",
+        "Present this as policy fact, not personal opinion — it is a live political topic"
+      ],
+      "references": [
+        "Wikipedia summary of RA 10354 with signing date and scope, cross-checked against jur.ph legal summary (verified via web search)",
+        "Full RA 10354 text — Studocu-hosted official text (verified via web search)",
+        "House Bill proposing repeal of RA 10354 — docs.congress.hrep.online (verified via web search; confirms repeal effort exists, law not yet repealed)"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-011"]
+    },
+    {
+      "id": "np1-ch-010",
+      "title": "Philippine HIV and AIDS Policy Act (RA 11166)",
+      "subject": "NP I – Community Health Nursing",
+      "category": "DOH National Health Programs / Health Legislation",
+      "subcategory": "HIV/AIDS Policy",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 25,
+      "high_yield": "★★★★",
+      "high_yield_reason": "Current law (replacing an older 1998 statute), tests consent/confidentiality principles that are classic PNLE ethical-legal content, and reflects a genuinely urgent current PH public health issue.",
+      "learning_objectives": [
+        "State RA 11166's title, signing context, and what law it repealed",
+        "Explain the minor-consent provisions for HIV testing under this law",
+        "Identify the law's core anti-discrimination protections",
+        "Recognize the current epidemiological urgency behind this policy area"
+      ],
+      "prerequisites": ["np1-ch-001"],
+      "core_concepts": [
+        "RA 11166, the 'Philippine HIV and AIDS Policy Act,' was signed December 2018 (published in the Official Gazette January 21, 2019) and REPEALS the older RA 8504 (Philippine AIDS Prevention and Control Act of 1998).",
+        "Reconstitutes the Philippine National AIDS Council (PNAC) as the coordinating body.",
+        "HIV testing policy (Sec. 29): the State encourages VOLUNTARY testing; written consent is required. Minors 15 to below 18 may consent to their OWN HIV testing WITHOUT parental/guardian consent. Minors under 15 who are pregnant or engaged in high-risk behavior may also test with social worker/health worker assistance, again without parental consent — reflecting 'evolving capacities of the child' and 'mature minor doctrine' principles. For other minors under 15, parental/guardian consent is generally required unless unavailable/refused, in which case a licensed social worker/health worker may consent in the child's best interest.",
+        "Strong anti-discrimination provisions: prohibits HIV-status-based discrimination in employment and learning institutions (Sec. 49).",
+        "Confidentiality of HIV-related information is legally protected (Sec. 44).",
+        "CONTEXT (dated): a 2019 WHO statement at the time of passage cited 'a record high of 32 reported infections per day' — this is a 2019-era figure and should not be treated as current; more recent daily-infection figures should be independently verified before quoting a specific current number."
+      ],
+      "definitions": [
+        {"term": "Mature minor doctrine", "definition": "A legal principle (RA 11166 Sec. 3) allowing minors below 15 who are pregnant or engaged in high-risk behavior to consent to their own HIV testing without parental/guardian consent."},
+        {"term": "PNAC (Philippine National AIDS Council)", "definition": "The reconstituted national coordinating body for HIV/AIDS policy under RA 11166."}
+      ],
+      "detailed_explanation": "RA 11166 modernized the Philippines' HIV/AIDS legal framework, notably easing testing access for adolescents amid rising HIV incidence, particularly among young people and men who have sex with men. Consent is layered by age/circumstance: minors 15-17 independently consent; minors under 15 who are pregnant or in high-risk situations can also test without parental consent (with social worker/health worker support); other minors under 15 generally need parental/guardian consent, falling back to social worker/health worker consent if parents are unavailable or refuse (with the child's own assent also required). The law mandates workplace/school HIV education, protects confidentiality, and creates enforceable anti-discrimination protections in employment and education.",
+      "clinical_significance": "Community health nurses need to know exactly who can consent to HIV testing at what age/circumstance to practice legally and ethically, and to correctly counsel adolescent patients on their actual rights under this law.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": "HIV testing algorithm has shifted toward decentralized rapid diagnostic testing (rHIVda) rather than centralized Western blot confirmation, per 2023 epidemiological reporting.", "laboratory_findings": null},
+      "medical_management": "Dolutegravir-based antiretroviral therapy is reported as current first-line ART per a 2023 Philippine HIV epidemiology review; PrEP (emtricitabine-tenofovir) has also been rolled out — these are clinical/pharmacologic details better suited to a dedicated HIV clinical-management lesson; noted here for context only.",
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Assess age and circumstance to determine correct consent pathway before facilitating testing; assess for stigma/discrimination concerns.",
+          "diagnosis": "Example: Risk for ineffective health maintenance related to fear of stigma/discrimination affecting testing uptake.",
+          "planning": "Ensure testing/counseling matches the legally correct consent pathway for the patient's age/situation.",
+          "interventions": "Pre- and post-test counseling, confidentiality protection, referral to PNAC-coordinated services, anti-discrimination advocacy.",
+          "evaluation": "Patient tested/counseled appropriately with rights respected; no breach of confidentiality."
+        },
+        "patient_education": [
+          "Adolescents 15-17 can consent to their own HIV test without parental permission",
+          "HIV status is legally protected confidential information",
+          "Discrimination based on HIV status in work or school is illegal under this law"
+        ]
+      },
+      "complications": null,
+      "priority_nursing_actions": ["Correctly apply the age/circumstance-based consent pathway before testing a minor", "Protect confidentiality of HIV status at all times per Sec. 44"],
+      "safety_considerations": ["Standard precautions apply for any blood/body fluid exposure in a testing context; confidentiality breach is a significant safety/legal risk"],
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "Age at which a minor can independently consent to HIV testing → 15 to below 18, no parental consent needed",
+          "What law RA 11166 repealed → RA 8504 (1998)",
+          "Is HIV testing compulsory or voluntary → voluntary, written consent required"
+        ],
+        "clinical_pearls": ["The '15 to below 18, self-consent' rule is the single most exam-relevant specific number in this law."],
+        "common_mistakes": ["Assuming all minors need parental consent for HIV testing regardless of age — the law carves out 15-17-year-olds and certain under-15 circumstances"]
+      },
+      "mnemonics": [],
+      "quick_review": [
+        "RA 11166 (2018) repealed RA 8504 (1998)",
+        "Voluntary testing, written consent required",
+        "Minors 15-17: self-consent, no parental permission needed",
+        "Strong anti-discrimination protections (Sec. 49); confidentiality protected (Sec. 44)"
+      ],
+      "key_takeaways": [
+        "Memorize the minor-consent age threshold precisely",
+        "RA 11166 replaced, not amended, the older 1998 law — know both RA numbers"
+      ],
+      "references": [
+        "Republic Act No. 11166 full text — lawphil.net/statutes/repacts/ra2018/ra_11166_2018.html (verified via web search)",
+        "RA 11166 Sec. 29 (HIV Testing) — gosupra.com legal provision database (verified via web search)",
+        "WHO Philippines, 'New law important boost to HIV response in the Philippines,' Jan 2019 — who.int/philippines (verified via web search; '32 infections/day' figure is from 2019, not current)",
+        "2023 Philippine HIV epidemiology review — PMC/NCBI (verified via web search; ART/testing-algorithm details flagged as context only)"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-011"]
+    },
+    {
+      "id": "np1-ch-011",
+      "title": "Maternal, Newborn, Child Health and Nutrition (MNCHN) Strategy and the Unang Yakap Protocol",
+      "subject": "NP I – Community Health Nursing",
+      "category": "DOH National Health Programs",
+      "subcategory": "Maternal & Newborn Health",
+      "difficulty": "Intermediate",
+      "estimated_study_time_min": 30,
+      "high_yield": "★★★★★",
+      "high_yield_reason": "Directly links NP I community health content to NP II maternal/newborn content; Unang Yakap's four core interventions are a classic, precise, testable list.",
+      "learning_objectives": [
+        "State the current official names and legal/administrative basis of the MNCHN strategy and Unang Yakap protocol",
+        "List the four core time-bound interventions of the Unang Yakap (Essential Newborn Care) protocol",
+        "Identify the service-delivery network structure supporting MNCHN implementation",
+        "Recognize related current maternal care policy updates"
+      ],
+      "prerequisites": ["np1-ch-001", "np1-ch-002"],
+      "core_concepts": [
+        "The Maternal, Newborn, Child Health and Nutrition (MNCHN) Strategy is the DOH's overarching maternal/newborn care framework, established under DOH Administrative Order 2008-0029, aimed at rapidly reducing maternal and newborn morbidity/mortality.",
+        "Within MNCHN sits the Essential Intrapartum and Newborn Care (EINC) Protocol, publicly branded 'Unang Yakap' (First Embrace), institutionalized by DOH Administrative Order 2009-0025 (2009), mandated in both public and private hospitals.",
+        "Unang Yakap's four core, TIME-BOUND interventions: (1) immediate and thorough drying of the newborn, (2) early skin-to-skin contact, with cord clamping delayed 1-3 minutes (NOT immediately), (3) non-separation of baby from mother, and (4) breastfeeding initiation (within the first hour of life).",
+        "MNCHN service delivery is organized through community-level Community/Women's Health Teams (C/WHT) and facility-level BEmONC (Basic Emergency Obstetric and Newborn Care) and CEmONC (Comprehensive EmONC) teams.",
+        "CURRENCY NOTE: recent (2026-era) reporting describes antenatal care recommendations expanding from the traditionally-taught 'at least 4 visits' to 8 visits under newer PhilHealth circulars — if a source still says '4 antenatal visits,' that may reflect older guidance; treat this number as worth double-checking against the most recent PhilHealth/DOH circular."
+      ],
+      "definitions": [
+        {"term": "Unang Yakap (First Embrace)", "definition": "The public branding of the Essential Intrapartum and Newborn Care (EINC) Protocol — time-bound, evidence-based interventions administered immediately after birth to improve newborn survival and breastfeeding outcomes."},
+        {"term": "Kangaroo Mother Care", "definition": "A newborn care method — particularly for premature infants — combining skin-to-skin contact, exclusive breastfeeding, and mother-infant dyad support; a component referenced within the Unang Yakap/EINC framework."},
+        {"term": "BEmONC / CEmONC", "definition": "Basic / Comprehensive Emergency Obstetric and Newborn Care — tiered facility capability levels within the MNCHN service delivery network."}
+      ],
+      "detailed_explanation": "MNCHN (AO 2008-0029) is the umbrella maternal-newborn-child health strategy; Unang Yakap/EINC (AO 2009-0025) is the specific protocol nested within it that standardizes the critical minutes after birth. The four interventions are sequenced and time-bound: dry the baby immediately and thoroughly (stimulates breathing, prevents heat loss), place skin-to-skin on the mother, delay cord clamping 1-3 minutes (rather than immediate clamping, the older practice), keep the baby with the mother (avoiding routine early separation), and support breastfeeding initiation within that skin-to-skin period. The protocol followed a 2008 government hospital outbreak investigation that revealed problematic newborn care practices, scaled up nationally with WHO/UNICEF support from 2009-2011. The supporting network — C/WHT at barangay level, BEmONC/CEmONC-capable facilities for referral — operationalizes both routine MNCHN care and emergency response, linking directly to the facility-referral-ladder concept in the Philippine Health Care Delivery System lesson.",
+      "clinical_significance": "Unang Yakap's four interventions are core, hands-on newborn nursing care taught and tested extensively; MNCHN is the connective framework linking this NP I content to NP II maternal/newborn clinical content.",
+      "pathophysiology": null,
+      "assessment": {"signs_and_symptoms": null, "diagnostics": "Newborn screening and hearing screening are required follow-on services after Unang Yakap's immediate interventions.", "laboratory_findings": null},
+      "medical_management": null,
+      "nursing_management": {
+        "nursing_process": {
+          "assessment": "Assess newborn condition immediately after birth to confirm eligibility for the routine sequence vs. need for resuscitation.",
+          "diagnosis": "Example: Risk for ineffective thermoregulation related to delayed/inadequate drying.",
+          "planning": "Sequence the four interventions correctly without unnecessary interruption.",
+          "interventions": "Immediate thorough drying, skin-to-skin placement, delayed cord clamping (1-3 min), support uninterrupted breastfeeding initiation.",
+          "evaluation": "Newborn maintains normal temperature, successful breastfeeding initiation within the first hour, no unnecessary separation."
+        },
+        "patient_education": ["Explain to the mother/family why skin-to-skin and non-separation matter (bonding, thermoregulation, breastfeeding success) versus older separate-and-wash practices"]
+      },
+      "complications": ["Neonatal hypothermia and impaired breastfeeding initiation when the Unang Yakap sequence is not followed"],
+      "priority_nursing_actions": ["Do not clamp the cord immediately — the correct window is 1-3 minutes post-delivery", "Prioritize immediate drying and skin-to-skin contact over routine weighing/washing, which can wait"],
+      "safety_considerations": ["Standard newborn resuscitation readiness must coexist with the routine sequence — the protocol applies to the well newborn; a depressed/non-breathing newborn requires immediate resuscitation instead"],
+      "medication_considerations": null,
+      "board_exam_focus": {
+        "common_exam_angles": [
+          "List/sequence the four Unang Yakap interventions correctly, including the specific 1-3 minute delayed cord-clamping window",
+          "Distinguish MNCHN (overarching strategy/AO 2008-0029) from Unang Yakap/EINC (specific protocol/AO 2009-0025)",
+          "BEmONC vs. CEmONC facility capability distinction"
+        ],
+        "clinical_pearls": ["If an exam option describes clamping the cord immediately after birth as routine best practice, it's outdated/incorrect per current guidance — the correct window is delayed, 1-3 minutes."],
+        "common_mistakes": ["Treating MNCHN and Unang Yakap as the same thing — MNCHN is the umbrella strategy; Unang Yakap/EINC is a specific protocol within it"]
+      },
+      "mnemonics": [
+        {"mnemonic": "D-S-N-B", "expansion": "Dry → Skin-to-skin (with delayed cord clamping 1-3 min) → Non-separation → Breastfeeding initiation"}
+      ],
+      "quick_review": [
+        "MNCHN Strategy = AO 2008-0029 (umbrella framework)",
+        "Unang Yakap/EINC Protocol = AO 2009-0025 (specific newborn intervention set)",
+        "4 interventions: immediate drying, skin-to-skin + delayed cord clamping (1-3 min), non-separation, breastfeeding initiation",
+        "Service network: C/WHT (community) → BEmONC/CEmONC (facility)"
+      ],
+      "key_takeaways": [
+        "The 1-3 minute delayed cord-clamping detail is a precise, high-value exam fact",
+        "Know MNCHN vs. Unang Yakap as strategy vs. protocol, not interchangeable terms"
+      ],
+      "references": [
+        "DOH Administrative Order No. 2009-0025 — elibrary.judiciary.gov.ph (verified via web search)",
+        "DOH FAQ on ENC/MNCHN relationship — doh.gov.ph (verified via web search, confirms AO 2008-0029 as the MNCHN basis)",
+        "SPHERES Inc., maternal/newborn health legal framework summary — spheresphinc.com (secondary source, used for antenatal-visit-count currency note only, flagged pending direct PhilHealth circular cross-check)"
+      ],
+      "related_lessons": ["np1-ch-001", "np1-ch-009"]
+    }
+  ]
+}

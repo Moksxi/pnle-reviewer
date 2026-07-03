@@ -6,17 +6,22 @@
 // subjects through the helpers below.
 
 import np1Questions from "./np1-questions.json";
-import np1LessonsData from "./np1-community-health-lessons-batch1.json";
-import np1FlashcardsData from "./np1-community-health-flashcards-batch1.json";
+import np1LessonsBatch1 from "./np1-community-health-lessons-batch1.json";
+import np1FlashcardsBatch1 from "./np1-community-health-flashcards-batch1.json";
+import np1LessonsBatch2 from "./np1-community-health-lessons-batch2.json";
+import np1FlashcardsBatch2 from "./np1-community-health-flashcards-batch2.json";
 
-// Each entry pairs a subject's question bank with its (optional) lesson set
-// and lesson-derived flashcard set. Lessons/flashcards are optional — a
-// subject can ship with just a question bank, same as before.
+// Each entry pairs a subject's question bank with its lesson set(s) and
+// lesson-derived flashcard set(s). `lessons`/`curatedFlashcards` are arrays
+// so a subject's content can ship as multiple batches over time (each batch
+// keeps its own `_meta`/provenance) — they're merged into one lesson list
+// and one flashcard list per subject below. A subject can also ship with
+// just a question bank and no lesson batches at all.
 const registry = [
   {
     questions: np1Questions,
-    lessons: np1LessonsData,
-    curatedFlashcards: np1FlashcardsData,
+    lessons: [np1LessonsBatch1, np1LessonsBatch2],
+    curatedFlashcards: [np1FlashcardsBatch1, np1FlashcardsBatch2],
   },
 ];
 
@@ -32,16 +37,20 @@ export const comingSoonSubjects = [
 // Normalised subject objects the app consumes.
 export const subjects = registry.map(({ questions: ds, lessons, curatedFlashcards }) => {
   const subjectId = ds.subject.id;
-  const lessonList = (lessons?.lessons || []).map((l) => ({
-    ...l,
-    subjectId,
-    source: lessons?._meta?.source || "reviewed",
-  }));
-  const flashcardList = (curatedFlashcards?.flashcards || []).map((c) => ({
-    ...c,
-    subjectId,
-    source: curatedFlashcards?._meta?.source || "reviewed",
-  }));
+  const lessonList = (lessons || []).flatMap((batch) =>
+    (batch?.lessons || []).map((l) => ({
+      ...l,
+      subjectId,
+      source: batch?._meta?.source || "reviewed",
+    }))
+  );
+  const flashcardList = (curatedFlashcards || []).flatMap((batch) =>
+    (batch?.flashcards || []).map((c) => ({
+      ...c,
+      subjectId,
+      source: batch?._meta?.source || "reviewed",
+    }))
+  );
   return {
     ...ds.subject,
     source: ds.source,
