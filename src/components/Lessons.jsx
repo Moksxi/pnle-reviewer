@@ -147,12 +147,13 @@ function LessonDetail({ lesson: l, onBack, onOpen }) {
         </ul>
       </Section>
 
-      {l.visualAid && (
-        <div
+      {l.visualAids?.map((v, i) => (
+        <figure
+          key={i}
           className="lesson-visual-aid"
-          dangerouslySetInnerHTML={{ __html: l.visualAid }}
+          dangerouslySetInnerHTML={{ __html: v.svg }}
         />
-      )}
+      ))}
 
       {l.definitions?.length > 0 && (
         <Section title="Key definitions">

@@ -871,6 +871,7 @@ a:hover { text-decoration: underline; }
    Lesson visual aids (inline SVG diagrams)
    ============================================================ */
 .lesson-visual-aid {
+  margin: 0;
   background: var(--surface);
   border-radius: var(--radius);
   padding: 1rem;

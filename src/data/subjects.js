@@ -13,16 +13,22 @@ import np1FlashcardsBatch2 from "./np1-community-health-flashcards-batch2.json";
 import np1LessonsBatch3 from "./np1-community-health-lessons-batch3.json";
 import np1FlashcardsBatch3 from "./np1-community-health-flashcards-batch3.json";
 import np1VisualAidsPatch1 from "./np1-visual-aids-patch1.json";
+import np1VisualAidsPatch2 from "./np1-visual-aids-patch2.json";
 
-// Visual-aid SVGs are keyed by lesson id and applied as a patch on top of
+// Visual-aid SVGs are keyed by lesson id and applied as patches on top of
 // whichever batch defines that lesson, rather than living inside a lesson
 // batch file — this lets a single patch touch lessons across batches 1-3
-// without editing those already-published batch files.
-const visualAidPatches = [np1VisualAidsPatch1];
-const visualAidByLessonId = new Map(
-  visualAidPatches.flatMap((patch) =>
-    (patch?.visual_aids || []).map((v) => [v.lesson_id, v.svg])
-  )
+// without editing those already-published batch files. A lesson can carry
+// several visuals (e.g. a Tier 1 structural diagram plus a Tier 3 mnemonic),
+// so aids accumulate into an array per lesson, in patch order.
+const visualAidPatches = [np1VisualAidsPatch1, np1VisualAidsPatch2];
+const visualAidsByLessonId = new Map();
+visualAidPatches.forEach((patch) =>
+  (patch?.visual_aids || []).forEach((v) => {
+    const list = visualAidsByLessonId.get(v.lesson_id) || [];
+    list.push({ title: v.title, svg: v.svg, tier: v.tier || null });
+    visualAidsByLessonId.set(v.lesson_id, list);
+  })
 );
 
 // Each entry pairs a subject's question bank with its lesson set(s) and
@@ -56,7 +62,7 @@ export const subjects = registry.map(({ questions: ds, lessons, curatedFlashcard
       ...l,
       subjectId,
       source: batch?._meta?.source || "reviewed",
-      visualAid: visualAidByLessonId.get(l.id) || null,
+      visualAids: visualAidsByLessonId.get(l.id) || [],
     }))
   );
   const flashcardList = (curatedFlashcards || []).flatMap((batch) =>
