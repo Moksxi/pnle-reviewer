@@ -4,6 +4,7 @@ import Lessons from "./components/Lessons.jsx";
 import Flashcards from "./components/Flashcards.jsx";
 import Practice from "./components/Practice.jsx";
 import Exam from "./components/Exam.jsx";
+import About from "./components/About.jsx";
 
 const TABS = [
   { to: "/", label: "Home", icon: "◇", end: true },
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/exam" element={<Exam />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

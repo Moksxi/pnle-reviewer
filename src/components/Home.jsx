@@ -169,6 +169,10 @@ export default function Home() {
           </ul>
         </section>
       )}
+
+      <p className="home-footer-link">
+        <Link to="/about">About this reviewer — sources &amp; corrections</Link>
+      </p>
     </div>
   );
 }

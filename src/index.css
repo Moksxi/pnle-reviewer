@@ -368,6 +368,15 @@ a:hover { text-decoration: underline; }
 .weak-area-fill { height: 100%; border-radius: 999px; transition: width 0.3s ease; }
 .weak-area-note { margin: 0; font-size: 0.78rem; color: var(--ink-faint); font-style: italic; }
 
+/* Footer link (Home -> About) */
+.home-footer-link {
+  text-align: center;
+  margin: 0.5rem 0 0;
+  font-size: 0.78rem;
+}
+.home-footer-link a { color: var(--ink-faint); text-decoration: none; }
+.home-footer-link a:hover { color: var(--ink-dim); text-decoration: underline; }
+
 /* Notice block */
 .notice {
   background: var(--accent-bg);
