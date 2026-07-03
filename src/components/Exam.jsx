@@ -235,12 +235,21 @@ function Result({ session, onRestart }) {
   useEffect(() => {
     if (saved.current) return;
     saved.current = true;
+    const byCategory = {};
+    result.review.forEach((r) => {
+      const cat = r.question.category;
+      if (!cat) return;
+      if (!byCategory[cat]) byCategory[cat] = { correct: 0, total: 0 };
+      byCategory[cat].total += 1;
+      if (r.isCorrect) byCategory[cat].correct += 1;
+    });
     addExamResult({
       at: Date.now(),
       percent: result.percent,
       correct: result.correct,
       total: result.total,
       presetLabel: preset?.label || "Custom",
+      byCategory,
     });
   }, [result, preset]);
 

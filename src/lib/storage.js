@@ -85,3 +85,39 @@ export function setPracticeResult(questionId, isCorrect) {
   write(KEYS.practiceHistory, map);
   return map;
 }
+
+/* ---- Weak-area breakdown -------------------------------------------------
+   Combines Practice Mode's per-question last-result with every past exam
+   attempt's per-category tally (see Exam.jsx's `byCategory` on save) into
+   one { [category]: { correct, total } } map. `questions` supplies the
+   question -> category lookup for practice history, since practice only
+   stores a bare correct/incorrect flag per question id. Exam attempts saved
+   before this feature shipped simply lack `byCategory` and are skipped —
+   no migration needed. */
+
+export function categoryBreakdown(questions) {
+  const categoryById = new Map(questions.map((q) => [q.id, q.category]));
+  const tally = {};
+  function bump(category, correct) {
+    if (!category) return;
+    if (!tally[category]) tally[category] = { correct: 0, total: 0 };
+    tally[category].total += 1;
+    if (correct) tally[category].correct += 1;
+  }
+
+  const practice = getPracticeHistory();
+  Object.entries(practice).forEach(([questionId, result]) => {
+    bump(categoryById.get(questionId), result === "correct");
+  });
+
+  getExamHistory().forEach((attempt) => {
+    if (!attempt.byCategory) return;
+    Object.entries(attempt.byCategory).forEach(([category, stats]) => {
+      if (!tally[category]) tally[category] = { correct: 0, total: 0 };
+      tally[category].correct += stats.correct;
+      tally[category].total += stats.total;
+    });
+  });
+
+  return tally;
+}
